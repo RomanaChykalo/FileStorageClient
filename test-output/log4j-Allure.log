@@ -1,0 +1,59 @@
+2019-06-09 22:00:37 INFO  ServiceFactory:14 - Creating SOAP service client
+2019-06-09 22:00:40 INFO  SoapFileStorageServiceTest:31 - get all files from storage test
+2019-06-09 22:00:40 INFO  ServiceFactory:14 - Creating SOAP service client
+2019-06-09 22:03:51 INFO  SoapFileStorageServiceTest:31 - get all files from storage test
+2019-06-09 22:03:51 INFO  ServiceFactory:14 - Creating SOAP service client
+2019-06-09 22:04:25 INFO  SoapFileStorageServiceTest:31 - get all files from storage test
+2019-06-09 22:04:25 INFO  ServiceFactory:14 - Creating SOAP service client
+2019-06-09 22:43:21 INFO  ServiceFactory:14 - Creating SOAP service client
+2019-06-09 22:43:24 INFO  SoapFileStorageServiceTest:54 - add file to storage positive test
+2019-06-09 22:43:28 INFO  SoapFileStorageServiceTest:39 - get all files from storage test
+2019-06-09 22:54:45 INFO  ServiceFactory:14 - Creating SOAP service client
+2019-06-09 22:54:47 INFO  SoapFileStorageServiceTest:56 - add file to storage positive test
+2019-06-09 22:54:54 INFO  ServiceFactory:14 - Creating SOAP service client
+2019-06-09 22:54:57 INFO  SoapFileStorageServiceTest:39 - get all files from storage test
+2019-06-09 22:54:57 INFO  ServiceFactory:14 - Creating SOAP service client
+2019-06-09 22:57:35 INFO  ServiceFactory:14 - Creating SOAP service client
+2019-06-09 22:57:36 INFO  SoapFileStorageServiceTest:57 - add file to storage positive test
+2019-06-09 22:57:37 INFO  ServiceFactory:14 - Creating SOAP service client
+2019-06-09 22:57:38 INFO  SoapFileStorageServiceTest:39 - get all files from storage test
+2019-06-09 22:57:38 INFO  ServiceFactory:14 - Creating SOAP service client
+2019-06-09 22:58:30 INFO  ServiceFactory:14 - Creating SOAP service client
+2019-06-09 22:58:32 INFO  SoapFileStorageServiceTest:56 - add file to storage positive test
+2019-06-09 22:58:33 INFO  SoapFileStorageServiceTest:40 - get all files from storage test
+2019-06-09 23:13:00 INFO  ServiceFactory:14 - Creating SOAP service client
+2019-06-09 23:13:03 INFO  SoapFileStorageServiceTest:61 - add file to storage positive test
+2019-06-09 23:13:03 INFO  SoapFileStorageServiceTest:88 - add file to storage must throw SoapServiceException test
+2019-06-09 23:13:03 INFO  SoapFileStorageServiceTest:46 - get all files from storage test
+2019-06-09 23:14:48 INFO  ServiceFactory:14 - Creating SOAP service client
+2019-06-09 23:14:50 INFO  SoapFileStorageServiceTest:59 - add file to storage positive test
+2019-06-09 23:14:51 INFO  SoapFileStorageServiceTest:86 - add file to storage must throw SoapServiceException test
+2019-06-09 23:14:51 INFO  SoapFileStorageServiceTest:44 - get all files from storage test
+2019-06-09 23:16:51 INFO  ServiceFactory:14 - Creating SOAP service client
+2019-06-09 23:16:53 INFO  SoapFileStorageServiceTest:60 - add file to storage positive test
+2019-06-09 23:16:53 INFO  ServiceFactory:14 - Creating SOAP service client
+2019-06-09 23:16:53 INFO  ServiceFactory:14 - Creating SOAP service client
+2019-06-09 23:16:53 INFO  ServiceFactory:14 - Creating SOAP service client
+2019-06-09 23:16:53 INFO  ServiceFactory:14 - Creating SOAP service client
+2019-06-09 23:16:53 INFO  SoapFileStorageServiceTest:89 - add file to storage must throw SoapServiceException test
+2019-06-09 23:16:54 INFO  ServiceFactory:14 - Creating SOAP service client
+2019-06-09 23:16:54 INFO  ServiceFactory:14 - Creating SOAP service client
+2019-06-09 23:16:54 INFO  SoapFileStorageServiceTest:44 - get all files from storage test
+2019-06-09 23:16:54 INFO  ServiceFactory:14 - Creating SOAP service client
+2019-06-09 23:16:54 INFO  ServiceFactory:14 - Creating SOAP service client
+2019-06-09 23:17:45 INFO  ServiceFactory:14 - Creating SOAP service client
+2019-06-09 23:17:46 INFO  SoapFileStorageServiceTest:60 - add file to storage positive test
+2019-06-09 23:17:46 INFO  ServiceFactory:14 - Creating SOAP service client
+2019-06-09 23:17:47 INFO  ServiceFactory:14 - Creating SOAP service client
+2019-06-09 23:17:47 INFO  SoapFileStorageServiceTest:89 - add file to storage must throw SoapServiceException test
+2019-06-09 23:17:47 INFO  SoapFileStorageServiceTest:44 - get all files from storage test
+2019-06-09 23:17:47 INFO  ServiceFactory:14 - Creating SOAP service client
+2019-06-09 23:17:47 INFO  ServiceFactory:14 - Creating SOAP service client
+2019-06-09 23:19:50 INFO  ServiceFactory:14 - Creating SOAP service client
+2019-06-09 23:19:52 INFO  SoapFileStorageServiceTest:60 - add file to storage positive test
+2019-06-09 23:19:52 INFO  ServiceFactory:14 - Creating SOAP service client
+2019-06-09 23:19:52 INFO  ServiceFactory:14 - Creating SOAP service client
+2019-06-09 23:19:53 INFO  SoapFileStorageServiceTest:94 - add file to storage must throw SoapServiceException test
+2019-06-09 23:19:53 INFO  SoapFileStorageServiceTest:44 - get all files from storage test
+2019-06-09 23:19:53 INFO  ServiceFactory:14 - Creating SOAP service client
+2019-06-09 23:19:53 INFO  ServiceFactory:14 - Creating SOAP service client

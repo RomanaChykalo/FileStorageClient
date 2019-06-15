@@ -1,1 +1,0 @@
-{"uuid":"c997cd88-0efa-45fa-a85e-8c97a97e1943","name":"SoapFileStorageServiceTest","children":["a720c9ee-90f3-4945-a36d-e332b3cc0d93"],"befores":[{"name":"setUP","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1560247099964,"stop":1560247102352}],"afters":[],"links":[],"start":1560247099646,"stop":1560247103004}

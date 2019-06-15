@@ -2,8 +2,8 @@ package allure;
 
 import io.qameta.allure.Attachment;
 import org.apache.commons.io.FileUtils;
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.TakesScreenshot;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.testng.*;
 import org.testng.annotations.Listeners;
 
@@ -18,39 +18,39 @@ import static java.lang.String.format;
 
 @Listeners
 public class CustomListener extends TestListenerAdapter {
-   /* private File logFile = new File("test-output/log4j-Allure.log");
-    private Logger log = Logger.getLogger(CustomListener.class.getName());
+    private static Logger log = LogManager.getLogger(CustomListener.class);
+    private String logPath = "test-output/log4j-Allure.log";
 
     @Override
     public void onStart(ITestContext context) {
-        log.info("-------=======  Test \"" + context.getStartDate().toString()+ "\" started =======-------");
+        log.info("------------------TEST START---------------------- ");
+        log.info("TEST STARTED in time: " + context.getStartDate().toString());
     }
 
     @Override
     public void onFinish(ITestContext context) {
-        log.info("-------======= Test \"" + context.getEndDate().toString() + "\" finished =======-------");
+        log.info("TEST FINISHED in time: " + context.getEndDate().toString());
+        log.info("------------------TEST FINISH---------------------- ");
+        appendLogToAllure();
+        removeLogs();
     }
 
     @Override
     public void onTestSuccess(ITestResult result) {
-        log.info(format("result : SUCCESS : %s", result.getMethod().getMethodName()));
-
+        log.info(format(" Result : SUCCESS : %s", result.getMethod().getMethodName()));
     }
 
     @Override
     public void onTestFailure(ITestResult result) {
         log.error("result : FAILURE " + result.getMethod().getMethodName().toUpperCase());
-        getScreenshot();
+       // saveScreenshotToReport(result);
         appendLogToAllure();
-        try {
-            FileUtils.write(new File("test-output/log4j-Allure.log"), "");
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
     }
+
     @Attachment(value = "Test logs", type = "text/html")
     private byte[] appendLogToAllure() {
         try {
+            log.info("Start read logs...........");
             Path path = Paths.get("test-output/log4j-Allure.log");
             return Files.readAllBytes(path);
         } catch (IOException e) {
@@ -59,11 +59,24 @@ public class CustomListener extends TestListenerAdapter {
         return null;
     }
 
-    @Attachment(value = "screenshot", type = "image/png")
-    private byte[] getScreenshot() {
-        log.info("Screenshot have been added to Allure Report.");
-        return ((TakesScreenshot) DriverLoader.getDriver()).getScreenshotAs(OutputType.BYTES);
-    }
+    /*private void saveScreenshotToReport(ITestResult result) {
+        if (!result.isSuccess()) {
+            try {
+                System.setProperty("org.uncommons.reportng.escape-output", "false");
+                String failureImageFileName = new SimpleDateFormat("MM-dd-yyyy_HH-ss").format(new GregorianCalendar().getTime());
+                File scrFile = ((TakesScreenshot) DriverLoader.getDriver()).getScreenshotAs(OutputType.FILE);
+                FileUtils.copyFile(scrFile, new File(failureImageFileName));
+                String userDirector = System.getProperty("user.dir") + "/";
+                String screenCapture = "<table><tr><td><font style=\"text-decoration: underline;\" " +
+                        "size=\"3\" face=\"Comic sans MS\" color=\"green\"><b>Screenshot</b></font></td></tr> ";
+                Reporter.log(screenCapture);
+                Reporter.log("<tr><td><a href=\"" + userDirector + failureImageFileName + "\"><img src=\"file:///"
+                        + userDirector + failureImageFileName + "\" alt=\"\"" + "height=’120′ width=’120′/></td></tr> ");
+            } catch (IOException e1) {
+                e1.printStackTrace();
+            }
+        }
+    }*/
 
     @Override
     public void onTestSkipped(ITestResult result) {
@@ -72,6 +85,14 @@ public class CustomListener extends TestListenerAdapter {
 
     @Override
     public void onTestFailedButWithinSuccessPercentage(ITestResult result) {
-        log.info("onTestFailedButWithinSuccessPercentage for " + result.getMethod().getMethodName());
-    }*/
+        log.info(("onTestFailedButWithinSuccessPercentage for " + result.getMethod().getMethodName()));
+    }
+
+    public void removeLogs() {
+        try {
+            FileUtils.write(new File(logPath), "", "UTF-8");
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
 }

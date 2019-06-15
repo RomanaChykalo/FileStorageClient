@@ -1,7 +1,9 @@
-<suite name="Suite1" verbose="2" data-provider-thread-count="2" parallel="methods">
-    <test name="Login and delete last 3 letters in important folder" >
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite1" verbose="2">
+    <test name="FileStorage test" >
         <classes>
-            <class name="GmailTest"/>
+            <class name="AddDeleteApiTest"/>
+            <class name="SearchApiTest"/>
         </classes>
     </test>
 </suite>

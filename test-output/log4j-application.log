@@ -1,136 +1,136 @@
 2019-06-09 22:00:37 INFO  ServiceFactory:14 - Creating SOAP service client
-2019-06-09 22:00:40 INFO  SoapFileStorageServiceTest:31 - get all files from storage test
+2019-06-09 22:00:40 INFO  SearchApiTest:31 - get all files from storage test
 2019-06-09 22:00:40 INFO  ServiceFactory:14 - Creating SOAP service client
-2019-06-09 22:03:51 INFO  SoapFileStorageServiceTest:31 - get all files from storage test
+2019-06-09 22:03:51 INFO  SearchApiTest:31 - get all files from storage test
 2019-06-09 22:03:51 INFO  ServiceFactory:14 - Creating SOAP service client
-2019-06-09 22:04:25 INFO  SoapFileStorageServiceTest:31 - get all files from storage test
+2019-06-09 22:04:25 INFO  SearchApiTest:31 - get all files from storage test
 2019-06-09 22:04:25 INFO  ServiceFactory:14 - Creating SOAP service client
 2019-06-09 22:43:21 INFO  ServiceFactory:14 - Creating SOAP service client
-2019-06-09 22:43:24 INFO  SoapFileStorageServiceTest:54 - add file to storage positive test
-2019-06-09 22:43:28 INFO  SoapFileStorageServiceTest:39 - get all files from storage test
+2019-06-09 22:43:24 INFO  SearchApiTest:54 - add file to storage positive test
+2019-06-09 22:43:28 INFO  SearchApiTest:39 - get all files from storage test
 2019-06-09 22:54:45 INFO  ServiceFactory:14 - Creating SOAP service client
-2019-06-09 22:54:47 INFO  SoapFileStorageServiceTest:56 - add file to storage positive test
+2019-06-09 22:54:47 INFO  SearchApiTest:56 - add file to storage positive test
 2019-06-09 22:54:54 INFO  ServiceFactory:14 - Creating SOAP service client
-2019-06-09 22:54:57 INFO  SoapFileStorageServiceTest:39 - get all files from storage test
+2019-06-09 22:54:57 INFO  SearchApiTest:39 - get all files from storage test
 2019-06-09 22:54:57 INFO  ServiceFactory:14 - Creating SOAP service client
 2019-06-09 22:57:35 INFO  ServiceFactory:14 - Creating SOAP service client
-2019-06-09 22:57:36 INFO  SoapFileStorageServiceTest:57 - add file to storage positive test
+2019-06-09 22:57:36 INFO  SearchApiTest:57 - add file to storage positive test
 2019-06-09 22:57:37 INFO  ServiceFactory:14 - Creating SOAP service client
-2019-06-09 22:57:38 INFO  SoapFileStorageServiceTest:39 - get all files from storage test
+2019-06-09 22:57:38 INFO  SearchApiTest:39 - get all files from storage test
 2019-06-09 22:57:38 INFO  ServiceFactory:14 - Creating SOAP service client
 2019-06-09 22:58:30 INFO  ServiceFactory:14 - Creating SOAP service client
-2019-06-09 22:58:32 INFO  SoapFileStorageServiceTest:56 - add file to storage positive test
-2019-06-09 22:58:33 INFO  SoapFileStorageServiceTest:40 - get all files from storage test
+2019-06-09 22:58:32 INFO  SearchApiTest:56 - add file to storage positive test
+2019-06-09 22:58:33 INFO  SearchApiTest:40 - get all files from storage test
 2019-06-09 23:13:00 INFO  ServiceFactory:14 - Creating SOAP service client
-2019-06-09 23:13:03 INFO  SoapFileStorageServiceTest:61 - add file to storage positive test
-2019-06-09 23:13:03 INFO  SoapFileStorageServiceTest:88 - add file to storage must throw SoapServiceException test
-2019-06-09 23:13:03 INFO  SoapFileStorageServiceTest:46 - get all files from storage test
+2019-06-09 23:13:03 INFO  SearchApiTest:61 - add file to storage positive test
+2019-06-09 23:13:03 INFO  SearchApiTest:88 - add file to storage must throw SoapServiceException test
+2019-06-09 23:13:03 INFO  SearchApiTest:46 - get all files from storage test
 2019-06-09 23:14:48 INFO  ServiceFactory:14 - Creating SOAP service client
-2019-06-09 23:14:50 INFO  SoapFileStorageServiceTest:59 - add file to storage positive test
-2019-06-09 23:14:51 INFO  SoapFileStorageServiceTest:86 - add file to storage must throw SoapServiceException test
-2019-06-09 23:14:51 INFO  SoapFileStorageServiceTest:44 - get all files from storage test
+2019-06-09 23:14:50 INFO  SearchApiTest:59 - add file to storage positive test
+2019-06-09 23:14:51 INFO  SearchApiTest:86 - add file to storage must throw SoapServiceException test
+2019-06-09 23:14:51 INFO  SearchApiTest:44 - get all files from storage test
 2019-06-09 23:16:51 INFO  ServiceFactory:14 - Creating SOAP service client
-2019-06-09 23:16:53 INFO  SoapFileStorageServiceTest:60 - add file to storage positive test
+2019-06-09 23:16:53 INFO  SearchApiTest:60 - add file to storage positive test
 2019-06-09 23:16:53 INFO  ServiceFactory:14 - Creating SOAP service client
 2019-06-09 23:16:53 INFO  ServiceFactory:14 - Creating SOAP service client
 2019-06-09 23:16:53 INFO  ServiceFactory:14 - Creating SOAP service client
 2019-06-09 23:16:53 INFO  ServiceFactory:14 - Creating SOAP service client
-2019-06-09 23:16:53 INFO  SoapFileStorageServiceTest:89 - add file to storage must throw SoapServiceException test
+2019-06-09 23:16:53 INFO  SearchApiTest:89 - add file to storage must throw SoapServiceException test
 2019-06-09 23:16:54 INFO  ServiceFactory:14 - Creating SOAP service client
 2019-06-09 23:16:54 INFO  ServiceFactory:14 - Creating SOAP service client
-2019-06-09 23:16:54 INFO  SoapFileStorageServiceTest:44 - get all files from storage test
+2019-06-09 23:16:54 INFO  SearchApiTest:44 - get all files from storage test
 2019-06-09 23:16:54 INFO  ServiceFactory:14 - Creating SOAP service client
 2019-06-09 23:16:54 INFO  ServiceFactory:14 - Creating SOAP service client
 2019-06-09 23:17:45 INFO  ServiceFactory:14 - Creating SOAP service client
-2019-06-09 23:17:46 INFO  SoapFileStorageServiceTest:60 - add file to storage positive test
+2019-06-09 23:17:46 INFO  SearchApiTest:60 - add file to storage positive test
 2019-06-09 23:17:46 INFO  ServiceFactory:14 - Creating SOAP service client
 2019-06-09 23:17:47 INFO  ServiceFactory:14 - Creating SOAP service client
-2019-06-09 23:17:47 INFO  SoapFileStorageServiceTest:89 - add file to storage must throw SoapServiceException test
-2019-06-09 23:17:47 INFO  SoapFileStorageServiceTest:44 - get all files from storage test
+2019-06-09 23:17:47 INFO  SearchApiTest:89 - add file to storage must throw SoapServiceException test
+2019-06-09 23:17:47 INFO  SearchApiTest:44 - get all files from storage test
 2019-06-09 23:17:47 INFO  ServiceFactory:14 - Creating SOAP service client
 2019-06-09 23:17:47 INFO  ServiceFactory:14 - Creating SOAP service client
 2019-06-09 23:19:50 INFO  ServiceFactory:14 - Creating SOAP service client
-2019-06-09 23:19:52 INFO  SoapFileStorageServiceTest:60 - add file to storage positive test
+2019-06-09 23:19:52 INFO  SearchApiTest:60 - add file to storage positive test
 2019-06-09 23:19:52 INFO  ServiceFactory:14 - Creating SOAP service client
 2019-06-09 23:19:52 INFO  ServiceFactory:14 - Creating SOAP service client
-2019-06-09 23:19:53 INFO  SoapFileStorageServiceTest:94 - add file to storage must throw SoapServiceException test
-2019-06-09 23:19:53 INFO  SoapFileStorageServiceTest:44 - get all files from storage test
+2019-06-09 23:19:53 INFO  SearchApiTest:94 - add file to storage must throw SoapServiceException test
+2019-06-09 23:19:53 INFO  SearchApiTest:44 - get all files from storage test
 2019-06-09 23:19:53 INFO  ServiceFactory:14 - Creating SOAP service client
 2019-06-09 23:19:53 INFO  ServiceFactory:14 - Creating SOAP service client
 2019-06-11 12:55:00 INFO  ServiceFactory:14 - Creating SOAP service client
-2019-06-11 12:55:04 INFO  SoapFileStorageServiceTest:60 - add file to storage positive test
+2019-06-11 12:55:04 INFO  SearchApiTest:60 - add file to storage positive test
 2019-06-11 12:55:04 INFO  ServiceFactory:14 - Creating SOAP service client
 2019-06-11 12:55:05 INFO  ServiceFactory:14 - Creating SOAP service client
-2019-06-11 12:55:05 INFO  SoapFileStorageServiceTest:94 - add file to storage must throw SoapServiceException test
-2019-06-11 12:55:06 INFO  SoapFileStorageServiceTest:44 - get all files from storage test
+2019-06-11 12:55:05 INFO  SearchApiTest:94 - add file to storage must throw SoapServiceException test
+2019-06-11 12:55:06 INFO  SearchApiTest:44 - get all files from storage test
 2019-06-11 12:55:06 INFO  ServiceFactory:14 - Creating SOAP service client
 2019-06-11 12:55:06 INFO  ServiceFactory:14 - Creating SOAP service client
 2019-06-11 12:57:13 INFO  ServiceFactory:14 - Creating SOAP service client
-2019-06-11 12:57:14 INFO  SoapFileStorageServiceTest:44 - get all files from storage test
+2019-06-11 12:57:14 INFO  SearchApiTest:44 - get all files from storage test
 2019-06-11 12:57:14 INFO  ServiceFactory:14 - Creating SOAP service client
 2019-06-11 12:57:15 INFO  ServiceFactory:14 - Creating SOAP service client
 2019-06-11 12:58:20 INFO  ServiceFactory:14 - Creating SOAP service client
-2019-06-11 12:58:22 INFO  SoapFileStorageServiceTest:44 - get all files from storage test
+2019-06-11 12:58:22 INFO  SearchApiTest:44 - get all files from storage test
 2019-06-11 12:58:22 INFO  ServiceFactory:14 - Creating SOAP service client
-2019-06-11 13:00:08 INFO  SoapFileStorageServiceTest:60 - add file to storage positive test
+2019-06-11 13:00:08 INFO  SearchApiTest:60 - add file to storage positive test
 2019-06-11 13:00:08 INFO  ServiceFactory:14 - Creating SOAP service client
-2019-06-11 13:02:18 INFO  SoapFileStorageServiceTest:60 - add file to storage positive test
+2019-06-11 13:02:18 INFO  SearchApiTest:60 - add file to storage positive test
 2019-06-11 13:02:18 INFO  ServiceFactory:14 - Creating SOAP service client
-2019-06-11 13:07:43 INFO  SoapFileStorageServiceTest:60 - add file to storage positive test
+2019-06-11 13:07:43 INFO  SearchApiTest:60 - add file to storage positive test
 2019-06-11 13:07:46 INFO  ServiceFactory:14 - Creating SOAP service client
-2019-06-11 13:11:55 INFO  SoapFileStorageServiceTest:60 - add file to storage positive test
+2019-06-11 13:11:55 INFO  SearchApiTest:60 - add file to storage positive test
 2019-06-11 13:12:00 INFO  ServiceFactory:14 - Creating SOAP service client
-2019-06-11 13:13:33 INFO  SoapFileStorageServiceTest:60 - add file to storage positive test
+2019-06-11 13:13:33 INFO  SearchApiTest:60 - add file to storage positive test
 2019-06-11 13:13:33 INFO  ServiceFactory:14 - Creating SOAP service client
 2019-06-11 13:14:22 INFO  ServiceFactory:14 - Creating SOAP service client
-2019-06-11 13:14:25 INFO  SoapFileStorageServiceTest:60 - add file to storage positive test
+2019-06-11 13:14:25 INFO  SearchApiTest:60 - add file to storage positive test
 2019-06-11 13:14:25 INFO  ServiceFactory:14 - Creating SOAP service client
 2019-06-11 13:14:25 INFO  ServiceFactory:14 - Creating SOAP service client
 2019-06-11 13:15:53 INFO  ServiceFactory:14 - Creating SOAP service client
-2019-06-11 13:15:54 INFO  SoapFileStorageServiceTest:60 - add file to storage positive test
+2019-06-11 13:15:54 INFO  SearchApiTest:60 - add file to storage positive test
 2019-06-11 13:15:54 INFO  ServiceFactory:14 - Creating SOAP service client
 2019-06-11 13:15:55 INFO  ServiceFactory:14 - Creating SOAP service client
-2019-06-11 13:15:55 INFO  SoapFileStorageServiceTest:99 - add file to storage must throw SoapServiceException test
-2019-06-11 13:15:55 INFO  SoapFileStorageServiceTest:44 - get all files from storage test
+2019-06-11 13:15:55 INFO  SearchApiTest:99 - add file to storage must throw SoapServiceException test
+2019-06-11 13:15:55 INFO  SearchApiTest:44 - get all files from storage test
 2019-06-11 13:15:55 INFO  ServiceFactory:14 - Creating SOAP service client
 2019-06-11 13:15:55 INFO  ServiceFactory:14 - Creating SOAP service client
 2019-06-11 13:21:36 INFO  ServiceFactory:14 - Creating SOAP service client
-2019-06-11 13:21:38 INFO  SoapFileStorageServiceTest:60 - add file to storage positive test
+2019-06-11 13:21:38 INFO  SearchApiTest:60 - add file to storage positive test
 2019-06-11 13:21:38 INFO  ServiceFactory:14 - Creating SOAP service client
 2019-06-11 13:21:38 INFO  ServiceFactory:14 - Creating SOAP service client
-2019-06-11 13:21:39 INFO  SoapFileStorageServiceTest:101 - add file to storage must throw SoapServiceException test
-2019-06-11 13:21:39 INFO  SoapFileStorageServiceTest:44 - get all files from storage test
+2019-06-11 13:21:39 INFO  SearchApiTest:101 - add file to storage must throw SoapServiceException test
+2019-06-11 13:21:39 INFO  SearchApiTest:44 - get all files from storage test
 2019-06-11 13:21:39 INFO  ServiceFactory:14 - Creating SOAP service client
 2019-06-11 13:21:39 INFO  ServiceFactory:14 - Creating SOAP service client
 2019-06-11 13:42:42 INFO  ServiceFactory:14 - Creating SOAP service client
-2019-06-11 13:42:44 INFO  SoapFileStorageServiceTest:44 - get all files from storage test
+2019-06-11 13:42:44 INFO  SearchApiTest:44 - get all files from storage test
 2019-06-11 13:42:44 INFO  ServiceFactory:11 - Creating REST service client
 2019-06-11 13:42:44 INFO  ServiceFactory:14 - Creating SOAP service client
 2019-06-11 13:56:26 INFO  ServiceFactory:15 - Creating SOAP service client
-2019-06-11 13:56:28 INFO  SoapFileStorageServiceTest:44 - get all files from storage test
+2019-06-11 13:56:28 INFO  SearchApiTest:44 - get all files from storage test
 2019-06-11 13:56:28 INFO  ServiceFactory:12 - Creating REST service client
 2019-06-11 13:56:29 INFO  ServiceFactory:15 - Creating SOAP service client
 2019-06-11 13:57:46 INFO  ServiceFactory:15 - Creating SOAP service client
-2019-06-11 13:57:56 INFO  SoapFileStorageServiceTest:44 - get all files from storage test
+2019-06-11 13:57:56 INFO  SearchApiTest:44 - get all files from storage test
 2019-06-11 13:58:00 INFO  ServiceFactory:12 - Creating REST service client
 2019-06-11 14:02:02 INFO  ServiceFactory:12 - Creating REST service client
-2019-06-11 14:02:03 INFO  SoapFileStorageServiceTest:44 - get all files from storage test
+2019-06-11 14:02:03 INFO  SearchApiTest:44 - get all files from storage test
 2019-06-11 14:02:03 INFO  ServiceFactory:12 - Creating REST service client
 2019-06-11 21:44:34 INFO  ServiceFactory:15 - Creating SOAP service client
-2019-06-11 21:44:41 INFO  SoapFileStorageServiceTest:120 - testSearchWithWrongName
+2019-06-11 21:44:41 INFO  SearchApiTest:120 - testSearchWithWrongName
 2019-06-11 21:44:41 INFO  ServiceFactory:15 - Creating SOAP service client
-2019-06-11 21:45:50 INFO  SoapFileStorageServiceTest:120 - test search by name
+2019-06-11 21:45:50 INFO  SearchApiTest:120 - test search by name
 2019-06-11 21:45:50 INFO  ServiceFactory:15 - Creating SOAP service client
-2019-06-11 21:46:17 INFO  SoapFileStorageServiceTest:120 - test search by name
+2019-06-11 21:46:17 INFO  SearchApiTest:120 - test search by name
 2019-06-11 21:46:17 INFO  ServiceFactory:12 - Creating REST service client
-2019-06-11 22:02:02 INFO  SoapFileStorageServiceTest:120 - test search by name
+2019-06-11 22:02:02 INFO  SearchApiTest:120 - test search by name
 2019-06-11 22:02:02 INFO  ServiceFactory:12 - Creating REST service client
 2019-06-11 23:36:17 INFO  ServiceFactory:16 - Creating SOAP service client
-2019-06-11 23:36:19 INFO  SoapFileStorageServiceTest:60 - add file to storage positive test
+2019-06-11 23:36:19 INFO  SearchApiTest:60 - add file to storage positive test
 2019-06-11 23:36:19 INFO  ServiceFactory:16 - Creating SOAP service client
 2019-06-11 23:36:20 INFO  ServiceFactory:16 - Creating SOAP service client
-2019-06-11 23:36:20 INFO  SoapFileStorageServiceTest:101 - add file to storage must throw SoapServiceException test
-2019-06-11 23:36:20 INFO  SoapFileStorageServiceTest:44 - get all files from storage test
+2019-06-11 23:36:20 INFO  SearchApiTest:101 - add file to storage must throw SoapServiceException test
+2019-06-11 23:36:20 INFO  SearchApiTest:44 - get all files from storage test
 2019-06-11 23:36:20 INFO  ServiceFactory:16 - Creating SOAP service client
 2019-06-11 23:36:21 INFO  ServiceFactory:16 - Creating SOAP service client
 2019-06-12 12:04:10 DEBUG RestTemplate:89 - Created GET request for "http://localhost:8080/RomanaChykaloFileStorageService/storageREST/files/paint"
@@ -886,11 +886,11 @@ Caused by: java.lang.IllegalArgumentException: Cannot find a deserializer for no
 2019-06-12 13:19:26 DEBUG RestTemplate:721 - GET request for "http://localhost:8080/RomanaChykaloFileStorageService/storageREST/files/Weekend" resulted in 200 (OK)
 2019-06-12 13:19:26 DEBUG RestTemplate:97 - Reading [class soap.UserFile] as "application/json;charset=UTF-8" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@169bb4dd]
 2019-06-12 13:31:26 INFO  ServiceFactory:16 - Creating SOAP service client
-2019-06-12 13:31:29 INFO  SoapFileStorageServiceTest:60 - add file to storage positive test
+2019-06-12 13:31:29 INFO  SearchApiTest:60 - add file to storage positive test
 2019-06-12 13:31:29 INFO  ServiceFactory:16 - Creating SOAP service client
 2019-06-12 13:31:30 INFO  ServiceFactory:16 - Creating SOAP service client
-2019-06-12 13:31:30 INFO  SoapFileStorageServiceTest:101 - add file to storage must throw SoapServiceException test
-2019-06-12 13:31:31 INFO  SoapFileStorageServiceTest:44 - get all files from storage test
+2019-06-12 13:31:30 INFO  SearchApiTest:101 - add file to storage must throw SoapServiceException test
+2019-06-12 13:31:31 INFO  SearchApiTest:44 - get all files from storage test
 2019-06-12 13:31:31 INFO  ServiceFactory:16 - Creating SOAP service client
 2019-06-12 13:31:31 INFO  ServiceFactory:16 - Creating SOAP service client
 2019-06-12 13:44:49 INFO  ServiceFactory:17 - Create REST client
@@ -914,7 +914,7 @@ Caused by: java.lang.IllegalArgumentException: Cannot find a deserializer for no
 2019-06-12 13:44:54 DEBUG RestTemplate:819 - Setting request Accept header to [application/json, application/*+json]
 2019-06-12 13:44:54 DEBUG RestTemplate:901 - Writing [UserFile{name='fitness schedule', size=250, type=DOC}] using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@4601203a]
 2019-06-12 13:44:54 DEBUG RestTemplate:721 - POST request for "http://localhost:8080/RomanaChykaloFileStorageService/storageREST/files" resulted in 200 (OK)
-2019-06-12 13:44:54 INFO  SoapFileStorageServiceTest:60 - add file to storage positive test
+2019-06-12 13:44:54 INFO  SearchApiTest:60 - add file to storage positive test
 2019-06-12 13:44:54 INFO  ServiceFactory:17 - Create REST client
 2019-06-12 13:44:54 DEBUG RestTemplate:89 - Created GET request for "http://localhost:8080/RomanaChykaloFileStorageService/storageREST/files"
 2019-06-12 13:44:54 DEBUG RestTemplate:819 - Setting request Accept header to [application/json, application/*+json]
@@ -928,7 +928,7 @@ Caused by: java.lang.IllegalArgumentException: Cannot find a deserializer for no
 2019-06-12 13:44:54 DEBUG RestTemplate:819 - Setting request Accept header to [application/json, application/*+json]
 2019-06-12 13:44:54 DEBUG RestTemplate:721 - GET request for "http://localhost:8080/RomanaChykaloFileStorageService/storageREST/files" resulted in 200 (OK)
 2019-06-12 13:44:54 DEBUG RestTemplate:97 - Reading [interface java.util.List] as "application/json;charset=UTF-8" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@3289079a]
-2019-06-12 13:44:54 INFO  SoapFileStorageServiceTest:44 - get all files from storage test
+2019-06-12 13:44:54 INFO  SearchApiTest:44 - get all files from storage test
 2019-06-12 13:44:54 INFO  ServiceFactory:17 - Create REST client
 2019-06-12 13:44:54 DEBUG RestTemplate:89 - Created GET request for "http://localhost:8080/RomanaChykaloFileStorageService/storageREST/files"
 2019-06-12 13:44:54 DEBUG RestTemplate:819 - Setting request Accept header to [application/json, application/*+json]
@@ -993,7 +993,7 @@ Caused by: java.lang.IllegalArgumentException: Cannot find a deserializer for no
 2019-06-12 13:51:48 DEBUG RestTemplate:819 - Setting request Accept header to [application/json, application/*+json]
 2019-06-12 13:51:48 DEBUG RestTemplate:901 - Writing [UserFile{name='fitness schedule', size=250, type=DOC}] using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@47c40b56]
 2019-06-12 13:51:48 DEBUG RestTemplate:721 - POST request for "http://localhost:8080/RomanaChykaloFileStorageService/storageREST/files" resulted in 200 (OK)
-2019-06-12 13:51:48 INFO  SoapFileStorageServiceTest:44 - get all files from storage test
+2019-06-12 13:51:48 INFO  SearchApiTest:44 - get all files from storage test
 2019-06-12 13:51:48 INFO  ServiceFactory:17 - Create REST client
 2019-06-12 13:51:48 DEBUG RestTemplate:89 - Created GET request for "http://localhost:8080/RomanaChykaloFileStorageService/storageREST/files"
 2019-06-12 13:51:48 DEBUG RestTemplate:819 - Setting request Accept header to [application/json, application/*+json]
@@ -1008,14 +1008,14 @@ Caused by: java.lang.IllegalArgumentException: Cannot find a deserializer for no
 2019-06-12 13:54:20 DEBUG RestTemplate:819 - Setting request Accept header to [application/json, application/*+json]
 2019-06-12 13:54:20 DEBUG RestTemplate:721 - GET request for "http://localhost:8080/RomanaChykaloFileStorageService/storageREST/files" resulted in 200 (OK)
 2019-06-12 13:54:20 DEBUG RestTemplate:97 - Reading [interface java.util.List] as "application/json;charset=UTF-8" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@7e242b4d]
-2019-06-12 13:54:46 INFO  SoapFileStorageServiceTest:44 - get all files from storage test
+2019-06-12 13:54:46 INFO  SearchApiTest:44 - get all files from storage test
 2019-06-12 13:54:48 INFO  ServiceFactory:17 - Create REST client
 2019-06-12 13:55:25 DEBUG RestTemplate:89 - Created GET request for "http://localhost:8080/RomanaChykaloFileStorageService/storageREST/files"
 2019-06-12 13:55:26 DEBUG RestTemplate:819 - Setting request Accept header to [application/json, application/*+json]
 2019-06-12 13:55:26 DEBUG RestTemplate:721 - GET request for "http://localhost:8080/RomanaChykaloFileStorageService/storageREST/files" resulted in 200 (OK)
 2019-06-12 13:55:26 DEBUG RestTemplate:97 - Reading [interface java.util.List] as "application/json;charset=UTF-8" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@7fef0b40]
 2019-06-12 13:58:14 INFO  ServiceFactory:17 - Create REST client
-2019-06-12 13:58:47 INFO  SoapFileStorageServiceTest:44 - get all files from storage test
+2019-06-12 13:58:47 INFO  SearchApiTest:44 - get all files from storage test
 2019-06-12 13:58:47 INFO  ServiceFactory:17 - Create REST client
 2019-06-12 13:58:50 DEBUG RestTemplate:89 - Created GET request for "http://localhost:8080/RomanaChykaloFileStorageService/storageREST/files"
 2019-06-12 13:58:50 DEBUG RestTemplate:819 - Setting request Accept header to [application/json, application/*+json]
@@ -1072,19 +1072,19 @@ Caused by: java.lang.IllegalArgumentException: Cannot find a deserializer for no
 2019-06-12 14:21:38 DEBUG RestTemplate:819 - Setting request Accept header to [application/json, application/*+json]
 2019-06-12 14:21:38 DEBUG RestTemplate:721 - GET request for "http://localhost:8080/RomanaChykaloFileStorageService/storageREST/files/Alania" resulted in 200 (OK)
 2019-06-12 14:21:38 DEBUG RestTemplate:97 - Reading [class soap.UserFile] as "application/json;charset=UTF-8" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@75e27856]
-2019-06-12 15:02:48 INFO  SoapFileStorageServiceTest:44 - get all files from storage test
+2019-06-12 15:02:48 INFO  SearchApiTest:44 - get all files from storage test
 2019-06-12 15:02:48 INFO  ServiceFactory:17 - Create REST client
 2019-06-12 15:02:50 DEBUG RestTemplate:89 - Created GET request for "http://localhost:8080/RomanaChykaloFileStorageService/storageREST/files"
 2019-06-12 15:02:50 DEBUG RestTemplate:819 - Setting request Accept header to [application/json, application/*+json]
 2019-06-12 15:02:50 DEBUG RestTemplate:721 - GET request for "http://localhost:8080/RomanaChykaloFileStorageService/storageREST/files" resulted in 200 (OK)
 2019-06-12 15:02:50 DEBUG RestTemplate:97 - Reading [interface java.util.List] as "application/json;charset=UTF-8" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@4437ac07]
-2019-06-12 15:13:23 INFO  SoapFileStorageServiceTest:44 - get all files from storage test
+2019-06-12 15:13:23 INFO  SearchApiTest:44 - get all files from storage test
 2019-06-12 15:13:23 INFO  ServiceFactory:17 - Create REST client
 2019-06-12 15:13:25 DEBUG RestTemplate:89 - Created GET request for "http://localhost:8080/RomanaChykaloFileStorageService/storageREST/files"
 2019-06-12 15:13:26 DEBUG RestTemplate:819 - Setting request Accept header to [application/json, application/*+json]
 2019-06-12 15:13:26 DEBUG RestTemplate:721 - GET request for "http://localhost:8080/RomanaChykaloFileStorageService/storageREST/files" resulted in 200 (OK)
 2019-06-12 15:13:26 DEBUG RestTemplate:97 - Reading [interface java.util.List] as "application/json;charset=UTF-8" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@68868328]
-2019-06-12 15:15:58 INFO  SoapFileStorageServiceTest:44 - get all files from storage test
+2019-06-12 15:15:58 INFO  SearchApiTest:44 - get all files from storage test
 2019-06-12 15:15:58 INFO  ServiceFactory:17 - Create REST client
 2019-06-12 15:16:01 DEBUG RestTemplate:89 - Created GET request for "http://localhost:8080/RomanaChykaloFileStorageService/storageREST/files"
 2019-06-12 15:16:01 DEBUG RestTemplate:819 - Setting request Accept header to [application/json, application/*+json]
@@ -1095,16 +1095,16 @@ Caused by: java.lang.IllegalArgumentException: Cannot find a deserializer for no
 2019-06-12 15:55:01 INFO  ServiceFactory:13 - Create SOAP client
 2019-06-13 00:05:38 INFO  ServiceFactory:13 - Create SOAP client
 2019-06-13 00:05:43 INFO  ServiceFactory:13 - Create SOAP client
-2019-06-13 00:05:43 INFO  SoapFileStorageServiceTest:101 - add file to storage must throw SoapServiceException test
-2019-06-13 00:05:43 INFO  SoapFileStorageServiceTest:44 - get all files from storage test
+2019-06-13 00:05:43 INFO  SearchApiTest:101 - add file to storage must throw SoapServiceException test
+2019-06-13 00:05:43 INFO  SearchApiTest:44 - get all files from storage test
 2019-06-13 00:05:43 INFO  ServiceFactory:13 - Create SOAP client
 2019-06-13 00:05:44 INFO  ServiceFactory:13 - Create SOAP client
 2019-06-13 00:07:04 INFO  ServiceFactory:13 - Create SOAP client
-2019-06-13 00:07:06 INFO  SoapFileStorageServiceTest:60 - add file to storage positive test
+2019-06-13 00:07:06 INFO  SearchApiTest:60 - add file to storage positive test
 2019-06-13 00:07:06 INFO  ServiceFactory:13 - Create SOAP client
 2019-06-13 00:07:06 INFO  ServiceFactory:13 - Create SOAP client
-2019-06-13 00:07:07 INFO  SoapFileStorageServiceTest:101 - add file to storage must throw SoapServiceException test
-2019-06-13 00:07:07 INFO  SoapFileStorageServiceTest:44 - get all files from storage test
+2019-06-13 00:07:07 INFO  SearchApiTest:101 - add file to storage must throw SoapServiceException test
+2019-06-13 00:07:07 INFO  SearchApiTest:44 - get all files from storage test
 2019-06-13 00:07:07 INFO  ServiceFactory:13 - Create SOAP client
 2019-06-13 00:07:07 INFO  ServiceFactory:13 - Create SOAP client
 2019-06-13 00:10:39 INFO  ServiceFactory:17 - Create REST client
@@ -1128,7 +1128,7 @@ Caused by: java.lang.IllegalArgumentException: Cannot find a deserializer for no
 2019-06-13 00:10:43 DEBUG RestTemplate:819 - Setting request Accept header to [application/json, application/*+json]
 2019-06-13 00:10:43 DEBUG RestTemplate:901 - Writing [UserFile{name='fitness schedule', size=250, type=DOC}] using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@7b676112]
 2019-06-13 00:10:43 DEBUG RestTemplate:721 - POST request for "http://localhost:8080/RomanaChykaloFileStorageService/storageREST/files" resulted in 200 (OK)
-2019-06-13 00:10:43 INFO  SoapFileStorageServiceTest:44 - get all files from storage test
+2019-06-13 00:10:43 INFO  SearchApiTest:44 - get all files from storage test
 2019-06-13 00:10:43 INFO  ServiceFactory:17 - Create REST client
 2019-06-13 00:10:43 DEBUG RestTemplate:89 - Created GET request for "http://localhost:8080/RomanaChykaloFileStorageService/storageREST/files"
 2019-06-13 00:10:43 DEBUG RestTemplate:819 - Setting request Accept header to [application/json, application/*+json]
@@ -1155,7 +1155,7 @@ Caused by: java.lang.IllegalArgumentException: Cannot find a deserializer for no
 2019-06-13 00:13:26 DEBUG RestTemplate:819 - Setting request Accept header to [application/json, application/*+json]
 2019-06-13 00:13:26 DEBUG RestTemplate:901 - Writing [UserFile{name='fitness schedule', size=250, type=DOC}] using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@4d18b73a]
 2019-06-13 00:13:26 DEBUG RestTemplate:721 - POST request for "http://localhost:8080/RomanaChykaloFileStorageService/storageREST/files" resulted in 200 (OK)
-2019-06-13 00:13:26 INFO  SoapFileStorageServiceTest:44 - get all files from storage test
+2019-06-13 00:13:26 INFO  SearchApiTest:44 - get all files from storage test
 2019-06-13 00:13:26 INFO  ServiceFactory:17 - Create REST client
 2019-06-13 00:13:26 DEBUG RestTemplate:89 - Created GET request for "http://localhost:8080/RomanaChykaloFileStorageService/storageREST/files"
 2019-06-13 00:13:26 DEBUG RestTemplate:819 - Setting request Accept header to [application/json, application/*+json]
@@ -1187,7 +1187,7 @@ Caused by: java.lang.IllegalArgumentException: Cannot find a deserializer for no
 2019-06-13 00:21:16 DEBUG RestTemplate:819 - Setting request Accept header to [application/json, application/*+json]
 2019-06-13 00:21:16 DEBUG RestTemplate:901 - Writing [UserFile{name='fitness schedule', size=250, type=DOC}] using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@507d64aa]
 2019-06-13 00:21:16 DEBUG RestTemplate:721 - POST request for "http://localhost:8080/RomanaChykaloFileStorageService/storageREST/files" resulted in 200 (OK)
-2019-06-13 00:21:16 INFO  SoapFileStorageServiceTest:44 - get all files from storage test
+2019-06-13 00:21:16 INFO  SearchApiTest:44 - get all files from storage test
 2019-06-13 00:21:16 INFO  ServiceFactory:17 - Create REST client
 2019-06-13 00:21:17 DEBUG RestTemplate:89 - Created GET request for "http://localhost:8080/RomanaChykaloFileStorageService/storageREST/files"
 2019-06-13 00:21:17 DEBUG RestTemplate:819 - Setting request Accept header to [application/json, application/*+json]
@@ -1203,29 +1203,29 @@ Caused by: java.lang.IllegalArgumentException: Cannot find a deserializer for no
 2019-06-13 00:31:21 DEBUG RestTemplate:819 - Setting request Accept header to [application/json, application/*+json]
 2019-06-13 00:31:21 DEBUG RestTemplate:901 - Writing [UserFile{name='laptop configuration', size=500, type=WKS}] using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@862f408]
 2019-06-13 00:31:21 DEBUG RestTemplate:721 - POST request for "http://localhost:8080/RomanaChykaloFileStorageService/storageREST/files" resulted in 406 (Not Acceptable); invoking error handler
-2019-06-13 00:33:44 INFO  SoapFileStorageServiceTest:44 - get all files from storage test
+2019-06-13 00:33:44 INFO  SearchApiTest:44 - get all files from storage test
 2019-06-13 00:33:44 INFO  ServiceFactory:17 - Create REST client
 2019-06-13 00:33:47 DEBUG RestTemplate:89 - Created GET request for "http://localhost:8080/RomanaChykaloFileStorageService/storageREST/files"
 2019-06-13 00:33:47 DEBUG RestTemplate:819 - Setting request Accept header to [application/json, application/*+json]
 2019-06-13 00:33:47 DEBUG RestTemplate:721 - GET request for "http://localhost:8080/RomanaChykaloFileStorageService/storageREST/files" resulted in 200 (OK)
 2019-06-13 00:33:47 DEBUG RestTemplate:97 - Reading [class org.codehaus.jackson.JsonNode] as "application/json;charset=UTF-8" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@27a09971]
-2019-06-14 08:37:31 INFO  SoapFileStorageServiceTest:44 - get all files from storage test
+2019-06-14 08:37:31 INFO  SearchApiTest:44 - get all files from storage test
 2019-06-14 08:37:31 INFO  ServiceFactory:17 - Create REST client
 2019-06-14 08:37:37 DEBUG RestTemplate:89 - Created GET request for "http://localhost:8080/RomanaChykaloFileStorageService/storageREST/files"
 2019-06-14 08:37:38 DEBUG RestTemplate:819 - Setting request Accept header to [application/json, application/*+json]
-2019-06-14 08:39:59 INFO  SoapFileStorageServiceTest:44 - get all files from storage test
+2019-06-14 08:39:59 INFO  SearchApiTest:44 - get all files from storage test
 2019-06-14 08:39:59 INFO  ServiceFactory:17 - Create REST client
 2019-06-14 08:40:02 DEBUG RestTemplate:89 - Created GET request for "http://localhost:8080/RomanaChykaloFileStorageService/storageREST/files"
 2019-06-14 08:40:02 DEBUG RestTemplate:819 - Setting request Accept header to [application/json, application/*+json]
 2019-06-14 08:40:03 DEBUG RestTemplate:721 - GET request for "http://localhost:8080/RomanaChykaloFileStorageService/storageREST/files" resulted in 200 (OK)
 2019-06-14 08:40:03 DEBUG RestTemplate:97 - Reading [class org.codehaus.jackson.JsonNode] as "application/json;charset=UTF-8" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@6af90849]
-2019-06-14 08:44:08 INFO  SoapFileStorageServiceTest:44 - get all files from storage test
+2019-06-14 08:44:08 INFO  SearchApiTest:44 - get all files from storage test
 2019-06-14 08:44:08 INFO  ServiceFactory:17 - Create REST client
 2019-06-14 08:44:11 DEBUG RestTemplate:89 - Created GET request for "http://localhost:8080/RomanaChykaloFileStorageService/storageREST/files"
 2019-06-14 08:44:11 DEBUG RestTemplate:819 - Setting request Accept header to [application/json, application/*+json]
 2019-06-14 08:44:11 DEBUG RestTemplate:721 - GET request for "http://localhost:8080/RomanaChykaloFileStorageService/storageREST/files" resulted in 200 (OK)
 2019-06-14 08:44:11 DEBUG RestTemplate:97 - Reading [interface java.util.List] as "application/json;charset=UTF-8" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@786ff1cb]
-2019-06-14 08:48:46 INFO  SoapFileStorageServiceTest:44 - get all files from storage test
+2019-06-14 08:48:46 INFO  SearchApiTest:44 - get all files from storage test
 2019-06-14 08:48:49 INFO  ServiceFactory:17 - Create REST client
 2019-06-14 08:49:21 DEBUG RestTemplate:89 - Created GET request for "http://localhost:8080/RomanaChykaloFileStorageService/storageREST/files"
 2019-06-14 08:49:21 DEBUG RestTemplate:819 - Setting request Accept header to [application/json, application/*+json]
@@ -1616,11 +1616,11 @@ Caused by: java.lang.IllegalArgumentException: Cannot find a deserializer for no
 2019-06-14 09:26:57 DEBUG RestTemplate:721 - GET request for "http://localhost:8080/RomanaChykaloFileStorageService/storageREST/files/type/PDF" resulted in 200 (OK)
 2019-06-14 09:26:57 DEBUG RestTemplate:97 - Reading [interface java.util.List] as "application/json;charset=UTF-8" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@3ac3f6f]
 2019-06-14 09:28:38 INFO  ServiceFactory:13 - Create SOAP client
-2019-06-14 09:28:42 INFO  SoapFileStorageServiceTest:60 - add file to storage positive test
+2019-06-14 09:28:42 INFO  SearchApiTest:60 - add file to storage positive test
 2019-06-14 09:28:42 INFO  ServiceFactory:13 - Create SOAP client
 2019-06-14 09:28:42 INFO  ServiceFactory:13 - Create SOAP client
-2019-06-14 09:28:42 INFO  SoapFileStorageServiceTest:101 - add file to storage must throw SoapServiceException test
-2019-06-14 09:28:43 INFO  SoapFileStorageServiceTest:44 - get all files from storage test
+2019-06-14 09:28:42 INFO  SearchApiTest:101 - add file to storage must throw SoapServiceException test
+2019-06-14 09:28:43 INFO  SearchApiTest:44 - get all files from storage test
 2019-06-14 09:28:43 INFO  ServiceFactory:13 - Create SOAP client
 2019-06-14 09:28:43 INFO  ServiceFactory:13 - Create SOAP client
 2019-06-14 09:41:25 INFO  ServiceFactory:17 - Create REST client
@@ -1790,10 +1790,10 @@ Caused by: java.lang.IllegalArgumentException: Cannot find a deserializer for no
 2019-06-14 10:15:19 DEBUG RestTemplate:819 - Setting request Accept header to [application/json, application/*+json]
 2019-06-14 10:15:19 DEBUG RestTemplate:721 - GET request for "http://localhost:8080/RomanaChykaloFileStorageService/storageREST/files/My%20beautiful%20photo" resulted in 200 (OK)
 2019-06-14 10:15:19 DEBUG RestTemplate:97 - Reading [class soap.UserFile] as "application/json;charset=UTF-8" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@73971965]
-2019-06-14 11:09:33 INFO  SoapFileStorageServiceTest:25 - Add file rest test
-2019-06-14 11:09:33 INFO  SoapFileStorageServiceTest:25 - Add file rest test
-2019-06-14 11:09:33 INFO  SoapFileStorageServiceTest:25 - Add file rest test
-2019-06-14 11:10:14 INFO  SoapFileStorageServiceTest:25 - Add file rest test
+2019-06-14 11:09:33 INFO  SearchApiTest:25 - Add file rest test
+2019-06-14 11:09:33 INFO  SearchApiTest:25 - Add file rest test
+2019-06-14 11:09:33 INFO  SearchApiTest:25 - Add file rest test
+2019-06-14 11:10:14 INFO  SearchApiTest:25 - Add file rest test
 2019-06-14 11:10:14 INFO  ServiceFactory:17 - Create REST client
 2019-06-14 11:10:17 DEBUG RestTemplate:89 - Created POST request for "http://localhost:8080/RomanaChykaloFileStorageService/storageREST/files"
 2019-06-14 11:10:17 DEBUG RestTemplate:819 - Setting request Accept header to [application/json, application/*+json]
@@ -1838,7 +1838,7 @@ Caused by: java.lang.IllegalArgumentException: Cannot find a deserializer for no
 2019-06-14 11:10:17 DEBUG RestTemplate:819 - Setting request Accept header to [application/json, application/*+json]
 2019-06-14 11:10:17 DEBUG RestTemplate:721 - GET request for "http://localhost:8080/RomanaChykaloFileStorageService/storageREST/files/Data%20types" resulted in 200 (OK)
 2019-06-14 11:10:17 DEBUG RestTemplate:97 - Reading [class soap.UserFile] as "application/json;charset=UTF-8" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@6deee370]
-2019-06-14 11:10:18 INFO  SoapFileStorageServiceTest:25 - Add file rest test
+2019-06-14 11:10:18 INFO  SearchApiTest:25 - Add file rest test
 2019-06-14 11:10:18 INFO  ServiceFactory:17 - Create REST client
 2019-06-14 11:10:18 DEBUG RestTemplate:89 - Created POST request for "http://localhost:8080/RomanaChykaloFileStorageService/storageREST/files"
 2019-06-14 11:10:18 DEBUG RestTemplate:819 - Setting request Accept header to [application/json, application/*+json]
@@ -1883,7 +1883,7 @@ Caused by: java.lang.IllegalArgumentException: Cannot find a deserializer for no
 2019-06-14 11:10:18 DEBUG RestTemplate:819 - Setting request Accept header to [application/json, application/*+json]
 2019-06-14 11:10:18 DEBUG RestTemplate:721 - GET request for "http://localhost:8080/RomanaChykaloFileStorageService/storageREST/files/Data%20validation" resulted in 200 (OK)
 2019-06-14 11:10:18 DEBUG RestTemplate:97 - Reading [class soap.UserFile] as "application/json;charset=UTF-8" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@7cfac39f]
-2019-06-14 11:10:18 INFO  SoapFileStorageServiceTest:25 - Add file rest test
+2019-06-14 11:10:18 INFO  SearchApiTest:25 - Add file rest test
 2019-06-14 11:10:18 INFO  ServiceFactory:17 - Create REST client
 2019-06-14 11:10:18 DEBUG RestTemplate:89 - Created POST request for "http://localhost:8080/RomanaChykaloFileStorageService/storageREST/files"
 2019-06-14 11:10:18 DEBUG RestTemplate:819 - Setting request Accept header to [application/json, application/*+json]
@@ -1892,7 +1892,7 @@ Caused by: java.lang.IllegalArgumentException: Cannot find a deserializer for no
 2019-06-14 11:10:18 DEBUG RequestAddCookies:123 - CookieSpec selected: default
 2019-06-14 11:10:18 DEBUG RequestAuthCache:77 - Auth cache not set in the context
 2019-06-14 11:10:18 DEBUG PoolingHttpClientConnectionManager:255 - Connection request: [route: {}->http://localhost:8080][total kept alive: 0; route allocated: 2 of 2; total allocated: 2 of 20]
-2019-06-14 11:17:55 INFO  SoapFileStorageServiceTest:25 - Add file rest test
+2019-06-14 11:17:55 INFO  SearchApiTest:25 - Add file rest test
 2019-06-14 11:17:55 INFO  ServiceFactory:17 - Create REST client
 2019-06-14 11:17:58 DEBUG RestTemplate:89 - Created POST request for "http://localhost:8080/RomanaChykaloFileStorageService/storageREST/files"
 2019-06-14 11:17:58 DEBUG RestTemplate:819 - Setting request Accept header to [application/json, application/*+json]
@@ -1937,7 +1937,7 @@ Caused by: java.lang.IllegalArgumentException: Cannot find a deserializer for no
 2019-06-14 11:17:59 DEBUG RestTemplate:819 - Setting request Accept header to [application/json, application/*+json]
 2019-06-14 11:17:59 DEBUG RestTemplate:721 - GET request for "http://localhost:8080/RomanaChykaloFileStorageService/storageREST/files/Data%20types" resulted in 200 (OK)
 2019-06-14 11:17:59 DEBUG RestTemplate:97 - Reading [class soap.UserFile] as "application/json;charset=UTF-8" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@7b66322e]
-2019-06-14 11:17:59 INFO  SoapFileStorageServiceTest:25 - Add file rest test
+2019-06-14 11:17:59 INFO  SearchApiTest:25 - Add file rest test
 2019-06-14 11:17:59 INFO  ServiceFactory:17 - Create REST client
 2019-06-14 11:17:59 DEBUG RestTemplate:89 - Created POST request for "http://localhost:8080/RomanaChykaloFileStorageService/storageREST/files"
 2019-06-14 11:17:59 DEBUG RestTemplate:819 - Setting request Accept header to [application/json, application/*+json]
@@ -1982,7 +1982,7 @@ Caused by: java.lang.IllegalArgumentException: Cannot find a deserializer for no
 2019-06-14 11:17:59 DEBUG RestTemplate:819 - Setting request Accept header to [application/json, application/*+json]
 2019-06-14 11:17:59 DEBUG RestTemplate:721 - GET request for "http://localhost:8080/RomanaChykaloFileStorageService/storageREST/files/Data%20validation" resulted in 200 (OK)
 2019-06-14 11:17:59 DEBUG RestTemplate:97 - Reading [class soap.UserFile] as "application/json;charset=UTF-8" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@27abb6ca]
-2019-06-14 11:17:59 INFO  SoapFileStorageServiceTest:25 - Add file rest test
+2019-06-14 11:17:59 INFO  SearchApiTest:25 - Add file rest test
 2019-06-14 11:17:59 INFO  ServiceFactory:17 - Create REST client
 2019-06-14 11:17:59 DEBUG RestTemplate:89 - Created POST request for "http://localhost:8080/RomanaChykaloFileStorageService/storageREST/files"
 2019-06-14 11:17:59 DEBUG RestTemplate:819 - Setting request Accept header to [application/json, application/*+json]
@@ -1991,7 +1991,7 @@ Caused by: java.lang.IllegalArgumentException: Cannot find a deserializer for no
 2019-06-14 11:17:59 DEBUG RequestAddCookies:123 - CookieSpec selected: default
 2019-06-14 11:17:59 DEBUG RequestAuthCache:77 - Auth cache not set in the context
 2019-06-14 11:17:59 DEBUG PoolingHttpClientConnectionManager:255 - Connection request: [route: {}->http://localhost:8080][total kept alive: 0; route allocated: 2 of 2; total allocated: 2 of 20]
-2019-06-14 11:20:10 INFO  SoapFileStorageServiceTest:25 - Add file rest test
+2019-06-14 11:20:10 INFO  SearchApiTest:25 - Add file rest test
 2019-06-14 11:20:10 INFO  ServiceFactory:17 - Create REST client
 2019-06-14 11:20:12 DEBUG RestTemplate:89 - Created POST request for "http://localhost:8080/RomanaChykaloFileStorageService/storageREST/files"
 2019-06-14 11:20:12 DEBUG RestTemplate:819 - Setting request Accept header to [application/json, application/*+json]
@@ -2036,7 +2036,7 @@ Caused by: java.lang.IllegalArgumentException: Cannot find a deserializer for no
 2019-06-14 11:20:13 DEBUG RestTemplate:819 - Setting request Accept header to [application/json, application/*+json]
 2019-06-14 11:20:13 DEBUG RestTemplate:721 - GET request for "http://localhost:8080/RomanaChykaloFileStorageService/storageREST/files/Data%20types" resulted in 200 (OK)
 2019-06-14 11:20:13 DEBUG RestTemplate:97 - Reading [class soap.UserFile] as "application/json;charset=UTF-8" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@3f183caa]
-2019-06-14 11:20:13 INFO  SoapFileStorageServiceTest:25 - Add file rest test
+2019-06-14 11:20:13 INFO  SearchApiTest:25 - Add file rest test
 2019-06-14 11:20:13 INFO  ServiceFactory:17 - Create REST client
 2019-06-14 11:20:13 DEBUG RestTemplate:89 - Created POST request for "http://localhost:8080/RomanaChykaloFileStorageService/storageREST/files"
 2019-06-14 11:20:13 DEBUG RestTemplate:819 - Setting request Accept header to [application/json, application/*+json]
@@ -2081,7 +2081,7 @@ Caused by: java.lang.IllegalArgumentException: Cannot find a deserializer for no
 2019-06-14 11:20:13 DEBUG RestTemplate:819 - Setting request Accept header to [application/json, application/*+json]
 2019-06-14 11:20:13 DEBUG RestTemplate:721 - GET request for "http://localhost:8080/RomanaChykaloFileStorageService/storageREST/files/Data%20validation" resulted in 200 (OK)
 2019-06-14 11:20:13 DEBUG RestTemplate:97 - Reading [class soap.UserFile] as "application/json;charset=UTF-8" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@696db620]
-2019-06-14 11:20:13 INFO  SoapFileStorageServiceTest:25 - Add file rest test
+2019-06-14 11:20:13 INFO  SearchApiTest:25 - Add file rest test
 2019-06-14 11:20:13 INFO  ServiceFactory:17 - Create REST client
 2019-06-14 11:20:13 DEBUG RestTemplate:89 - Created POST request for "http://localhost:8080/RomanaChykaloFileStorageService/storageREST/files"
 2019-06-14 11:20:13 DEBUG RestTemplate:819 - Setting request Accept header to [application/json, application/*+json]
@@ -2090,7 +2090,7 @@ Caused by: java.lang.IllegalArgumentException: Cannot find a deserializer for no
 2019-06-14 11:20:13 DEBUG RequestAddCookies:123 - CookieSpec selected: default
 2019-06-14 11:20:13 DEBUG RequestAuthCache:77 - Auth cache not set in the context
 2019-06-14 11:20:13 DEBUG PoolingHttpClientConnectionManager:255 - Connection request: [route: {}->http://localhost:8080][total kept alive: 0; route allocated: 2 of 2; total allocated: 2 of 20]
-2019-06-14 11:21:40 INFO  SoapFileStorageServiceTest:25 - Add file rest test
+2019-06-14 11:21:40 INFO  SearchApiTest:25 - Add file rest test
 2019-06-14 11:21:40 INFO  ServiceFactory:17 - Create REST client
 2019-06-14 11:21:42 DEBUG RestTemplate:89 - Created POST request for "http://localhost:8080/RomanaChykaloFileStorageService/storageREST/files"
 2019-06-14 11:21:42 DEBUG RestTemplate:819 - Setting request Accept header to [application/json, application/*+json]
@@ -2168,7 +2168,7 @@ Caused by: java.lang.IllegalArgumentException: Cannot find a deserializer for no
 2019-06-14 11:21:43 DEBUG MainClientExec:285 - Connection can be kept alive indefinitely
 2019-06-14 11:21:43 DEBUG PoolingHttpClientConnectionManager:320 - Connection [id: 1][route: {}->http://localhost:8080] can be kept alive indefinitely
 2019-06-14 11:21:43 DEBUG PoolingHttpClientConnectionManager:326 - Connection released: [id: 1][route: {}->http://localhost:8080][total kept alive: 1; route allocated: 2 of 2; total allocated: 2 of 20]
-2019-06-14 11:21:43 INFO  SoapFileStorageServiceTest:25 - Add file rest test
+2019-06-14 11:21:43 INFO  SearchApiTest:25 - Add file rest test
 2019-06-14 11:21:43 INFO  ServiceFactory:17 - Create REST client
 2019-06-14 11:21:43 DEBUG RestTemplate:89 - Created POST request for "http://localhost:8080/RomanaChykaloFileStorageService/storageREST/files"
 2019-06-14 11:21:43 DEBUG RestTemplate:819 - Setting request Accept header to [application/json, application/*+json]
@@ -2213,7 +2213,7 @@ Caused by: java.lang.IllegalArgumentException: Cannot find a deserializer for no
 2019-06-14 11:21:43 DEBUG RequestAddCookies:123 - CookieSpec selected: default
 2019-06-14 11:21:43 DEBUG RequestAuthCache:77 - Auth cache not set in the context
 2019-06-14 11:21:43 DEBUG PoolingHttpClientConnectionManager:255 - Connection request: [route: {}->http://localhost:8080][total kept alive: 0; route allocated: 2 of 2; total allocated: 2 of 20]
-2019-06-14 11:23:59 INFO  SoapFileStorageServiceTest:25 - Add file rest test
+2019-06-14 11:23:59 INFO  SearchApiTest:25 - Add file rest test
 2019-06-14 11:23:59 INFO  ServiceFactory:17 - Create REST client
 2019-06-14 11:24:01 DEBUG RestTemplate:89 - Created POST request for "http://localhost:8080/RomanaChykaloFileStorageService/storageREST/files"
 2019-06-14 11:24:01 DEBUG RestTemplate:819 - Setting request Accept header to [application/json, application/*+json]
@@ -2291,7 +2291,7 @@ Caused by: java.lang.IllegalArgumentException: Cannot find a deserializer for no
 2019-06-14 11:24:02 DEBUG MainClientExec:285 - Connection can be kept alive indefinitely
 2019-06-14 11:24:02 DEBUG PoolingHttpClientConnectionManager:320 - Connection [id: 1][route: {}->http://localhost:8080] can be kept alive indefinitely
 2019-06-14 11:24:02 DEBUG PoolingHttpClientConnectionManager:326 - Connection released: [id: 1][route: {}->http://localhost:8080][total kept alive: 1; route allocated: 2 of 2; total allocated: 2 of 20]
-2019-06-14 11:24:02 INFO  SoapFileStorageServiceTest:25 - Add file rest test
+2019-06-14 11:24:02 INFO  SearchApiTest:25 - Add file rest test
 2019-06-14 11:24:02 INFO  ServiceFactory:17 - Create REST client
 2019-06-14 11:24:02 DEBUG RestTemplate:89 - Created POST request for "http://localhost:8080/RomanaChykaloFileStorageService/storageREST/files"
 2019-06-14 11:24:02 DEBUG RestTemplate:819 - Setting request Accept header to [application/json, application/*+json]
@@ -2336,7 +2336,7 @@ Caused by: java.lang.IllegalArgumentException: Cannot find a deserializer for no
 2019-06-14 11:24:02 DEBUG RequestAddCookies:123 - CookieSpec selected: default
 2019-06-14 11:24:02 DEBUG RequestAuthCache:77 - Auth cache not set in the context
 2019-06-14 11:24:02 DEBUG PoolingHttpClientConnectionManager:255 - Connection request: [route: {}->http://localhost:8080][total kept alive: 0; route allocated: 2 of 2; total allocated: 2 of 20]
-2019-06-14 11:27:35 INFO  SoapFileStorageServiceTest:26 - Add file rest test
+2019-06-14 11:27:35 INFO  SearchApiTest:26 - Add file rest test
 2019-06-14 11:27:50 INFO  ServiceFactory:17 - Create REST client
 2019-06-14 11:28:16 DEBUG RestTemplate:89 - Created POST request for "http://localhost:8080/RomanaChykaloFileStorageService/storageREST/files"
 2019-06-14 11:28:17 DEBUG RestTemplate:819 - Setting request Accept header to [application/json, application/*+json]
@@ -2414,13 +2414,13 @@ Caused by: java.lang.IllegalArgumentException: Cannot find a deserializer for no
 2019-06-14 11:28:34 DEBUG MainClientExec:285 - Connection can be kept alive indefinitely
 2019-06-14 11:28:34 DEBUG PoolingHttpClientConnectionManager:320 - Connection [id: 1][route: {}->http://localhost:8080] can be kept alive indefinitely
 2019-06-14 11:28:34 DEBUG PoolingHttpClientConnectionManager:326 - Connection released: [id: 1][route: {}->http://localhost:8080][total kept alive: 1; route allocated: 2 of 2; total allocated: 2 of 20]
-2019-06-14 11:29:16 INFO  SoapFileStorageServiceTest:26 - Add file rest test
+2019-06-14 11:29:16 INFO  SearchApiTest:26 - Add file rest test
 2019-06-14 11:29:28 INFO  ServiceFactory:17 - Create REST client
 2019-06-14 11:29:35 DEBUG RestTemplate:89 - Created POST request for "http://localhost:8080/RomanaChykaloFileStorageService/storageREST/files"
 2019-06-14 11:29:35 DEBUG RestTemplate:819 - Setting request Accept header to [application/json, application/*+json]
 2019-06-14 11:29:35 DEBUG RestTemplate:901 - Writing [UserFile{name='Data validation', size=560, type=DOC}] using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@da09250]
 2019-06-14 11:29:35 DEBUG RestTemplate:721 - POST request for "http://localhost:8080/RomanaChykaloFileStorageService/storageREST/files" resulted in 406 (Not Acceptable); invoking error handler
-2019-06-14 11:32:35 INFO  SoapFileStorageServiceTest:26 - Add file rest test
+2019-06-14 11:32:35 INFO  SearchApiTest:26 - Add file rest test
 2019-06-14 11:32:44 INFO  ServiceFactory:17 - Create REST client
 2019-06-14 11:32:46 DEBUG RestTemplate:89 - Created POST request for "http://localhost:8080/RomanaChykaloFileStorageService/storageREST/files"
 2019-06-14 11:32:46 DEBUG RestTemplate:819 - Setting request Accept header to [application/json, application/*+json]
@@ -2470,7 +2470,7 @@ Caused by: java.lang.IllegalArgumentException: Cannot find a deserializer for no
 2019-06-14 11:32:49 DEBUG RequestAddCookies:123 - CookieSpec selected: default
 2019-06-14 11:32:49 DEBUG RequestAuthCache:77 - Auth cache not set in the context
 2019-06-14 11:32:49 DEBUG PoolingHttpClientConnectionManager:255 - Connection request: [route: {}->http://localhost:8080][total kept alive: 0; route allocated: 2 of 2; total allocated: 2 of 20]
-2019-06-14 11:34:14 INFO  SoapFileStorageServiceTest:26 - Add file rest test
+2019-06-14 11:34:14 INFO  SearchApiTest:26 - Add file rest test
 2019-06-14 11:34:14 INFO  ServiceFactory:17 - Create REST client
 2019-06-14 11:34:16 DEBUG RestTemplate:89 - Created POST request for "http://localhost:8080/RomanaChykaloFileStorageService/storageREST/files"
 2019-06-14 11:34:16 DEBUG RestTemplate:819 - Setting request Accept header to [application/json, application/*+json]
@@ -2548,7 +2548,7 @@ Caused by: java.lang.IllegalArgumentException: Cannot find a deserializer for no
 2019-06-14 11:34:17 DEBUG MainClientExec:285 - Connection can be kept alive indefinitely
 2019-06-14 11:34:17 DEBUG PoolingHttpClientConnectionManager:320 - Connection [id: 1][route: {}->http://localhost:8080] can be kept alive indefinitely
 2019-06-14 11:34:17 DEBUG PoolingHttpClientConnectionManager:326 - Connection released: [id: 1][route: {}->http://localhost:8080][total kept alive: 1; route allocated: 2 of 2; total allocated: 2 of 20]
-2019-06-14 11:34:17 INFO  SoapFileStorageServiceTest:26 - Add file rest test
+2019-06-14 11:34:17 INFO  SearchApiTest:26 - Add file rest test
 2019-06-14 11:34:17 INFO  ServiceFactory:17 - Create REST client
 2019-06-14 11:34:17 DEBUG RestTemplate:89 - Created POST request for "http://localhost:8080/RomanaChykaloFileStorageService/storageREST/files"
 2019-06-14 11:34:17 DEBUG RestTemplate:819 - Setting request Accept header to [application/json, application/*+json]
@@ -2593,7 +2593,7 @@ Caused by: java.lang.IllegalArgumentException: Cannot find a deserializer for no
 2019-06-14 11:34:17 DEBUG RequestAddCookies:123 - CookieSpec selected: default
 2019-06-14 11:34:17 DEBUG RequestAuthCache:77 - Auth cache not set in the context
 2019-06-14 11:34:17 DEBUG PoolingHttpClientConnectionManager:255 - Connection request: [route: {}->http://localhost:8080][total kept alive: 0; route allocated: 2 of 2; total allocated: 2 of 20]
-2019-06-14 11:38:10 INFO  SoapFileStorageServiceTest:26 - Add file rest test
+2019-06-14 11:38:10 INFO  SearchApiTest:26 - Add file rest test
 2019-06-14 11:38:10 INFO  ServiceFactory:17 - Create REST client
 2019-06-14 11:38:12 DEBUG RestTemplate:89 - Created POST request for "http://localhost:8080/RomanaChykaloFileStorageService/storageREST/files"
 2019-06-14 11:38:12 DEBUG RestTemplate:819 - Setting request Accept header to [application/json, application/*+json]
@@ -2671,7 +2671,7 @@ Caused by: java.lang.IllegalArgumentException: Cannot find a deserializer for no
 2019-06-14 11:38:13 DEBUG MainClientExec:285 - Connection can be kept alive indefinitely
 2019-06-14 11:38:13 DEBUG PoolingHttpClientConnectionManager:320 - Connection [id: 1][route: {}->http://localhost:8080] can be kept alive indefinitely
 2019-06-14 11:38:13 DEBUG PoolingHttpClientConnectionManager:326 - Connection released: [id: 1][route: {}->http://localhost:8080][total kept alive: 1; route allocated: 2 of 2; total allocated: 2 of 20]
-2019-06-14 11:38:13 INFO  SoapFileStorageServiceTest:26 - Add file rest test
+2019-06-14 11:38:13 INFO  SearchApiTest:26 - Add file rest test
 2019-06-14 11:38:13 INFO  ServiceFactory:17 - Create REST client
 2019-06-14 11:38:13 DEBUG RestTemplate:89 - Created POST request for "http://localhost:8080/RomanaChykaloFileStorageService/storageREST/files"
 2019-06-14 11:38:13 DEBUG RestTemplate:819 - Setting request Accept header to [application/json, application/*+json]
@@ -2716,7 +2716,7 @@ Caused by: java.lang.IllegalArgumentException: Cannot find a deserializer for no
 2019-06-14 11:38:13 DEBUG RequestAddCookies:123 - CookieSpec selected: default
 2019-06-14 11:38:13 DEBUG RequestAuthCache:77 - Auth cache not set in the context
 2019-06-14 11:38:13 DEBUG PoolingHttpClientConnectionManager:255 - Connection request: [route: {}->http://localhost:8080][total kept alive: 0; route allocated: 2 of 2; total allocated: 2 of 20]
-2019-06-14 11:40:36 INFO  SoapFileStorageServiceTest:26 - Add file rest test
+2019-06-14 11:40:36 INFO  SearchApiTest:26 - Add file rest test
 2019-06-14 11:40:36 INFO  ServiceFactory:17 - Create REST client
 2019-06-14 11:40:39 DEBUG RestTemplate:89 - Created POST request for "http://localhost:8080/RomanaChykaloFileStorageService/storageREST/files"
 2019-06-14 11:40:39 DEBUG RestTemplate:819 - Setting request Accept header to [application/json, application/*+json]
@@ -2794,7 +2794,7 @@ Caused by: java.lang.IllegalArgumentException: Cannot find a deserializer for no
 2019-06-14 11:40:39 DEBUG MainClientExec:285 - Connection can be kept alive indefinitely
 2019-06-14 11:40:39 DEBUG PoolingHttpClientConnectionManager:320 - Connection [id: 1][route: {}->http://localhost:8080] can be kept alive indefinitely
 2019-06-14 11:40:39 DEBUG PoolingHttpClientConnectionManager:326 - Connection released: [id: 1][route: {}->http://localhost:8080][total kept alive: 1; route allocated: 2 of 2; total allocated: 2 of 20]
-2019-06-14 11:40:39 INFO  SoapFileStorageServiceTest:26 - Add file rest test
+2019-06-14 11:40:39 INFO  SearchApiTest:26 - Add file rest test
 2019-06-14 11:40:39 INFO  ServiceFactory:17 - Create REST client
 2019-06-14 11:40:39 DEBUG RestTemplate:89 - Created POST request for "http://localhost:8080/RomanaChykaloFileStorageService/storageREST/files"
 2019-06-14 11:40:39 DEBUG RestTemplate:819 - Setting request Accept header to [application/json, application/*+json]
@@ -2839,7 +2839,7 @@ Caused by: java.lang.IllegalArgumentException: Cannot find a deserializer for no
 2019-06-14 11:40:39 DEBUG RequestAddCookies:123 - CookieSpec selected: default
 2019-06-14 11:40:39 DEBUG RequestAuthCache:77 - Auth cache not set in the context
 2019-06-14 11:40:39 DEBUG PoolingHttpClientConnectionManager:255 - Connection request: [route: {}->http://localhost:8080][total kept alive: 0; route allocated: 2 of 2; total allocated: 2 of 20]
-2019-06-14 11:41:48 INFO  SoapFileStorageServiceTest:26 - Add file rest test
+2019-06-14 11:41:48 INFO  SearchApiTest:26 - Add file rest test
 2019-06-14 11:41:48 INFO  ServiceFactory:17 - Create REST client
 2019-06-14 11:41:50 DEBUG RestTemplate:89 - Created POST request for "http://localhost:8080/RomanaChykaloFileStorageService/storageREST/files"
 2019-06-14 11:41:50 DEBUG RestTemplate:819 - Setting request Accept header to [application/json, application/*+json]
@@ -2884,7 +2884,7 @@ Caused by: java.lang.IllegalArgumentException: Cannot find a deserializer for no
 2019-06-14 11:41:51 DEBUG RestTemplate:819 - Setting request Accept header to [application/json, application/*+json]
 2019-06-14 11:41:51 DEBUG RestTemplate:721 - GET request for "http://localhost:8080/RomanaChykaloFileStorageService/storageREST/files/Data%20types" resulted in 200 (OK)
 2019-06-14 11:41:51 DEBUG RestTemplate:97 - Reading [class soap.UserFile] as "application/json;charset=UTF-8" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@3206174f]
-2019-06-14 11:41:51 INFO  SoapFileStorageServiceTest:26 - Add file rest test
+2019-06-14 11:41:51 INFO  SearchApiTest:26 - Add file rest test
 2019-06-14 11:41:51 INFO  ServiceFactory:17 - Create REST client
 2019-06-14 11:41:51 DEBUG RestTemplate:89 - Created POST request for "http://localhost:8080/RomanaChykaloFileStorageService/storageREST/files"
 2019-06-14 11:41:51 DEBUG RestTemplate:819 - Setting request Accept header to [application/json, application/*+json]
@@ -2929,7 +2929,7 @@ Caused by: java.lang.IllegalArgumentException: Cannot find a deserializer for no
 2019-06-14 11:41:51 DEBUG RestTemplate:819 - Setting request Accept header to [application/json, application/*+json]
 2019-06-14 11:41:51 DEBUG RestTemplate:721 - GET request for "http://localhost:8080/RomanaChykaloFileStorageService/storageREST/files/Data-storage" resulted in 200 (OK)
 2019-06-14 11:41:51 DEBUG RestTemplate:97 - Reading [class soap.UserFile] as "application/json;charset=UTF-8" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@4cad79bc]
-2019-06-14 11:43:09 INFO  SoapFileStorageServiceTest:26 - Add file rest test
+2019-06-14 11:43:09 INFO  SearchApiTest:26 - Add file rest test
 2019-06-14 11:43:09 INFO  ServiceFactory:17 - Create REST client
 2019-06-14 11:43:12 DEBUG RestTemplate:89 - Created POST request for "http://localhost:8080/RomanaChykaloFileStorageService/storageREST/files"
 2019-06-14 11:43:12 DEBUG RestTemplate:819 - Setting request Accept header to [application/json, application/*+json]
@@ -2974,7 +2974,7 @@ Caused by: java.lang.IllegalArgumentException: Cannot find a deserializer for no
 2019-06-14 11:43:12 DEBUG RestTemplate:819 - Setting request Accept header to [application/json, application/*+json]
 2019-06-14 11:43:12 DEBUG RestTemplate:721 - GET request for "http://localhost:8080/RomanaChykaloFileStorageService/storageREST/files/Data%20types" resulted in 200 (OK)
 2019-06-14 11:43:12 DEBUG RestTemplate:97 - Reading [class soap.UserFile] as "application/json;charset=UTF-8" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@7b66322e]
-2019-06-14 11:43:13 INFO  SoapFileStorageServiceTest:26 - Add file rest test
+2019-06-14 11:43:13 INFO  SearchApiTest:26 - Add file rest test
 2019-06-14 11:43:13 INFO  ServiceFactory:17 - Create REST client
 2019-06-14 11:43:13 DEBUG RestTemplate:89 - Created POST request for "http://localhost:8080/RomanaChykaloFileStorageService/storageREST/files"
 2019-06-14 11:43:13 DEBUG RestTemplate:819 - Setting request Accept header to [application/json, application/*+json]
@@ -3019,7 +3019,7 @@ Caused by: java.lang.IllegalArgumentException: Cannot find a deserializer for no
 2019-06-14 11:43:13 DEBUG RestTemplate:819 - Setting request Accept header to [application/json, application/*+json]
 2019-06-14 11:43:13 DEBUG RestTemplate:721 - GET request for "http://localhost:8080/RomanaChykaloFileStorageService/storageREST/files/Data-storage" resulted in 200 (OK)
 2019-06-14 11:43:13 DEBUG RestTemplate:97 - Reading [class soap.UserFile] as "application/json;charset=UTF-8" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@42f85fa4]
-2019-06-14 11:43:13 INFO  SoapFileStorageServiceTest:26 - Add file rest test
+2019-06-14 11:43:13 INFO  SearchApiTest:26 - Add file rest test
 2019-06-14 11:43:13 INFO  ServiceFactory:17 - Create REST client
 2019-06-14 11:43:13 DEBUG RestTemplate:89 - Created POST request for "http://localhost:8080/RomanaChykaloFileStorageService/storageREST/files"
 2019-06-14 11:43:13 DEBUG RestTemplate:819 - Setting request Accept header to [application/json, application/*+json]
@@ -3028,7 +3028,7 @@ Caused by: java.lang.IllegalArgumentException: Cannot find a deserializer for no
 2019-06-14 11:43:13 DEBUG RequestAddCookies:123 - CookieSpec selected: default
 2019-06-14 11:43:13 DEBUG RequestAuthCache:77 - Auth cache not set in the context
 2019-06-14 11:43:13 DEBUG PoolingHttpClientConnectionManager:255 - Connection request: [route: {}->http://localhost:8080][total kept alive: 0; route allocated: 2 of 2; total allocated: 2 of 20]
-2019-06-14 11:46:01 INFO  SoapFileStorageServiceTest:26 - Add file rest test
+2019-06-14 11:46:01 INFO  SearchApiTest:26 - Add file rest test
 2019-06-14 11:46:01 INFO  ServiceFactory:17 - Create REST client
 2019-06-14 11:46:04 DEBUG RestTemplate:89 - Created POST request for "http://localhost:8080/RomanaChykaloFileStorageService/storageREST/files"
 2019-06-14 11:46:04 DEBUG RestTemplate:819 - Setting request Accept header to [application/json, application/*+json]
@@ -3073,7 +3073,7 @@ Caused by: java.lang.IllegalArgumentException: Cannot find a deserializer for no
 2019-06-14 11:46:12 DEBUG RestTemplate:819 - Setting request Accept header to [application/json, application/*+json]
 2019-06-14 11:46:12 DEBUG RestTemplate:721 - GET request for "http://localhost:8080/RomanaChykaloFileStorageService/storageREST/files/Data%20types" resulted in 200 (OK)
 2019-06-14 11:46:12 DEBUG RestTemplate:97 - Reading [class soap.UserFile] as "application/json;charset=UTF-8" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@4cc12db2]
-2019-06-14 11:46:47 INFO  SoapFileStorageServiceTest:26 - Add file rest test
+2019-06-14 11:46:47 INFO  SearchApiTest:26 - Add file rest test
 2019-06-14 11:46:47 INFO  ServiceFactory:17 - Create REST client
 2019-06-14 11:46:47 DEBUG RestTemplate:89 - Created POST request for "http://localhost:8080/RomanaChykaloFileStorageService/storageREST/files"
 2019-06-14 11:46:47 DEBUG RestTemplate:819 - Setting request Accept header to [application/json, application/*+json]
@@ -3118,7 +3118,7 @@ Caused by: java.lang.IllegalArgumentException: Cannot find a deserializer for no
 2019-06-14 11:46:50 DEBUG RestTemplate:819 - Setting request Accept header to [application/json, application/*+json]
 2019-06-14 11:46:50 DEBUG RestTemplate:721 - GET request for "http://localhost:8080/RomanaChykaloFileStorageService/storageREST/files/Data-storage" resulted in 200 (OK)
 2019-06-14 11:46:50 DEBUG RestTemplate:97 - Reading [class soap.UserFile] as "application/json;charset=UTF-8" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@3407aa4f]
-2019-06-14 11:47:40 INFO  SoapFileStorageServiceTest:26 - Add file rest test
+2019-06-14 11:47:40 INFO  SearchApiTest:26 - Add file rest test
 2019-06-14 11:47:40 INFO  ServiceFactory:17 - Create REST client
 2019-06-14 11:47:40 DEBUG RestTemplate:89 - Created POST request for "http://localhost:8080/RomanaChykaloFileStorageService/storageREST/files"
 2019-06-14 11:47:40 DEBUG RestTemplate:819 - Setting request Accept header to [application/json, application/*+json]
@@ -3127,7 +3127,7 @@ Caused by: java.lang.IllegalArgumentException: Cannot find a deserializer for no
 2019-06-14 11:47:45 DEBUG RequestAddCookies:123 - CookieSpec selected: default
 2019-06-14 11:47:45 DEBUG RequestAuthCache:77 - Auth cache not set in the context
 2019-06-14 11:47:45 DEBUG PoolingHttpClientConnectionManager:255 - Connection request: [route: {}->http://localhost:8080][total kept alive: 0; route allocated: 2 of 2; total allocated: 2 of 20]
-2019-06-14 11:52:14 INFO  SoapFileStorageServiceTest:26 - Add file rest test
+2019-06-14 11:52:14 INFO  SearchApiTest:26 - Add file rest test
 2019-06-14 11:52:14 INFO  ServiceFactory:17 - Create REST client
 2019-06-14 11:52:21 DEBUG RestTemplate:89 - Created POST request for "http://localhost:8080/RomanaChykaloFileStorageService/storageREST/files"
 2019-06-14 11:52:21 DEBUG RestTemplate:819 - Setting request Accept header to [application/json, application/*+json]
@@ -3172,9 +3172,9 @@ Caused by: java.lang.IllegalArgumentException: Cannot find a deserializer for no
 2019-06-14 11:52:29 DEBUG RestTemplate:819 - Setting request Accept header to [application/json, application/*+json]
 2019-06-14 11:52:29 DEBUG RestTemplate:721 - GET request for "http://localhost:8080/RomanaChykaloFileStorageService/storageREST/files/Data%20types" resulted in 200 (OK)
 2019-06-14 11:52:29 DEBUG RestTemplate:97 - Reading [class soap.UserFile] as "application/json;charset=UTF-8" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@6842c101]
-2019-06-14 11:53:34 INFO  SoapFileStorageServiceTest:26 - Add file rest test
+2019-06-14 11:53:34 INFO  SearchApiTest:26 - Add file rest test
 2019-06-14 11:53:34 INFO  ServiceFactory:17 - Create REST client
-2019-06-14 11:54:07 INFO  SoapFileStorageServiceTest:26 - Add file rest test
+2019-06-14 11:54:07 INFO  SearchApiTest:26 - Add file rest test
 2019-06-14 11:54:07 INFO  ServiceFactory:17 - Create REST client
 2019-06-14 11:54:10 DEBUG RestTemplate:89 - Created POST request for "http://localhost:8080/RomanaChykaloFileStorageService/storageREST/files"
 2019-06-14 11:54:10 DEBUG RestTemplate:819 - Setting request Accept header to [application/json, application/*+json]
@@ -3252,7 +3252,7 @@ Caused by: java.lang.IllegalArgumentException: Cannot find a deserializer for no
 2019-06-14 11:54:11 DEBUG MainClientExec:285 - Connection can be kept alive indefinitely
 2019-06-14 11:54:11 DEBUG PoolingHttpClientConnectionManager:320 - Connection [id: 1][route: {}->http://localhost:8080] can be kept alive indefinitely
 2019-06-14 11:54:11 DEBUG PoolingHttpClientConnectionManager:326 - Connection released: [id: 1][route: {}->http://localhost:8080][total kept alive: 1; route allocated: 2 of 2; total allocated: 2 of 20]
-2019-06-14 11:54:51 INFO  SoapFileStorageServiceTest:26 - Add file rest test
+2019-06-14 11:54:51 INFO  SearchApiTest:26 - Add file rest test
 2019-06-14 11:54:51 INFO  ServiceFactory:17 - Create REST client
 2019-06-14 11:54:53 DEBUG RestTemplate:89 - Created POST request for "http://localhost:8080/RomanaChykaloFileStorageService/storageREST/files"
 2019-06-14 11:54:53 DEBUG RestTemplate:819 - Setting request Accept header to [application/json, application/*+json]
@@ -3330,7 +3330,7 @@ Caused by: java.lang.IllegalArgumentException: Cannot find a deserializer for no
 2019-06-14 11:54:54 DEBUG MainClientExec:285 - Connection can be kept alive indefinitely
 2019-06-14 11:54:54 DEBUG PoolingHttpClientConnectionManager:320 - Connection [id: 1][route: {}->http://localhost:8080] can be kept alive indefinitely
 2019-06-14 11:54:54 DEBUG PoolingHttpClientConnectionManager:326 - Connection released: [id: 1][route: {}->http://localhost:8080][total kept alive: 1; route allocated: 2 of 2; total allocated: 2 of 20]
-2019-06-14 11:54:54 INFO  SoapFileStorageServiceTest:26 - Add file rest test
+2019-06-14 11:54:54 INFO  SearchApiTest:26 - Add file rest test
 2019-06-14 11:54:54 INFO  ServiceFactory:17 - Create REST client
 2019-06-14 11:54:54 DEBUG RestTemplate:89 - Created POST request for "http://localhost:8080/RomanaChykaloFileStorageService/storageREST/files"
 2019-06-14 11:54:54 DEBUG RestTemplate:819 - Setting request Accept header to [application/json, application/*+json]
@@ -3375,7 +3375,7 @@ Caused by: java.lang.IllegalArgumentException: Cannot find a deserializer for no
 2019-06-14 11:54:54 DEBUG RequestAddCookies:123 - CookieSpec selected: default
 2019-06-14 11:54:54 DEBUG RequestAuthCache:77 - Auth cache not set in the context
 2019-06-14 11:54:54 DEBUG PoolingHttpClientConnectionManager:255 - Connection request: [route: {}->http://localhost:8080][total kept alive: 0; route allocated: 2 of 2; total allocated: 2 of 20]
-2019-06-14 11:59:01 INFO  SoapFileStorageServiceTest:26 - Add file rest test
+2019-06-14 11:59:01 INFO  SearchApiTest:26 - Add file rest test
 2019-06-14 11:59:01 INFO  ServiceFactory:17 - Create REST client
 2019-06-14 11:59:18 DEBUG RestTemplate:89 - Created POST request for "http://localhost:8080/RomanaChykaloFileStorageService/storageREST/files"
 2019-06-14 11:59:18 DEBUG RestTemplate:819 - Setting request Accept header to [application/json, application/*+json]
@@ -3453,7 +3453,7 @@ Caused by: java.lang.IllegalArgumentException: Cannot find a deserializer for no
 2019-06-14 11:59:31 DEBUG MainClientExec:285 - Connection can be kept alive indefinitely
 2019-06-14 11:59:31 DEBUG PoolingHttpClientConnectionManager:320 - Connection [id: 1][route: {}->http://localhost:8080] can be kept alive indefinitely
 2019-06-14 11:59:31 DEBUG PoolingHttpClientConnectionManager:326 - Connection released: [id: 1][route: {}->http://localhost:8080][total kept alive: 1; route allocated: 2 of 2; total allocated: 2 of 20]
-2019-06-14 11:59:54 INFO  SoapFileStorageServiceTest:26 - Add file rest test
+2019-06-14 11:59:54 INFO  SearchApiTest:26 - Add file rest test
 2019-06-14 11:59:54 INFO  ServiceFactory:17 - Create REST client
 2019-06-14 12:00:02 DEBUG RestTemplate:89 - Created POST request for "http://localhost:8080/RomanaChykaloFileStorageService/storageREST/files"
 2019-06-14 12:00:02 DEBUG RestTemplate:819 - Setting request Accept header to [application/json, application/*+json]
@@ -3499,7 +3499,7 @@ Caused by: java.lang.IllegalArgumentException: Cannot find a deserializer for no
 2019-06-14 12:00:07 DEBUG RequestAddCookies:123 - CookieSpec selected: default
 2019-06-14 12:00:07 DEBUG RequestAuthCache:77 - Auth cache not set in the context
 2019-06-14 12:00:07 DEBUG PoolingHttpClientConnectionManager:255 - Connection request: [route: {}->http://localhost:8080][total kept alive: 0; route allocated: 2 of 2; total allocated: 2 of 20]
-2019-06-14 12:01:49 INFO  SoapFileStorageServiceTest:26 - Add file rest test
+2019-06-14 12:01:49 INFO  SearchApiTest:26 - Add file rest test
 2019-06-14 12:01:49 INFO  ServiceFactory:17 - Create REST client
 2019-06-14 12:01:52 DEBUG RestTemplate:89 - Created POST request for "http://localhost:8080/RomanaChykaloFileStorageService/storageREST/files"
 2019-06-14 12:01:52 DEBUG RestTemplate:819 - Setting request Accept header to [application/json, application/*+json]
@@ -3577,7 +3577,7 @@ Caused by: java.lang.IllegalArgumentException: Cannot find a deserializer for no
 2019-06-14 12:01:55 DEBUG MainClientExec:285 - Connection can be kept alive indefinitely
 2019-06-14 12:01:55 DEBUG PoolingHttpClientConnectionManager:320 - Connection [id: 1][route: {}->http://localhost:8080] can be kept alive indefinitely
 2019-06-14 12:01:55 DEBUG PoolingHttpClientConnectionManager:326 - Connection released: [id: 1][route: {}->http://localhost:8080][total kept alive: 1; route allocated: 2 of 2; total allocated: 2 of 20]
-2019-06-14 12:02:35 INFO  SoapFileStorageServiceTest:26 - Add file rest test
+2019-06-14 12:02:35 INFO  SearchApiTest:26 - Add file rest test
 2019-06-14 12:02:35 INFO  ServiceFactory:17 - Create REST client
 2019-06-14 12:02:35 DEBUG RestTemplate:89 - Created POST request for "http://localhost:8080/RomanaChykaloFileStorageService/storageREST/files"
 2019-06-14 12:02:35 DEBUG RestTemplate:819 - Setting request Accept header to [application/json, application/*+json]
@@ -3623,7 +3623,7 @@ Caused by: java.lang.IllegalArgumentException: Cannot find a deserializer for no
 2019-06-14 12:02:46 DEBUG RequestAddCookies:123 - CookieSpec selected: default
 2019-06-14 12:02:46 DEBUG RequestAuthCache:77 - Auth cache not set in the context
 2019-06-14 12:02:46 DEBUG PoolingHttpClientConnectionManager:255 - Connection request: [route: {}->http://localhost:8080][total kept alive: 0; route allocated: 2 of 2; total allocated: 2 of 20]
-2019-06-14 12:05:09 INFO  SoapFileStorageServiceTest:26 - Add file rest test
+2019-06-14 12:05:09 INFO  SearchApiTest:26 - Add file rest test
 2019-06-14 12:05:09 INFO  ServiceFactory:17 - Create REST client
 2019-06-14 12:05:11 DEBUG RestTemplate:89 - Created POST request for "http://localhost:8080/RomanaChykaloFileStorageService/storageREST/files"
 2019-06-14 12:05:12 DEBUG RestTemplate:819 - Setting request Accept header to [application/json, application/*+json]
@@ -3701,13 +3701,13 @@ Caused by: java.lang.IllegalArgumentException: Cannot find a deserializer for no
 2019-06-14 12:05:45 DEBUG MainClientExec:285 - Connection can be kept alive indefinitely
 2019-06-14 12:05:45 DEBUG PoolingHttpClientConnectionManager:320 - Connection [id: 1][route: {}->http://localhost:8080] can be kept alive indefinitely
 2019-06-14 12:05:45 DEBUG PoolingHttpClientConnectionManager:326 - Connection released: [id: 1][route: {}->http://localhost:8080][total kept alive: 1; route allocated: 2 of 2; total allocated: 2 of 20]
-2019-06-14 12:06:04 INFO  SoapFileStorageServiceTest:26 - Add file rest test
+2019-06-14 12:06:04 INFO  SearchApiTest:26 - Add file rest test
 2019-06-14 12:06:04 INFO  ServiceFactory:17 - Create REST client
 2019-06-14 12:06:04 DEBUG RestTemplate:89 - Created POST request for "http://localhost:8080/RomanaChykaloFileStorageService/storageREST/files"
 2019-06-14 12:06:04 DEBUG RestTemplate:819 - Setting request Accept header to [application/json, application/*+json]
 2019-06-14 12:06:04 DEBUG RestTemplate:901 - Writing [UserFile{name='Data-storage', size=60, type=PDF}] using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@78065fcd]
 2019-06-14 12:06:04 DEBUG RestTemplate:721 - POST request for "http://localhost:8080/RomanaChykaloFileStorageService/storageREST/files" resulted in 406 (Not Acceptable); invoking error handler
-2019-06-14 12:06:17 INFO  SoapFileStorageServiceTest:26 - Add file rest test
+2019-06-14 12:06:17 INFO  SearchApiTest:26 - Add file rest test
 2019-06-14 12:06:17 INFO  ServiceFactory:17 - Create REST client
 2019-06-14 12:06:17 DEBUG RestTemplate:89 - Created POST request for "http://localhost:8080/RomanaChykaloFileStorageService/storageREST/files"
 2019-06-14 12:06:17 DEBUG RestTemplate:819 - Setting request Accept header to [application/json, application/*+json]
@@ -3753,7 +3753,7 @@ Caused by: java.lang.IllegalArgumentException: Cannot find a deserializer for no
 2019-06-14 12:06:28 DEBUG RequestAddCookies:123 - CookieSpec selected: default
 2019-06-14 12:06:28 DEBUG RequestAuthCache:77 - Auth cache not set in the context
 2019-06-14 12:06:28 DEBUG PoolingHttpClientConnectionManager:255 - Connection request: [route: {}->http://localhost:8080][total kept alive: 0; route allocated: 2 of 2; total allocated: 2 of 20]
-2019-06-14 12:12:24 INFO  SoapFileStorageServiceTest:26 - Add file rest test
+2019-06-14 12:12:24 INFO  SearchApiTest:26 - Add file rest test
 2019-06-14 12:12:24 INFO  ServiceFactory:17 - Create REST client
 2019-06-14 12:12:27 DEBUG RestTemplate:89 - Created POST request for "http://localhost:8080/RomanaChykaloFileStorageService/storageREST/files"
 2019-06-14 12:12:28 DEBUG RestTemplate:819 - Setting request Accept header to [application/json, application/*+json]
@@ -3831,7 +3831,7 @@ Caused by: java.lang.IllegalArgumentException: Cannot find a deserializer for no
 2019-06-14 12:12:37 DEBUG MainClientExec:285 - Connection can be kept alive indefinitely
 2019-06-14 12:12:37 DEBUG PoolingHttpClientConnectionManager:320 - Connection [id: 1][route: {}->http://localhost:8080] can be kept alive indefinitely
 2019-06-14 12:12:37 DEBUG PoolingHttpClientConnectionManager:326 - Connection released: [id: 1][route: {}->http://localhost:8080][total kept alive: 1; route allocated: 2 of 2; total allocated: 2 of 20]
-2019-06-14 12:12:53 INFO  SoapFileStorageServiceTest:26 - Add file rest test
+2019-06-14 12:12:53 INFO  SearchApiTest:26 - Add file rest test
 2019-06-14 12:12:53 INFO  ServiceFactory:17 - Create REST client
 2019-06-14 12:12:53 DEBUG RestTemplate:89 - Created POST request for "http://localhost:8080/RomanaChykaloFileStorageService/storageREST/files"
 2019-06-14 12:12:53 DEBUG RestTemplate:819 - Setting request Accept header to [application/json, application/*+json]
@@ -3877,7 +3877,7 @@ Caused by: java.lang.IllegalArgumentException: Cannot find a deserializer for no
 2019-06-14 12:12:53 DEBUG RequestAddCookies:123 - CookieSpec selected: default
 2019-06-14 12:12:53 DEBUG RequestAuthCache:77 - Auth cache not set in the context
 2019-06-14 12:12:53 DEBUG PoolingHttpClientConnectionManager:255 - Connection request: [route: {}->http://localhost:8080][total kept alive: 0; route allocated: 2 of 2; total allocated: 2 of 20]
-2019-06-14 12:21:51 INFO  SoapFileStorageServiceTest:26 - Add file rest test
+2019-06-14 12:21:51 INFO  SearchApiTest:26 - Add file rest test
 2019-06-14 12:21:51 INFO  ServiceFactory:17 - Create REST client
 2019-06-14 12:21:58 DEBUG RestTemplate:89 - Created POST request for "http://localhost:8080/RomanaChykaloFileStorageService/storageREST/files"
 2019-06-14 12:21:58 DEBUG RestTemplate:819 - Setting request Accept header to [application/json, application/*+json]
@@ -3955,7 +3955,7 @@ Caused by: java.lang.IllegalArgumentException: Cannot find a deserializer for no
 2019-06-14 12:22:05 DEBUG MainClientExec:285 - Connection can be kept alive indefinitely
 2019-06-14 12:22:05 DEBUG PoolingHttpClientConnectionManager:320 - Connection [id: 1][route: {}->http://localhost:8080] can be kept alive indefinitely
 2019-06-14 12:22:05 DEBUG PoolingHttpClientConnectionManager:326 - Connection released: [id: 1][route: {}->http://localhost:8080][total kept alive: 1; route allocated: 2 of 2; total allocated: 2 of 20]
-2019-06-14 12:22:21 INFO  SoapFileStorageServiceTest:26 - Add file rest test
+2019-06-14 12:22:21 INFO  SearchApiTest:26 - Add file rest test
 2019-06-14 12:22:21 INFO  ServiceFactory:17 - Create REST client
 2019-06-14 12:22:21 DEBUG RestTemplate:89 - Created POST request for "http://localhost:8080/RomanaChykaloFileStorageService/storageREST/files"
 2019-06-14 12:22:21 DEBUG RestTemplate:819 - Setting request Accept header to [application/json, application/*+json]
@@ -4001,7 +4001,7 @@ Caused by: java.lang.IllegalArgumentException: Cannot find a deserializer for no
 2019-06-14 12:22:24 DEBUG RequestAddCookies:123 - CookieSpec selected: default
 2019-06-14 12:22:24 DEBUG RequestAuthCache:77 - Auth cache not set in the context
 2019-06-14 12:22:24 DEBUG PoolingHttpClientConnectionManager:255 - Connection request: [route: {}->http://localhost:8080][total kept alive: 0; route allocated: 2 of 2; total allocated: 2 of 20]
-2019-06-14 12:25:06 INFO  SoapFileStorageServiceTest:26 - Add file rest test
+2019-06-14 12:25:06 INFO  SearchApiTest:26 - Add file rest test
 2019-06-14 12:25:06 INFO  ServiceFactory:17 - Create REST client
 2019-06-14 12:25:08 DEBUG RestTemplate:89 - Created POST request for "http://localhost:8080/RomanaChykaloFileStorageService/storageREST/files"
 2019-06-14 12:25:09 DEBUG RestTemplate:819 - Setting request Accept header to [application/json, application/*+json]
@@ -4079,7 +4079,7 @@ Caused by: java.lang.IllegalArgumentException: Cannot find a deserializer for no
 2019-06-14 12:25:09 DEBUG MainClientExec:285 - Connection can be kept alive indefinitely
 2019-06-14 12:25:09 DEBUG PoolingHttpClientConnectionManager:320 - Connection [id: 1][route: {}->http://localhost:8080] can be kept alive indefinitely
 2019-06-14 12:25:09 DEBUG PoolingHttpClientConnectionManager:326 - Connection released: [id: 1][route: {}->http://localhost:8080][total kept alive: 1; route allocated: 2 of 2; total allocated: 2 of 20]
-2019-06-14 12:25:09 INFO  SoapFileStorageServiceTest:26 - Add file rest test
+2019-06-14 12:25:09 INFO  SearchApiTest:26 - Add file rest test
 2019-06-14 12:25:09 INFO  ServiceFactory:17 - Create REST client
 2019-06-14 12:25:09 DEBUG RestTemplate:89 - Created POST request for "http://localhost:8080/RomanaChykaloFileStorageService/storageREST/files"
 2019-06-14 12:25:09 DEBUG RestTemplate:819 - Setting request Accept header to [application/json, application/*+json]
@@ -4124,7 +4124,7 @@ Caused by: java.lang.IllegalArgumentException: Cannot find a deserializer for no
 2019-06-14 12:25:09 DEBUG RequestAddCookies:123 - CookieSpec selected: default
 2019-06-14 12:25:09 DEBUG RequestAuthCache:77 - Auth cache not set in the context
 2019-06-14 12:25:09 DEBUG PoolingHttpClientConnectionManager:255 - Connection request: [route: {}->http://localhost:8080][total kept alive: 0; route allocated: 2 of 2; total allocated: 2 of 20]
-2019-06-14 12:32:01 INFO  SoapFileStorageServiceTest:26 - Add file rest test
+2019-06-14 12:32:01 INFO  SearchApiTest:26 - Add file rest test
 2019-06-14 12:32:01 INFO  ServiceFactory:17 - Create REST client
 2019-06-14 12:32:03 DEBUG RestTemplate:89 - Created POST request for "http://localhost:8080/RomanaChykaloFileStorageService/storageREST/files"
 2019-06-14 12:32:03 DEBUG RestTemplate:819 - Setting request Accept header to [application/json, application/*+json]
@@ -4169,7 +4169,7 @@ Caused by: java.lang.IllegalArgumentException: Cannot find a deserializer for no
 2019-06-14 12:32:09 DEBUG RestTemplate:819 - Setting request Accept header to [application/json, application/*+json]
 2019-06-14 12:32:09 DEBUG RestTemplate:721 - GET request for "http://localhost:8080/RomanaChykaloFileStorageService/storageREST/files/Data%20types" resulted in 200 (OK)
 2019-06-14 12:32:09 DEBUG RestTemplate:97 - Reading [class soap.UserFile] as "application/json;charset=UTF-8" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@2997ddfc]
-2019-06-14 12:32:50 INFO  SoapFileStorageServiceTest:26 - Add file rest test
+2019-06-14 12:32:50 INFO  SearchApiTest:26 - Add file rest test
 2019-06-14 12:32:50 INFO  ServiceFactory:17 - Create REST client
 2019-06-14 12:32:50 DEBUG RestTemplate:89 - Created POST request for "http://localhost:8080/RomanaChykaloFileStorageService/storageREST/files"
 2019-06-14 12:32:50 DEBUG RestTemplate:819 - Setting request Accept header to [application/json, application/*+json]
@@ -4214,7 +4214,7 @@ Caused by: java.lang.IllegalArgumentException: Cannot find a deserializer for no
 2019-06-14 12:32:52 DEBUG RestTemplate:819 - Setting request Accept header to [application/json, application/*+json]
 2019-06-14 12:32:52 DEBUG RestTemplate:721 - GET request for "http://localhost:8080/RomanaChykaloFileStorageService/storageREST/files/Data_storage" resulted in 200 (OK)
 2019-06-14 12:32:52 DEBUG RestTemplate:97 - Reading [class soap.UserFile] as "application/json;charset=UTF-8" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@7fc7152e]
-2019-06-14 12:33:10 INFO  SoapFileStorageServiceTest:26 - Add file rest test
+2019-06-14 12:33:10 INFO  SearchApiTest:26 - Add file rest test
 2019-06-14 12:33:10 INFO  ServiceFactory:17 - Create REST client
 2019-06-14 12:33:10 DEBUG RestTemplate:89 - Created POST request for "http://localhost:8080/RomanaChykaloFileStorageService/storageREST/files"
 2019-06-14 12:33:10 DEBUG RestTemplate:819 - Setting request Accept header to [application/json, application/*+json]
@@ -4223,7 +4223,7 @@ Caused by: java.lang.IllegalArgumentException: Cannot find a deserializer for no
 2019-06-14 12:33:11 DEBUG RequestAddCookies:123 - CookieSpec selected: default
 2019-06-14 12:33:11 DEBUG RequestAuthCache:77 - Auth cache not set in the context
 2019-06-14 12:33:11 DEBUG PoolingHttpClientConnectionManager:255 - Connection request: [route: {}->http://localhost:8080][total kept alive: 0; route allocated: 2 of 2; total allocated: 2 of 20]
-2019-06-14 12:37:14 INFO  SoapFileStorageServiceTest:26 - Add file rest test
+2019-06-14 12:37:14 INFO  SearchApiTest:26 - Add file rest test
 2019-06-14 12:37:14 INFO  ServiceFactory:17 - Create REST client
 2019-06-14 12:37:17 DEBUG RestTemplate:89 - Created POST request for "http://localhost:8080/RomanaChykaloFileStorageService/storageREST/files"
 2019-06-14 12:37:17 DEBUG RestTemplate:819 - Setting request Accept header to [application/json, application/*+json]
@@ -4268,8 +4268,8 @@ Caused by: java.lang.IllegalArgumentException: Cannot find a deserializer for no
 2019-06-14 12:37:27 DEBUG RestTemplate:819 - Setting request Accept header to [application/json, application/*+json]
 2019-06-14 12:37:27 DEBUG RestTemplate:721 - GET request for "http://localhost:8080/RomanaChykaloFileStorageService/storageREST/files/Data%20types" resulted in 200 (OK)
 2019-06-14 12:37:27 DEBUG RestTemplate:97 - Reading [class soap.UserFile] as "application/json;charset=UTF-8" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@5d194314]
-2019-06-14 12:37:28 INFO  SoapFileStorageServiceTest:34 - method is passed
-2019-06-14 12:38:07 INFO  SoapFileStorageServiceTest:26 - Add file rest test
+2019-06-14 12:37:28 INFO  SearchApiTest:34 - method is passed
+2019-06-14 12:38:07 INFO  SearchApiTest:26 - Add file rest test
 2019-06-14 12:38:07 INFO  ServiceFactory:17 - Create REST client
 2019-06-14 12:38:07 DEBUG RestTemplate:89 - Created POST request for "http://localhost:8080/RomanaChykaloFileStorageService/storageREST/files"
 2019-06-14 12:38:07 DEBUG RestTemplate:819 - Setting request Accept header to [application/json, application/*+json]
@@ -4314,8 +4314,8 @@ Caused by: java.lang.IllegalArgumentException: Cannot find a deserializer for no
 2019-06-14 12:38:15 DEBUG RestTemplate:819 - Setting request Accept header to [application/json, application/*+json]
 2019-06-14 12:38:15 DEBUG RestTemplate:721 - GET request for "http://localhost:8080/RomanaChykaloFileStorageService/storageREST/files/Data_storage" resulted in 200 (OK)
 2019-06-14 12:38:15 DEBUG RestTemplate:97 - Reading [class soap.UserFile] as "application/json;charset=UTF-8" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@3afca2c]
-2019-06-14 12:38:17 INFO  SoapFileStorageServiceTest:34 - method is passed
-2019-06-14 12:39:08 INFO  SoapFileStorageServiceTest:26 - Add file rest test
+2019-06-14 12:38:17 INFO  SearchApiTest:34 - method is passed
+2019-06-14 12:39:08 INFO  SearchApiTest:26 - Add file rest test
 2019-06-14 12:39:08 INFO  ServiceFactory:17 - Create REST client
 2019-06-14 12:39:08 DEBUG RestTemplate:89 - Created POST request for "http://localhost:8080/RomanaChykaloFileStorageService/storageREST/files"
 2019-06-14 12:39:08 DEBUG RestTemplate:819 - Setting request Accept header to [application/json, application/*+json]
@@ -4324,7 +4324,7 @@ Caused by: java.lang.IllegalArgumentException: Cannot find a deserializer for no
 2019-06-14 12:40:06 DEBUG RequestAddCookies:123 - CookieSpec selected: default
 2019-06-14 12:40:06 DEBUG RequestAuthCache:77 - Auth cache not set in the context
 2019-06-14 12:40:06 DEBUG PoolingHttpClientConnectionManager:255 - Connection request: [route: {}->http://localhost:8080][total kept alive: 0; route allocated: 2 of 2; total allocated: 2 of 20]
-2019-06-14 12:42:23 INFO  SoapFileStorageServiceTest:26 - Add file rest test
+2019-06-14 12:42:23 INFO  SearchApiTest:26 - Add file rest test
 2019-06-14 12:42:23 INFO  ServiceFactory:17 - Create REST client
 2019-06-14 12:42:25 DEBUG RestTemplate:89 - Created POST request for "http://localhost:8080/RomanaChykaloFileStorageService/storageREST/files"
 2019-06-14 12:42:25 DEBUG RestTemplate:819 - Setting request Accept header to [application/json, application/*+json]
@@ -4369,8 +4369,8 @@ Caused by: java.lang.IllegalArgumentException: Cannot find a deserializer for no
 2019-06-14 12:42:26 DEBUG RestTemplate:819 - Setting request Accept header to [application/json, application/*+json]
 2019-06-14 12:42:26 DEBUG RestTemplate:721 - GET request for "http://localhost:8080/RomanaChykaloFileStorageService/storageREST/files/Data%20types" resulted in 200 (OK)
 2019-06-14 12:42:26 DEBUG RestTemplate:97 - Reading [class soap.UserFile] as "application/json;charset=UTF-8" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@58437801]
-2019-06-14 12:42:26 INFO  SoapFileStorageServiceTest:34 - method is passed
-2019-06-14 12:42:26 INFO  SoapFileStorageServiceTest:26 - Add file rest test
+2019-06-14 12:42:26 INFO  SearchApiTest:34 - method is passed
+2019-06-14 12:42:26 INFO  SearchApiTest:26 - Add file rest test
 2019-06-14 12:42:26 INFO  ServiceFactory:17 - Create REST client
 2019-06-14 12:42:26 DEBUG RestTemplate:89 - Created POST request for "http://localhost:8080/RomanaChykaloFileStorageService/storageREST/files"
 2019-06-14 12:42:26 DEBUG RestTemplate:819 - Setting request Accept header to [application/json, application/*+json]
@@ -4415,8 +4415,8 @@ Caused by: java.lang.IllegalArgumentException: Cannot find a deserializer for no
 2019-06-14 12:42:26 DEBUG RestTemplate:819 - Setting request Accept header to [application/json, application/*+json]
 2019-06-14 12:42:26 DEBUG RestTemplate:721 - GET request for "http://localhost:8080/RomanaChykaloFileStorageService/storageREST/files/Data_storage" resulted in 200 (OK)
 2019-06-14 12:42:26 DEBUG RestTemplate:97 - Reading [class soap.UserFile] as "application/json;charset=UTF-8" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@5416f8db]
-2019-06-14 12:42:26 INFO  SoapFileStorageServiceTest:34 - method is passed
-2019-06-14 12:42:26 INFO  SoapFileStorageServiceTest:26 - Add file rest test
+2019-06-14 12:42:26 INFO  SearchApiTest:34 - method is passed
+2019-06-14 12:42:26 INFO  SearchApiTest:26 - Add file rest test
 2019-06-14 12:42:26 INFO  ServiceFactory:17 - Create REST client
 2019-06-14 12:42:26 DEBUG RestTemplate:89 - Created POST request for "http://localhost:8080/RomanaChykaloFileStorageService/storageREST/files"
 2019-06-14 12:42:26 DEBUG RestTemplate:819 - Setting request Accept header to [application/json, application/*+json]
@@ -4425,21 +4425,21 @@ Caused by: java.lang.IllegalArgumentException: Cannot find a deserializer for no
 2019-06-14 12:42:26 DEBUG RequestAddCookies:123 - CookieSpec selected: default
 2019-06-14 12:42:26 DEBUG RequestAuthCache:77 - Auth cache not set in the context
 2019-06-14 12:42:26 DEBUG PoolingHttpClientConnectionManager:255 - Connection request: [route: {}->http://localhost:8080][total kept alive: 0; route allocated: 2 of 2; total allocated: 2 of 20]
-2019-06-14 12:45:18 INFO  SoapFileStorageServiceTest:26 - Add file rest test
+2019-06-14 12:45:18 INFO  SearchApiTest:26 - Add file rest test
 2019-06-14 12:45:18 INFO  ServiceFactory:13 - Create SOAP client
-2019-06-14 12:45:21 INFO  SoapFileStorageServiceTest:26 - Add file rest test
+2019-06-14 12:45:21 INFO  SearchApiTest:26 - Add file rest test
 2019-06-14 12:45:21 INFO  ServiceFactory:13 - Create SOAP client
-2019-06-14 12:45:21 INFO  SoapFileStorageServiceTest:26 - Add file rest test
+2019-06-14 12:45:21 INFO  SearchApiTest:26 - Add file rest test
 2019-06-14 12:45:21 INFO  ServiceFactory:13 - Create SOAP client
-2019-06-14 12:51:32 INFO  SoapFileStorageServiceTest:26 - Add file rest test
+2019-06-14 12:51:32 INFO  SearchApiTest:26 - Add file rest test
 2019-06-14 12:51:38 INFO  ServiceFactory:13 - Create SOAP client
-2019-06-14 12:54:13 INFO  SoapFileStorageServiceTest:26 - Add file rest test
+2019-06-14 12:54:13 INFO  SearchApiTest:26 - Add file rest test
 2019-06-14 12:54:37 INFO  ServiceFactory:13 - Create SOAP client
-2019-06-14 12:57:28 INFO  SoapFileStorageServiceTest:26 - Add file rest test
+2019-06-14 12:57:28 INFO  SearchApiTest:26 - Add file rest test
 2019-06-14 12:57:28 INFO  ServiceFactory:13 - Create SOAP client
-2019-06-14 12:59:40 INFO  SoapFileStorageServiceTest:26 - Add file rest test
+2019-06-14 12:59:40 INFO  SearchApiTest:26 - Add file rest test
 2019-06-14 12:59:40 INFO  ServiceFactory:13 - Create SOAP client
-2019-06-14 20:52:20 INFO  SoapFileStorageServiceTest:26 - Add file rest test
+2019-06-14 20:52:20 INFO  SearchApiTest:26 - Add file rest test
 2019-06-14 20:52:20 INFO  ServiceFactory:17 - Create REST client
 2019-06-14 20:52:24 DEBUG RestTemplate:89 - Created POST request for "http://localhost:8080/RomanaChykaloFileStorageService/storageREST/files"
 2019-06-14 20:52:24 DEBUG RestTemplate:819 - Setting request Accept header to [application/json, application/*+json]
@@ -4484,7 +4484,7 @@ Caused by: java.lang.IllegalArgumentException: Cannot find a deserializer for no
 2019-06-14 20:52:26 DEBUG RestTemplate:819 - Setting request Accept header to [application/json, application/*+json]
 2019-06-14 20:52:26 DEBUG RestTemplate:721 - GET request for "http://localhost:8080/RomanaChykaloFileStorageService/storageREST/files/Data%20types" resulted in 200 (OK)
 2019-06-14 20:52:26 DEBUG RestTemplate:97 - Reading [class soap.UserFile] as "application/json;charset=UTF-8" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@76464795]
-2019-06-14 20:52:26 INFO  SoapFileStorageServiceTest:26 - Add file rest test
+2019-06-14 20:52:26 INFO  SearchApiTest:26 - Add file rest test
 2019-06-14 20:52:26 INFO  ServiceFactory:17 - Create REST client
 2019-06-14 20:52:26 DEBUG RestTemplate:89 - Created POST request for "http://localhost:8080/RomanaChykaloFileStorageService/storageREST/files"
 2019-06-14 20:52:26 DEBUG RestTemplate:819 - Setting request Accept header to [application/json, application/*+json]
@@ -4529,7 +4529,7 @@ Caused by: java.lang.IllegalArgumentException: Cannot find a deserializer for no
 2019-06-14 20:52:26 DEBUG RestTemplate:819 - Setting request Accept header to [application/json, application/*+json]
 2019-06-14 20:52:26 DEBUG RestTemplate:721 - GET request for "http://localhost:8080/RomanaChykaloFileStorageService/storageREST/files/Data_storage" resulted in 200 (OK)
 2019-06-14 20:52:26 DEBUG RestTemplate:97 - Reading [class soap.UserFile] as "application/json;charset=UTF-8" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@4f654cee]
-2019-06-14 20:52:26 INFO  SoapFileStorageServiceTest:26 - Add file rest test
+2019-06-14 20:52:26 INFO  SearchApiTest:26 - Add file rest test
 2019-06-14 20:52:26 INFO  ServiceFactory:17 - Create REST client
 2019-06-14 20:52:26 DEBUG RestTemplate:89 - Created POST request for "http://localhost:8080/RomanaChykaloFileStorageService/storageREST/files"
 2019-06-14 20:52:26 DEBUG RestTemplate:819 - Setting request Accept header to [application/json, application/*+json]
@@ -4538,29 +4538,29 @@ Caused by: java.lang.IllegalArgumentException: Cannot find a deserializer for no
 2019-06-14 20:52:26 DEBUG RequestAddCookies:123 - CookieSpec selected: default
 2019-06-14 20:52:26 DEBUG RequestAuthCache:77 - Auth cache not set in the context
 2019-06-14 20:52:26 DEBUG PoolingHttpClientConnectionManager:255 - Connection request: [route: {}->http://localhost:8080][total kept alive: 0; route allocated: 2 of 2; total allocated: 2 of 20]
-2019-06-14 20:54:28 INFO  SoapFileStorageServiceTest:26 - Add file rest test
-2019-06-14 20:54:28 INFO  SoapFileStorageServiceTest:26 - Add file rest test
-2019-06-14 20:54:28 INFO  SoapFileStorageServiceTest:26 - Add file rest test
-2019-06-14 20:54:28 INFO  SoapFileStorageServiceTest:26 - Add file rest test
-2019-06-14 20:55:16 INFO  SoapFileStorageServiceTest:26 - Add file rest test
+2019-06-14 20:54:28 INFO  SearchApiTest:26 - Add file rest test
+2019-06-14 20:54:28 INFO  SearchApiTest:26 - Add file rest test
+2019-06-14 20:54:28 INFO  SearchApiTest:26 - Add file rest test
+2019-06-14 20:54:28 INFO  SearchApiTest:26 - Add file rest test
+2019-06-14 20:55:16 INFO  SearchApiTest:26 - Add file rest test
 2019-06-14 20:55:16 INFO  ServiceFactory:17 - Create REST client
 2019-06-14 20:55:18 DEBUG RestTemplate:89 - Created POST request for "http://localhost:8080/RomanaChykaloFileStorageService/storageREST/files"
 2019-06-14 20:55:18 DEBUG RestTemplate:819 - Setting request Accept header to [application/json, application/*+json]
 2019-06-14 20:55:18 DEBUG RestTemplate:901 - Writing [UserFile{name='Data types', size=860, type=DOC}] using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@24534cb0]
 2019-06-14 20:55:18 DEBUG RestTemplate:721 - POST request for "http://localhost:8080/RomanaChykaloFileStorageService/storageREST/files" resulted in 200 (OK)
-2019-06-14 20:55:18 INFO  SoapFileStorageServiceTest:26 - Add file rest test
+2019-06-14 20:55:18 INFO  SearchApiTest:26 - Add file rest test
 2019-06-14 20:55:18 INFO  ServiceFactory:17 - Create REST client
 2019-06-14 20:55:18 DEBUG RestTemplate:89 - Created POST request for "http://localhost:8080/RomanaChykaloFileStorageService/storageREST/files"
 2019-06-14 20:55:18 DEBUG RestTemplate:819 - Setting request Accept header to [application/json, application/*+json]
 2019-06-14 20:55:18 DEBUG RestTemplate:901 - Writing [UserFile{name='Data_storage', size=60, type=PDF}] using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@7dffda8b]
 2019-06-14 20:55:18 DEBUG RestTemplate:721 - POST request for "http://localhost:8080/RomanaChykaloFileStorageService/storageREST/files" resulted in 200 (OK)
-2019-06-14 20:55:18 INFO  SoapFileStorageServiceTest:26 - Add file rest test
+2019-06-14 20:55:18 INFO  SearchApiTest:26 - Add file rest test
 2019-06-14 20:55:18 INFO  ServiceFactory:17 - Create REST client
 2019-06-14 20:55:18 DEBUG RestTemplate:89 - Created POST request for "http://localhost:8080/RomanaChykaloFileStorageService/storageREST/files"
 2019-06-14 20:55:18 DEBUG RestTemplate:819 - Setting request Accept header to [application/json, application/*+json]
 2019-06-14 20:55:18 DEBUG RestTemplate:901 - Writing [UserFile{name='MyData', size=999, type=PDF}] using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@41ad373]
 2019-06-14 20:55:18 DEBUG RestTemplate:721 - POST request for "http://localhost:8080/RomanaChykaloFileStorageService/storageREST/files" resulted in 200 (OK)
-2019-06-14 20:55:18 INFO  SoapFileStorageServiceTest:26 - Add file rest test
+2019-06-14 20:55:18 INFO  SearchApiTest:26 - Add file rest test
 2019-06-14 20:55:18 INFO  ServiceFactory:17 - Create REST client
 2019-06-14 20:55:18 DEBUG RestTemplate:89 - Created POST request for "http://localhost:8080/RomanaChykaloFileStorageService/storageREST/files"
 2019-06-14 20:55:18 DEBUG RestTemplate:819 - Setting request Accept header to [application/json, application/*+json]
@@ -4570,3 +4570,205 @@ Caused by: java.lang.IllegalArgumentException: Cannot find a deserializer for no
 2019-06-15 14:35:00 DEBUG RestTemplate:819 - Setting request Accept header to [application/json, application/*+json]
 2019-06-15 14:35:00 DEBUG RestTemplate:721 - GET request for "http://localhost:8080/RomanaChykaloFileStorageService/storageREST/files" resulted in 200 (OK)
 2019-06-15 14:35:00 DEBUG RestTemplate:97 - Reading [interface java.util.List] as "application/json;charset=UTF-8" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@27adc16e]
+2019-06-15 14:55:53 DEBUG RestTemplate:89 - Created GET request for "http://localhost:8080/RomanaChykaloFileStorageService/storageREST/files"
+2019-06-15 14:55:53 DEBUG RestTemplate:819 - Setting request Accept header to [application/json, application/*+json]
+2019-06-15 14:55:53 DEBUG RestTemplate:721 - GET request for "http://localhost:8080/RomanaChykaloFileStorageService/storageREST/files" resulted in 200 (OK)
+2019-06-15 14:55:53 DEBUG RestTemplate:97 - Reading [interface java.util.List] as "application/json;charset=UTF-8" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@30c8681]
+[INFO ] 2019-06-15 20:07:30.398 AddDeleteApiTest:63 - Add file to storage soap positive test...
+[INFO ] 2019-06-15 20:07:31.714 AddDeleteApiTest:68 - Size of storage before file adding 3
+[INFO ] 2019-06-15 20:07:31.757 AddDeleteApiTest:70 - Added file to storage: UserFile{name='letter to grandma', size=400, type=WKS}
+[INFO ] 2019-06-15 20:07:31.769 AddDeleteApiTest:73 - Size of storage after file adding 4
+[INFO ] 2019-06-15 20:07:32.069 AddDeleteApiTest:33 - Try to add files with no-acceptable data...
+[DEBUG] 2019-06-15 20:07:35.299 AddDeleteApiTest:42 -  File was not added, exception message: HTTP response code 406 instead of 200
+[INFO ] 2019-06-15 20:07:35.317 AddDeleteApiTest:47 - Size of storage before operation: 3 = size of storage after operation 3, file with size: 1100 was not added
+[INFO ] 2019-06-15 20:07:35.345 AddDeleteApiTest:33 - Try to add files with no-acceptable data...
+[DEBUG] 2019-06-15 20:07:35.435 AddDeleteApiTest:42 -  File was not added, exception message: HTTP response code 406 instead of 200
+[INFO ] 2019-06-15 20:07:35.492 AddDeleteApiTest:47 - Size of storage before operation: 3 = size of storage after operation 3, file with size: 2100 was not added
+[INFO ] 2019-06-15 20:07:35.498 AddDeleteApiTest:33 - Try to add files with no-acceptable data...
+[DEBUG] 2019-06-15 20:07:35.571 AddDeleteApiTest:42 -  File was not added, exception message: HTTP response code 406 instead of 200
+[INFO ] 2019-06-15 20:07:35.612 AddDeleteApiTest:47 - Size of storage before operation: 3 = size of storage after operation 3, file with size: 2100 was not added
+[INFO ] 2019-06-15 20:07:35.629 AddDeleteApiTest:53 - Add files with acceptable data rest
+[INFO ] 2019-06-15 20:07:35.677 AddDeleteApiTest:57 - File: UserFile{name='Data types', size=860, type=DOC} was added
+[INFO ] 2019-06-15 20:07:36.240 AddDeleteApiTest:53 - Add files with acceptable data rest
+[INFO ] 2019-06-15 20:07:36.250 AddDeleteApiTest:57 - File: UserFile{name='Data_storage', size=60, type=PDF} was added
+[INFO ] 2019-06-15 20:07:36.272 AddDeleteApiTest:53 - Add files with acceptable data rest
+[INFO ] 2019-06-15 20:07:36.283 AddDeleteApiTest:57 - File: UserFile{name='MyData', size=999, type=PDF} was added
+[INFO ] 2019-06-15 20:07:36.337 AddDeleteApiTest:53 - Add files with acceptable data rest
+[INFO ] 2019-06-15 20:07:36.547 AddDeleteApiTest:57 - File: UserFile{name='Festivalle', size=111, type=DOC} was added
+[INFO ] 2019-06-15 20:07:36.760 AddDeleteApiTest:53 - Add files with acceptable data rest
+[INFO ] 2019-06-15 20:07:36.773 AddDeleteApiTest:57 - File: UserFile{name='MyDoca', size=11, type=DOC} was added
+[INFO ] 2019-06-15 20:07:36.813 AddDeleteApiTest:81 - Delete file from storage rest-test....
+[INFO ] 2019-06-15 20:07:36.851 AddDeleteApiTest:86 - Removed file with name: Validation form
+[INFO ] 2019-06-15 20:07:36.852 AddDeleteApiTest:89 - Looking for deleted file...
+[INFO ] 2019-06-15 20:07:36.941 AddDeleteApiTest:93 - Response: 404 Not Found, searched file was deleted
+[INFO ] 2019-06-15 20:07:36.947 AddDeleteApiTest:99 - Delete file from storage soap-test....
+[INFO ] 2019-06-15 20:07:37.083 AddDeleteApiTest:104 - Removed file with name: Validation form
+[INFO ] 2019-06-15 20:07:37.083 AddDeleteApiTest:107 - Looking for deleted file...
+[INFO ] 2019-06-15 20:07:37.205 AddDeleteApiTest:111 - Response:  There is no file with  such name, searched file was deleted
+[INFO ] 2019-06-15 20:07:37.620 SearchApiTest:128 - Add file to storage must throw SoapServiceException test....
+[INFO ] 2019-06-15 20:07:37.849 SearchApiTest:55 - ....Get all files from storage rest test.....
+[INFO ] 2019-06-15 20:07:37.875 SearchApiTest:60 - Got all files from storage: [UserFile{name='Calendar', size=23, type=DOC}, UserFile{name='My planner', size=180, type=PDF}, UserFile{name='Trip-plan', size=100, type=TXT}, UserFile{name='laptop configuration', size=500, type=ODT}, UserFile{name='my birthday party menu', size=766, type=ODT}, UserFile{name='salary report', size=89, type=ODT}]
+[INFO ] 2019-06-15 20:07:37.880 SearchApiTest:43 - ....Get all files from storage soap test.....
+[INFO ] 2019-06-15 20:07:38.037 SearchApiTest:47 - Got all files from storage: [UserFile{name='Calendar', size=23, type=DOC}, UserFile{name='My planner', size=180, type=PDF}, UserFile{name='Trip-plan', size=100, type=TXT}, UserFile{name='laptop configuration', size=500, type=ODT}, UserFile{name='my birthday party menu', size=766, type=ODT}, UserFile{name='salary report', size=89, type=ODT}]
+[INFO ] 2019-06-15 20:07:38.041 SearchApiTest:96 - Search file by name test...
+[INFO ] 2019-06-15 20:07:38.128 SearchApiTest:101 - Add file: UserFile{name='Validation form', size=20, type=ODT} for testing rest search methods
+[INFO ] 2019-06-15 20:07:38.182 SearchApiTest:104 - File is found
+[INFO ] 2019-06-15 20:07:38.193 SearchApiTest:82 - Search files by type rest test...
+[INFO ] 2019-06-15 20:07:38.220 SearchApiTest:88 - Find: 3 files with ODT type
+[INFO ] 2019-06-15 20:07:38.229 SearchApiTest:69 - ....Search files by type soap test...
+[INFO ] 2019-06-15 20:07:38.433 SearchApiTest:75 - Find: 3 files with ODT type
+[INFO ] 2019-06-15 20:07:38.467 SearchApiTest:119 - Search non present file in storage
+[INFO ] 2019-06-15 21:52:11.143 CustomListener:26 - ------------------TEST START---------------------- 
+[INFO ] 2019-06-15 21:52:11.202 CustomListener:27 - TEST STARTED in time: Sat Jun 15 21:52:11 EEST 2019
+[INFO ] 2019-06-15 21:52:11.477 AddDeleteApiTest:65 - .....Add file to storage soap positive test...
+[INFO ] 2019-06-15 21:52:40.821 AddDeleteApiTest:70 - Size of storage before file adding 3
+[INFO ] 2019-06-15 21:52:41.345 AddDeleteApiTest:72 - Added file to storage: UserFile{name='letter to grandma', size=400, type=WKS}
+[INFO ] 2019-06-15 21:52:41.437 AddDeleteApiTest:75 - Size of storage after file adding 4
+[INFO ] 2019-06-15 21:52:41.774 CustomListener:39 -  Result : SUCCESS : addFileToStorageSoap
+[INFO ] 2019-06-15 21:52:41.809 CustomListener:53 - Start read logs...........
+[INFO ] 2019-06-15 21:52:42.241 AddDeleteApiTest:35 - ....Try to add files with no-acceptable data....
+[DEBUG] 2019-06-15 21:52:47.996 AddDeleteApiTest:44 -  File was not added, exception message: HTTP response code 406 instead of 200
+[INFO ] 2019-06-15 21:52:48.065 AddDeleteApiTest:49 - Size of storage before operation: 3 = size of storage after operation 3, file with size: 1100 was not added
+[INFO ] 2019-06-15 21:52:48.067 CustomListener:39 -  Result : SUCCESS : addFilesNegativeRest
+[INFO ] 2019-06-15 21:52:48.068 CustomListener:53 - Start read logs...........
+[INFO ] 2019-06-15 21:52:48.090 AddDeleteApiTest:35 - ....Try to add files with no-acceptable data....
+[DEBUG] 2019-06-15 21:52:48.170 AddDeleteApiTest:44 -  File was not added, exception message: HTTP response code 406 instead of 200
+[INFO ] 2019-06-15 21:52:48.188 AddDeleteApiTest:49 - Size of storage before operation: 3 = size of storage after operation 3, file with size: 2100 was not added
+[INFO ] 2019-06-15 21:52:48.189 CustomListener:39 -  Result : SUCCESS : addFilesNegativeRest
+[INFO ] 2019-06-15 21:52:48.190 CustomListener:53 - Start read logs...........
+[INFO ] 2019-06-15 21:52:48.205 AddDeleteApiTest:35 - ....Try to add files with no-acceptable data....
+[DEBUG] 2019-06-15 21:52:48.411 AddDeleteApiTest:44 -  File was not added, exception message: HTTP response code 406 instead of 200
+[INFO ] 2019-06-15 21:52:48.454 AddDeleteApiTest:49 - Size of storage before operation: 3 = size of storage after operation 3, file with size: 2100 was not added
+[INFO ] 2019-06-15 21:52:48.455 CustomListener:39 -  Result : SUCCESS : addFilesNegativeRest
+[INFO ] 2019-06-15 21:52:48.455 CustomListener:53 - Start read logs...........
+[INFO ] 2019-06-15 21:52:48.464 AddDeleteApiTest:55 - ....Add files with acceptable data rest....
+[INFO ] 2019-06-15 21:52:48.594 AddDeleteApiTest:59 - File: UserFile{name='Data types', size=860, type=DOC} was added
+[INFO ] 2019-06-15 21:52:49.205 CustomListener:39 -  Result : SUCCESS : addFilesPositiveRest
+[INFO ] 2019-06-15 21:52:49.205 CustomListener:53 - Start read logs...........
+[INFO ] 2019-06-15 21:52:49.218 AddDeleteApiTest:55 - ....Add files with acceptable data rest....
+[INFO ] 2019-06-15 21:52:49.297 AddDeleteApiTest:59 - File: UserFile{name='Data_storage', size=60, type=PDF} was added
+[INFO ] 2019-06-15 21:52:49.376 CustomListener:39 -  Result : SUCCESS : addFilesPositiveRest
+[INFO ] 2019-06-15 21:52:49.376 CustomListener:53 - Start read logs...........
+[INFO ] 2019-06-15 21:52:49.384 AddDeleteApiTest:55 - ....Add files with acceptable data rest....
+[INFO ] 2019-06-15 21:52:49.398 AddDeleteApiTest:59 - File: UserFile{name='MyData', size=999, type=PDF} was added
+[INFO ] 2019-06-15 21:52:49.476 CustomListener:39 -  Result : SUCCESS : addFilesPositiveRest
+[INFO ] 2019-06-15 21:52:49.477 CustomListener:53 - Start read logs...........
+[INFO ] 2019-06-15 21:52:49.483 AddDeleteApiTest:55 - ....Add files with acceptable data rest....
+[INFO ] 2019-06-15 21:52:49.494 AddDeleteApiTest:59 - File: UserFile{name='Festivalle', size=111, type=DOC} was added
+[INFO ] 2019-06-15 21:52:49.655 CustomListener:39 -  Result : SUCCESS : addFilesPositiveRest
+[INFO ] 2019-06-15 21:52:49.655 CustomListener:53 - Start read logs...........
+[INFO ] 2019-06-15 21:52:49.664 AddDeleteApiTest:55 - ....Add files with acceptable data rest....
+[INFO ] 2019-06-15 21:52:49.720 AddDeleteApiTest:59 - File: UserFile{name='MyDoca', size=11, type=DOC} was added
+[INFO ] 2019-06-15 21:52:49.744 CustomListener:39 -  Result : SUCCESS : addFilesPositiveRest
+[INFO ] 2019-06-15 21:52:49.744 CustomListener:53 - Start read logs...........
+[INFO ] 2019-06-15 21:52:49.752 AddDeleteApiTest:83 - .......Delete file from storage rest-test......
+[INFO ] 2019-06-15 21:52:49.841 AddDeleteApiTest:88 - Removed file with name: Validation form
+[INFO ] 2019-06-15 21:52:49.841 AddDeleteApiTest:91 - Looking for deleted file...
+[INFO ] 2019-06-15 21:52:49.895 AddDeleteApiTest:95 - Response: 404 Not Found, searched file was deleted
+[INFO ] 2019-06-15 21:52:49.895 CustomListener:39 -  Result : SUCCESS : deleteFileRest
+[INFO ] 2019-06-15 21:52:49.896 CustomListener:53 - Start read logs...........
+[INFO ] 2019-06-15 21:52:49.905 AddDeleteApiTest:101 - ......Delete file from storage soap-test....
+[INFO ] 2019-06-15 21:52:50.093 AddDeleteApiTest:106 - Removed file with name: Validation form
+[INFO ] 2019-06-15 21:52:50.093 AddDeleteApiTest:109 - Looking for deleted file...
+[INFO ] 2019-06-15 21:52:50.759 AddDeleteApiTest:113 - Response:  There is no file with  such name, searched file was deleted
+[INFO ] 2019-06-15 21:52:50.760 CustomListener:39 -  Result : SUCCESS : deleteFileSoap
+[INFO ] 2019-06-15 21:52:50.760 CustomListener:53 - Start read logs...........
+[INFO ] 2019-06-15 21:52:51.052 SearchApiTest:129 - ....Add file to storage must throw SoapServiceException test.....
+[INFO ] 2019-06-15 21:52:51.305 CustomListener:39 -  Result : SUCCESS : addFileToStorageShouldThrowExcSoap
+[INFO ] 2019-06-15 21:52:51.305 CustomListener:53 - Start read logs...........
+[INFO ] 2019-06-15 21:52:51.313 SearchApiTest:56 - ....Get all files from storage rest test.....
+[INFO ] 2019-06-15 21:52:51.334 SearchApiTest:61 - Got all files from storage: [UserFile{name='Calendar', size=23, type=DOC}, UserFile{name='My planner', size=180, type=PDF}, UserFile{name='Trip-plan', size=100, type=TXT}, UserFile{name='laptop configuration', size=500, type=ODT}, UserFile{name='my birthday party menu', size=766, type=ODT}, UserFile{name='salary report', size=89, type=ODT}]
+[INFO ] 2019-06-15 21:52:51.335 CustomListener:39 -  Result : SUCCESS : getAllFilesFromStorageRest
+[INFO ] 2019-06-15 21:52:51.336 CustomListener:53 - Start read logs...........
+[INFO ] 2019-06-15 21:52:51.344 SearchApiTest:44 - ....Get all files from storage soap test.....
+[INFO ] 2019-06-15 21:52:51.461 SearchApiTest:48 - Got all files from storage: [UserFile{name='Calendar', size=23, type=DOC}, UserFile{name='My planner', size=180, type=PDF}, UserFile{name='Trip-plan', size=100, type=TXT}, UserFile{name='laptop configuration', size=500, type=ODT}, UserFile{name='my birthday party menu', size=766, type=ODT}, UserFile{name='salary report', size=89, type=ODT}]
+[INFO ] 2019-06-15 21:52:51.463 CustomListener:39 -  Result : SUCCESS : getAllFilesFromStorageSoap
+[INFO ] 2019-06-15 21:52:51.463 CustomListener:53 - Start read logs...........
+[INFO ] 2019-06-15 21:52:51.471 SearchApiTest:97 - ....Search file by name test....
+[INFO ] 2019-06-15 21:52:51.786 SearchApiTest:102 - Add file: UserFile{name='Validation form', size=20, type=ODT} for testing rest search methods
+[INFO ] 2019-06-15 21:52:51.840 SearchApiTest:105 - File is found
+[INFO ] 2019-06-15 21:52:51.867 CustomListener:39 -  Result : SUCCESS : searchByNameSoapAndRest
+[INFO ] 2019-06-15 21:52:51.868 CustomListener:53 - Start read logs...........
+[INFO ] 2019-06-15 21:52:51.875 SearchApiTest:83 - ....Search files by type rest test....
+[INFO ] 2019-06-15 21:52:51.954 SearchApiTest:89 - Find: 3 files with ODT type
+[INFO ] 2019-06-15 21:52:51.955 CustomListener:39 -  Result : SUCCESS : searchByTypeRest
+[INFO ] 2019-06-15 21:52:51.956 CustomListener:53 - Start read logs...........
+[INFO ] 2019-06-15 21:52:51.965 SearchApiTest:70 - ....Search files by type soap test...
+[INFO ] 2019-06-15 21:52:52.138 SearchApiTest:76 - Find: 3 files with ODT type
+[INFO ] 2019-06-15 21:52:52.141 CustomListener:39 -  Result : SUCCESS : searchByTypeSoap
+[INFO ] 2019-06-15 21:52:52.142 CustomListener:53 - Start read logs...........
+[INFO ] 2019-06-15 21:52:52.166 CustomListener:39 -  Result : SUCCESS : searchNonPresentFileShouldThrowExcRest
+[INFO ] 2019-06-15 21:52:52.167 CustomListener:53 - Start read logs...........
+[INFO ] 2019-06-15 21:52:52.175 SearchApiTest:120 - ....Search non present file in storage.......
+[INFO ] 2019-06-15 21:52:52.264 CustomListener:39 -  Result : SUCCESS : searchNonPresentFileShouldThrowExcSoap
+[INFO ] 2019-06-15 21:52:52.264 CustomListener:53 - Start read logs...........
+[INFO ] 2019-06-15 21:52:52.513 CustomListener:32 - TEST FINISHED in time: Sat Jun 15 21:52:52 EEST 2019
+[INFO ] 2019-06-15 21:52:52.513 CustomListener:33 - ------------------TEST FINISH---------------------- 
+[INFO ] 2019-06-15 22:29:20.391 CustomListener:26 - ------------------TEST START---------------------- 
+[INFO ] 2019-06-15 22:29:20.416 CustomListener:27 - TEST STARTED in time: Sat Jun 15 22:29:20 EEST 2019
+[INFO ] 2019-06-15 22:29:20.679 AddDeleteApiTest:65 - .....Add file to storage soap positive test...
+[INFO ] 2019-06-15 22:29:22.607 AddDeleteApiTest:70 - Size of storage before file adding 3
+[INFO ] 2019-06-15 22:29:22.628 AddDeleteApiTest:72 - Added file to storage: UserFile{name='letter to grandma', size=400, type=WKS}
+[INFO ] 2019-06-15 22:29:22.685 AddDeleteApiTest:75 - Size of storage after file adding 4
+[INFO ] 2019-06-15 22:29:22.820 CustomListener:40 -  Result : SUCCESS : addFileToStorageSoap
+[INFO ] 2019-06-15 22:29:23.096 AddDeleteApiTest:35 - ....Try to add files with no-acceptable data....
+[DEBUG] 2019-06-15 22:29:26.591 AddDeleteApiTest:44 -  File was not added, exception message: HTTP response code 406 instead of 200
+[INFO ] 2019-06-15 22:29:26.751 AddDeleteApiTest:49 - Size of storage before operation: 3 = size of storage after operation 3, file with size: 1100 was not added
+[INFO ] 2019-06-15 22:29:26.753 CustomListener:40 -  Result : SUCCESS : addFilesNegativeRest
+[INFO ] 2019-06-15 22:29:26.769 AddDeleteApiTest:35 - ....Try to add files with no-acceptable data....
+[DEBUG] 2019-06-15 22:29:27.122 AddDeleteApiTest:44 -  File was not added, exception message: HTTP response code 406 instead of 200
+[INFO ] 2019-06-15 22:29:27.171 AddDeleteApiTest:49 - Size of storage before operation: 3 = size of storage after operation 3, file with size: 2100 was not added
+[INFO ] 2019-06-15 22:29:27.172 CustomListener:40 -  Result : SUCCESS : addFilesNegativeRest
+[INFO ] 2019-06-15 22:29:27.183 AddDeleteApiTest:35 - ....Try to add files with no-acceptable data....
+[DEBUG] 2019-06-15 22:29:27.365 AddDeleteApiTest:44 -  File was not added, exception message: HTTP response code 406 instead of 200
+[INFO ] 2019-06-15 22:29:27.383 AddDeleteApiTest:49 - Size of storage before operation: 3 = size of storage after operation 3, file with size: 2100 was not added
+[INFO ] 2019-06-15 22:29:27.385 CustomListener:40 -  Result : SUCCESS : addFilesNegativeRest
+[INFO ] 2019-06-15 22:29:27.394 AddDeleteApiTest:55 - ....Add files with acceptable data rest....
+[INFO ] 2019-06-15 22:29:27.407 AddDeleteApiTest:59 - File: UserFile{name='Data types', size=860, type=DOC} was added
+[INFO ] 2019-06-15 22:29:27.928 CustomListener:40 -  Result : SUCCESS : addFilesPositiveRest
+[INFO ] 2019-06-15 22:29:27.946 AddDeleteApiTest:55 - ....Add files with acceptable data rest....
+[INFO ] 2019-06-15 22:29:27.995 AddDeleteApiTest:59 - File: UserFile{name='Data_storage', size=60, type=PDF} was added
+[INFO ] 2019-06-15 22:29:28.106 CustomListener:40 -  Result : SUCCESS : addFilesPositiveRest
+[INFO ] 2019-06-15 22:29:28.121 AddDeleteApiTest:55 - ....Add files with acceptable data rest....
+[INFO ] 2019-06-15 22:29:28.141 AddDeleteApiTest:59 - File: UserFile{name='MyData', size=999, type=PDF} was added
+[INFO ] 2019-06-15 22:29:28.243 CustomListener:40 -  Result : SUCCESS : addFilesPositiveRest
+[INFO ] 2019-06-15 22:29:28.253 AddDeleteApiTest:55 - ....Add files with acceptable data rest....
+[INFO ] 2019-06-15 22:29:28.270 AddDeleteApiTest:59 - File: UserFile{name='Festivalle', size=111, type=DOC} was added
+[INFO ] 2019-06-15 22:29:28.383 CustomListener:40 -  Result : SUCCESS : addFilesPositiveRest
+[INFO ] 2019-06-15 22:29:28.388 AddDeleteApiTest:55 - ....Add files with acceptable data rest....
+[INFO ] 2019-06-15 22:29:28.400 AddDeleteApiTest:59 - File: UserFile{name='MyDoca', size=11, type=DOC} was added
+[INFO ] 2019-06-15 22:29:28.505 CustomListener:40 -  Result : SUCCESS : addFilesPositiveRest
+[INFO ] 2019-06-15 22:29:28.509 AddDeleteApiTest:83 - .......Delete file from storage rest-test......
+[INFO ] 2019-06-15 22:29:28.613 AddDeleteApiTest:88 - Removed file with name: Validation form
+[INFO ] 2019-06-15 22:29:28.614 AddDeleteApiTest:91 - Looking for deleted file...
+[INFO ] 2019-06-15 22:29:28.640 AddDeleteApiTest:95 - Response: 404 Not Found, searched file was deleted
+[INFO ] 2019-06-15 22:29:28.641 CustomListener:40 -  Result : SUCCESS : deleteFileRest
+[INFO ] 2019-06-15 22:29:28.649 AddDeleteApiTest:101 - ......Delete file from storage soap-test....
+[INFO ] 2019-06-15 22:29:31.243 AddDeleteApiTest:106 - Removed file with name: Validation form
+[INFO ] 2019-06-15 22:29:31.243 AddDeleteApiTest:109 - Looking for deleted file...
+[INFO ] 2019-06-15 22:29:31.429 AddDeleteApiTest:113 - Response:  There is no file with  such name, searched file was deleted
+[INFO ] 2019-06-15 22:29:31.430 CustomListener:40 -  Result : SUCCESS : deleteFileSoap
+[INFO ] 2019-06-15 22:29:31.875 SearchApiTest:129 - ....Add file to storage must throw SoapServiceException test.....
+[INFO ] 2019-06-15 22:29:32.102 CustomListener:40 -  Result : SUCCESS : addFileToStorageShouldThrowExcSoap
+[INFO ] 2019-06-15 22:29:32.110 SearchApiTest:56 - ....Get all files from storage rest test.....
+[INFO ] 2019-06-15 22:29:32.125 SearchApiTest:61 - Got all files from storage: [UserFile{name='Calendar', size=23, type=DOC}, UserFile{name='My planner', size=180, type=PDF}, UserFile{name='Trip-plan', size=100, type=TXT}, UserFile{name='laptop configuration', size=500, type=ODT}, UserFile{name='my birthday party menu', size=766, type=ODT}, UserFile{name='salary report', size=89, type=ODT}]
+[INFO ] 2019-06-15 22:29:32.127 CustomListener:40 -  Result : SUCCESS : getAllFilesFromStorageRest
+[INFO ] 2019-06-15 22:29:32.134 SearchApiTest:44 - ....Get all files from storage soap test.....
+[INFO ] 2019-06-15 22:29:32.282 SearchApiTest:48 - Got all files from storage: [UserFile{name='Calendar', size=23, type=DOC}, UserFile{name='My planner', size=180, type=PDF}, UserFile{name='Trip-plan', size=100, type=TXT}, UserFile{name='laptop configuration', size=500, type=ODT}, UserFile{name='my birthday party menu', size=766, type=ODT}, UserFile{name='salary report', size=89, type=ODT}]
+[INFO ] 2019-06-15 22:29:32.283 CustomListener:40 -  Result : SUCCESS : getAllFilesFromStorageSoap
+[INFO ] 2019-06-15 22:29:32.288 SearchApiTest:97 - ....Search file by name test....
+[INFO ] 2019-06-15 22:29:32.656 SearchApiTest:102 - Add file: UserFile{name='Validation form', size=20, type=ODT} for testing rest search methods
+[INFO ] 2019-06-15 22:29:32.686 SearchApiTest:105 - File is found
+[INFO ] 2019-06-15 22:29:32.725 CustomListener:40 -  Result : SUCCESS : searchByNameSoapAndRest
+[INFO ] 2019-06-15 22:29:32.730 SearchApiTest:83 - ....Search files by type rest test....
+[INFO ] 2019-06-15 22:29:32.752 SearchApiTest:89 - Find: 3 files with ODT type
+[INFO ] 2019-06-15 22:29:32.753 CustomListener:40 -  Result : SUCCESS : searchByTypeRest
+[INFO ] 2019-06-15 22:29:32.758 SearchApiTest:70 - ....Search files by type soap test...
+[INFO ] 2019-06-15 22:29:32.921 SearchApiTest:76 - Find: 3 files with ODT type
+[INFO ] 2019-06-15 22:29:32.923 CustomListener:40 -  Result : SUCCESS : searchByTypeSoap
+[INFO ] 2019-06-15 22:29:32.963 CustomListener:40 -  Result : SUCCESS : searchNonPresentFileShouldThrowExcRest
+[INFO ] 2019-06-15 22:29:32.969 SearchApiTest:120 - ....Search non present file in storage.......
+[INFO ] 2019-06-15 22:29:33.263 CustomListener:40 -  Result : SUCCESS : searchNonPresentFileShouldThrowExcSoap
+[INFO ] 2019-06-15 22:29:33.508 CustomListener:32 - TEST FINISHED in time: Sat Jun 15 22:29:33 EEST 2019
+[INFO ] 2019-06-15 22:29:33.508 CustomListener:33 - ------------------TEST FINISH---------------------- 
+[INFO ] 2019-06-15 22:29:33.508 CustomListener:53 - Start read logs...........

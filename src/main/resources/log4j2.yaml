@@ -1,0 +1,64 @@
+configuration:
+  name: Log4j2_Config
+
+  Properties:
+    property:
+      name: log_path
+      value: "logs"
+
+  Appenders:
+
+    Console:
+    - name: Console
+      PatternLayout:
+        disableAnsi: false
+        Pattern: "%highlight{%-5level}{FATAL=bg_red}%highlight{%msg} %xEx{short}%n"
+
+    File:
+    - name: File_Allure_Appenter
+      fileName: test-output/log4j-Allure.log
+      PatternLayout:
+        Pattern: "[%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} %class{1}:%L - %msg%xEx{short}%n"
+
+    - name: File_General_Appenter
+      fileName: test-output/log4j-application.log
+      PatternLayout:
+        Pattern: "[%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} %class{1}:%L - %msg%xEx{short}%n"
+
+
+  Loggers:
+    Root:
+      level: all
+
+    Logger:
+    - name: AddDeleteApiTest
+      level: all
+      AppenderRef:
+      - ref: File_Allure_Appenter
+      - ref: Console
+      - ref: File_General_Appenter
+
+    - name: SearchApiTest
+      level: all
+      AppenderRef:
+      - ref: File_Allure_Appenter
+      - ref: Console
+      - ref: File_General_Appenter
+
+    - name: allure.CustomListener
+      level: all
+      AppenderRef:
+      - ref: File_Allure_Appenter
+      - ref: File_General_Appenter
+      - ref: Console
+
+    - name: rest.FileStorageRestClient
+      level: all
+      AppenderRef:
+      - ref: Console
+      - ref: File_General_Appenter
+
+    - name: Main
+      level: all
+      AppenderRef:
+      - ref: Console

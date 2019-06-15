@@ -7,6 +7,7 @@ import com.sun.jersey.api.client.WebResource;
 import com.sun.jersey.api.client.config.ClientConfig;
 import com.sun.jersey.api.client.config.DefaultClientConfig;
 import com.sun.jersey.api.json.JSONConfiguration;
+import io.qameta.allure.Step;
 import org.apache.http.HttpHeaders;
 import org.apache.http.HttpResponse;
 import org.apache.http.client.HttpClient;
@@ -32,7 +33,7 @@ import soap.*;
 import soap.Type;
 
 public class FileStorageRestClient implements FileStorageService {
-    public static Logger logger = LogManager.getLogger(FileStorageRestClient.class);
+ //   public static Logger logger = LogManager.getLogger(FileStorageRestClient.class);
     private static HttpClient CLIENT;
     private static RestTemplate restTemplate;
     public static final String ENDPOINT = "http://localhost:8080/RomanaChykaloFileStorageService/storageREST";
@@ -60,7 +61,7 @@ public class FileStorageRestClient implements FileStorageService {
         converters.add(new MappingJackson2HttpMessageConverter());
         restTemplate.setMessageConverters(converters);
     }
-
+    @Step("Rest service get all files from storage ...")
     @Override
     public List<UserFile> getAllFiles() {
         List userFilesRestTempl = restTemplate.getForObject(ENDPOINT + GET_ALL_FILES_REQUEST, List.class);
@@ -69,26 +70,22 @@ public class FileStorageRestClient implements FileStorageService {
                 userFilesRestTempl,
                 new TypeReference<List<UserFile>>() {
                 });
-        logger.debug("Returning all files: " + userFilesRestTempl);
         return pojos;
     }
-
-
+    @Step("Get file with name: {name} using rest service ...")
     @Override
     public UserFile getFile(String name) {
-        logger.debug("Find file by name({})", name);
         /*HttpGet httpRequest = new HttpGet(String.format(ENDPOINT + GET_FILE_BY_NAME_REQUEST, name).replace(" ", "%20"));
         isResponseCodeOK(httpRequest);*/
         UserFile restObject = restTemplate.getForObject(String.format(ENDPOINT + GET_FILE_BY_NAME_REQUEST, name), UserFile.class);
-        logger.info("URL is: " + String.format(ENDPOINT + GET_FILE_BY_NAME_REQUEST, name));
         if (Objects.isNull(restObject)) {
             throw new RuntimeException("File with name: " + name + " not found");
         }
         UserFile file = new UserFile(restObject.getName(), restObject.getType(), restObject.getSize());
-        logger.info("File with name: " + name + " is found : " + file);
+      //  logger.info("File with name: " + name + " is found : " + file);
         return file;
     }
-
+    @Step("Add file to storage using rest service ...")
     @Override
     public boolean addFile(UserFile file) {
        /* HttpPost post = new HttpPost(ENDPOINT + CREATE_FILE_REQUEST);
@@ -122,18 +119,17 @@ public class FileStorageRestClient implements FileStorageService {
             return true;*/
 
     }
-
+    @Step("Remove file with name: {name} using rest service ...")
     @Override
     public boolean removeFile(String name) {
         HttpDelete request = new HttpDelete(String.format(ENDPOINT + DELETE_FILE_REQUEST, name).replace(" ", "%20"));
         isResponseCodeOK(request);
-        logger.debug("Removed file with name: " + name);
         return true;
     }
-
+    @Step("Get files with type: {type} using rest service ...")
     @Override
     public List<UserFile> getOneTypeFileList(Type type) {
-        logger.debug("Returning files by type: " + type);
+       // logger.debug("Returning files by type: " + type);
         HttpGet request = new HttpGet(String.format(ENDPOINT + GET_FILES_BY_TYPE_REQUEST, type));
         isResponseCodeOK(request);
         List userFilesRestTempl = restTemplate.getForObject(String.format(ENDPOINT + GET_FILES_BY_TYPE_REQUEST, type), List.class);
@@ -142,7 +138,7 @@ public class FileStorageRestClient implements FileStorageService {
                 userFilesRestTempl,
                 new TypeReference<List<UserFile>>() {
                 });
-        logger.debug("Returning all files: " + userFilesRestTempl);
+       // logger.debug("Returning all files: " + userFilesRestTempl);
         return pojos;
     }
 

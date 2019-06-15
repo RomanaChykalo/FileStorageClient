@@ -12,17 +12,16 @@ import javax.xml.ws.WebFault;
  */
 @WebFault(name = "SoapServiceException", targetNamespace = "http://soap.web/")
 public class SoapServiceException_Exception
-    extends Exception
-{
+        extends Exception{
 
     /**
      * Java type that goes as soapenv:Fault detail element.
-     * 
+     *
      */
     private SoapServiceException faultInfo;
 
     /**
-     * 
+     *
      * @param faultInfo
      * @param message
      */
@@ -32,7 +31,7 @@ public class SoapServiceException_Exception
     }
 
     /**
-     * 
+     *
      * @param faultInfo
      * @param cause
      * @param message
@@ -43,7 +42,7 @@ public class SoapServiceException_Exception
     }
 
     /**
-     * 
+     *
      * @return
      *     returns fault bean: web.soap.SoapServiceException
      */

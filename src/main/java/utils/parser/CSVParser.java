@@ -1,5 +1,6 @@
 package utils.parser;
 
+
 import com.opencsv.CSVReader;
 
 import java.io.File;
@@ -10,7 +11,6 @@ import java.util.List;
 
 
 public class CSVParser {
-
     private static List<Object[]> usersLoginDataList;
 
     public static List<Object[]> parseCSVFile(File file) {

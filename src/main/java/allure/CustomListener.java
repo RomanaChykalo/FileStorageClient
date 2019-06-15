@@ -1,9 +1,7 @@
 package allure;
 
-import driver.DriverLoader;
 import io.qameta.allure.Attachment;
 import org.apache.commons.io.FileUtils;
-import org.apache.log4j.Logger;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.testng.*;
@@ -20,7 +18,7 @@ import static java.lang.String.format;
 
 @Listeners
 public class CustomListener extends TestListenerAdapter {
-    private File logFile = new File("test-output/log4j-Allure.log");
+   /* private File logFile = new File("test-output/log4j-Allure.log");
     private Logger log = Logger.getLogger(CustomListener.class.getName());
 
     @Override
@@ -75,5 +73,5 @@ public class CustomListener extends TestListenerAdapter {
     @Override
     public void onTestFailedButWithinSuccessPercentage(ITestResult result) {
         log.info("onTestFailedButWithinSuccessPercentage for " + result.getMethod().getMethodName());
-    }
+    }*/
 }

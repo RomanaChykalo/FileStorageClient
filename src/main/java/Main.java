@@ -1,14 +1,17 @@
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+import rest.FileStorageRestClient;
 import soap.*;
 
+import java.util.List;
+
 public class Main {
+    public static Logger logger = LogManager.getLogger(Main.class);
     public static void main(String[] args) {
-        FileStorageServiceImplService service = new FileStorageServiceImplService();
-        FileStorageService st=service.getFileStorageServiceImplPort();
-        try {
-            UserFile userFile = new UserFile();
-            st.removeFile("resume");
-        } catch (SoapServiceException_Exception e) {
-            e.printStackTrace();
-        }
+        FileStorageRestClient service = new FileStorageRestClient();
+        UserFile userFile = new UserFile("Italiano-vero",Type.DOC,555);
+        List<UserFile> allFiles = service.getAllFiles();
+        logger.info(allFiles);
     }
+
 }

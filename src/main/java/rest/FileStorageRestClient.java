@@ -15,8 +15,6 @@ import org.apache.http.client.methods.*;
 import org.apache.http.impl.client.HttpClientBuilder;
 import org.codehaus.jackson.map.ObjectMapper;
 import org.codehaus.jackson.type.TypeReference;
-import org.springframework.http.MediaType;
-import org.springframework.http.ResponseEntity;
 import org.springframework.http.converter.HttpMessageConverter;
 import org.springframework.http.converter.json.MappingJackson2HttpMessageConverter;
 
@@ -25,29 +23,26 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
 
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
-
 import org.springframework.web.client.RestTemplate;
 import soap.*;
 import soap.Type;
 
 public class FileStorageRestClient implements FileStorageService {
- //   public static Logger logger = LogManager.getLogger(FileStorageRestClient.class);
-    private static HttpClient CLIENT;
+    private static HttpClient httpClient;
     private static RestTemplate restTemplate;
-    public static final String ENDPOINT = "http://localhost:8080/RomanaChykaloFileStorageService/storageREST";
+    private static ClientConfig clientConfig;
+    private static Client client;
+    private static final String ENDPOINT = "http://localhost:8080/RomanaChykaloFileStorageService/storageREST";
     private static final String GET_ALL_FILES_REQUEST = "/files";
     private static final String GET_FILE_BY_NAME_REQUEST = "/files/%s";
     private static final String CREATE_FILE_REQUEST = "/files";
     private static final String DELETE_FILE_REQUEST = "/files/%s";
     private static final String GET_FILES_BY_TYPE_REQUEST = "/files/type/%s";
-    private static ClientConfig clientConfig;
-    private static Client client;
+
 
 
     static {
-        CLIENT = HttpClientBuilder.create().build();
+        httpClient = HttpClientBuilder.create().build();
         restTemplate = new RestTemplate();
         clientConfig = new DefaultClientConfig();
         clientConfig.getFeatures().put(JSONConfiguration.FEATURE_POJO_MAPPING, Boolean.TRUE);
@@ -61,6 +56,7 @@ public class FileStorageRestClient implements FileStorageService {
         converters.add(new MappingJackson2HttpMessageConverter());
         restTemplate.setMessageConverters(converters);
     }
+
     @Step("Rest service get all files from storage ...")
     @Override
     public List<UserFile> getAllFiles() {
@@ -72,31 +68,21 @@ public class FileStorageRestClient implements FileStorageService {
                 });
         return pojos;
     }
+
     @Step("Get file with name: {name} using rest service ...")
     @Override
     public UserFile getFile(String name) {
-        /*HttpGet httpRequest = new HttpGet(String.format(ENDPOINT + GET_FILE_BY_NAME_REQUEST, name).replace(" ", "%20"));
-        isResponseCodeOK(httpRequest);*/
         UserFile restObject = restTemplate.getForObject(String.format(ENDPOINT + GET_FILE_BY_NAME_REQUEST, name), UserFile.class);
         if (Objects.isNull(restObject)) {
             throw new RuntimeException("File with name: " + name + " not found");
         }
         UserFile file = new UserFile(restObject.getName(), restObject.getType(), restObject.getSize());
-      //  logger.info("File with name: " + name + " is found : " + file);
         return file;
     }
+
     @Step("Add file to storage using rest service ...")
     @Override
     public boolean addFile(UserFile file) {
-       /* HttpPost post = new HttpPost(ENDPOINT + CREATE_FILE_REQUEST);
-        isResponseCodeOK(post);
-        //return true;
-        ResponseEntity<Boolean> entity = restTemplate.postForEntity(ENDPOINT + CREATE_FILE_REQUEST, file, Boolean.class);
-        if (!entity.getStatusCode().is2xxSuccessful()) {
-            throw new RuntimeException("HTTP response code is not 200");
-        }
-        logger.debug("Creating file: " + file);
-        return true;*/
         ObjectMapper mapper = new ObjectMapper();
         String uri = ENDPOINT + CREATE_FILE_REQUEST;
         WebResource webResource = client.resource(uri);
@@ -108,17 +94,11 @@ public class FileStorageRestClient implements FileStorageService {
             e.printStackTrace();
         }
         if (response.getStatus() != 200) {
-            throw new RuntimeException(String.format("HTTP response code %s instead of 200",response.getStatus()));
+            throw new RuntimeException(String.format("HTTP response code %s instead of 200", response.getStatus()));
         }
         return true;
-
-           /* ResponseEntity<Boolean> entity = restTemplate.postForEntity(ENDPOINT + "/files", file, boolean.class);
-            HttpPost httpRequest = new HttpPost(ENDPOINT + "/files");
-            isResponseCodeOK(httpRequest);
-            logger.debug("Creating file: " + file);
-            return true;*/
-
     }
+
     @Step("Remove file with name: {name} using rest service ...")
     @Override
     public boolean removeFile(String name) {
@@ -126,10 +106,10 @@ public class FileStorageRestClient implements FileStorageService {
         isResponseCodeOK(request);
         return true;
     }
+
     @Step("Get files with type: {type} using rest service ...")
     @Override
     public List<UserFile> getOneTypeFileList(Type type) {
-       // logger.debug("Returning files by type: " + type);
         HttpGet request = new HttpGet(String.format(ENDPOINT + GET_FILES_BY_TYPE_REQUEST, type));
         isResponseCodeOK(request);
         List userFilesRestTempl = restTemplate.getForObject(String.format(ENDPOINT + GET_FILES_BY_TYPE_REQUEST, type), List.class);
@@ -138,14 +118,13 @@ public class FileStorageRestClient implements FileStorageService {
                 userFilesRestTempl,
                 new TypeReference<List<UserFile>>() {
                 });
-       // logger.debug("Returning all files: " + userFilesRestTempl);
         return pojos;
     }
 
     private boolean isResponseCodeOK(HttpRequestBase httpRequest) {
         HttpResponse clientResponse = null;
         try {
-            clientResponse = CLIENT.execute(httpRequest);
+            clientResponse = httpClient.execute(httpRequest);
             int responseCode = clientResponse.getStatusLine().getStatusCode();
             if (responseCode != 200) {
                 throw new RuntimeException(String.format("HTTP response code %s instead of 200", responseCode));

@@ -1,4 +1,5 @@
 import allure.CustomListener;
+import io.qameta.allure.Description;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.testng.Assert;
@@ -18,7 +19,7 @@ import static org.testng.Assert.assertThrows;
 public class SearchApiTest {
     public Logger logger = LogManager.getLogger(SearchApiTest.class);
 
-    private List<UserFile> createUserFilesList() {
+    private static List<UserFile> createUserFilesList() {
         List<UserFile> userFileList = new ArrayList<>();
         userFileList.add(new UserFile("laptop configuration", Type.ODT, 500));
         userFileList.add(new UserFile("my birthday party menu", Type.ODT, 766));
@@ -40,18 +41,18 @@ public class SearchApiTest {
     }
 
     @Test
+    @Description("Test Description: Soap test get all files from storage.")
     public void getAllFilesFromStorageSoap() throws SoapServiceException_Exception {
         logger.info("....Get all files from storage soap test.....");
         FileStorageService service = ServiceFactory.getFileStorageService(ServiceFactory.ServiceType.SOAP);
         List<UserFile> allFiles = service.getAllFiles();
         Assert.assertNotNull(allFiles);
-        logger.info("Got all files from storage: " + allFiles);
-        Assert.assertTrue(allFiles.contains(new UserFile("laptop configuration", Type.ODT, 500)));
-        Assert.assertEquals(allFiles.get(allFiles.size() - 1), new UserFile("salary report", Type.ODT, 89));
-        Assert.assertTrue(allFiles.size() >= 3);
+        logger.info("Get all files from storage: " + allFiles);
+        Assert.assertTrue(allFiles.containsAll(SearchApiTest.createUserFilesList()));/////////////////////////
     }
 
     @Test
+    @Description("Test Description: Rest test get all files from storage.")
     public void getAllFilesFromStorageRest() throws SoapServiceException_Exception {
         logger.info("....Get all files from storage rest test.....");
         FileStorageService service = ServiceFactory.getFileStorageService(ServiceFactory.ServiceType.REST);
@@ -59,6 +60,7 @@ public class SearchApiTest {
         Assert.assertNotNull(allFiles);
         int filesAmount = allFiles.size();
         logger.info("Got all files from storage: " + allFiles);
+        Assert.assertTrue(allFiles.containsAll(SearchApiTest.createUserFilesList()));////////////////////////
         Assert.assertTrue(allFiles.size() >= 3);
         List<UserFile> validSizeFileList = allFiles.stream().filter(f -> f.getSize() <= 1000).collect(Collectors.toList());
         Assert.assertEquals(filesAmount,validSizeFileList.size());
@@ -66,6 +68,7 @@ public class SearchApiTest {
     }
 
     @Test
+    @Description("Test Description: Soap test search by type files in storage.")
     public void searchByTypeSoap() throws SoapServiceException_Exception {
         logger.info("....Search files by type soap test...");
         FileStorageService serviceSoap = ServiceFactory.getFileStorageService(ServiceFactory.ServiceType.SOAP);
@@ -79,6 +82,7 @@ public class SearchApiTest {
     }
 
     @Test
+    @Description("Test Description: Rest test search by type files in storage.")
     public void searchByTypeRest() throws SoapServiceException_Exception {
         logger.info("....Search files by type rest test....");
         FileStorageService serviceSoap = ServiceFactory.getFileStorageService(ServiceFactory.ServiceType.REST);
@@ -93,6 +97,7 @@ public class SearchApiTest {
     }
 
     @Test
+    @Description("Test Description: Rest and Soap test search by name file in storage.")
     public void searchByNameSoapAndRest() throws SoapServiceException_Exception {
         logger.info("....Search file by name test....");
         FileStorageService serviceRest = ServiceFactory.getFileStorageService(ServiceFactory.ServiceType.REST);
@@ -107,6 +112,7 @@ public class SearchApiTest {
     }
 
     @Test
+    @Description("Test Description: Rest test search by name absent file in storage should throw Exception.")
     public void searchNonPresentFileShouldThrowExcRest() {
         FileStorageService serviceRest = ServiceFactory.getFileStorageService(ServiceFactory.ServiceType.REST);
         assertThrows(RuntimeException.class,
@@ -116,6 +122,7 @@ public class SearchApiTest {
     }
 
     @Test(expectedExceptions = SoapServiceException_Exception.class)
+    @Description("Test Description: Soap test search by name absent file in storage should throw Exception.")
     public void searchNonPresentFileShouldThrowExcSoap() throws SoapServiceException_Exception {
         logger.info("....Search non present file in storage.......");
         FileStorageService serviceSoap = ServiceFactory.getFileStorageService(ServiceFactory.ServiceType.SOAP);
@@ -124,6 +131,7 @@ public class SearchApiTest {
 
 
     @Test
+    @Description("Test Description: Soap test add file to storage with unacceptable parameters should throw Exception.")
     public void addFileToStorageShouldThrowExcSoap() {
         FileStorageService service = ServiceFactory.getFileStorageService(ServiceFactory.ServiceType.SOAP);
         logger.info("....Add file to storage must throw SoapServiceException test.....");

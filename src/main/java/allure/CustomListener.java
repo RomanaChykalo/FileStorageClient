@@ -31,26 +31,28 @@ public class CustomListener extends TestListenerAdapter {
     public void onFinish(ITestContext context) {
         log.info("TEST FINISHED in time: " + context.getEndDate().toString());
         log.info("------------------TEST FINISH---------------------- ");
-        appendLogToAllure();
+        // appendLogToAllure();
         removeLogs();
     }
 
     @Override
     public void onTestSuccess(ITestResult result) {
         log.info(format(" Result : SUCCESS : %s", result.getMethod().getMethodName()));
+        appendLogToAllure();
+        /*removeLogs();*/
     }
 
     @Override
     public void onTestFailure(ITestResult result) {
         log.error("result : FAILURE " + result.getMethod().getMethodName().toUpperCase());
-       // saveScreenshotToReport(result);
+        // saveScreenshotToReport(result);
         appendLogToAllure();
+        /*removeLogs();*/
     }
 
     @Attachment(value = "Test logs", type = "text/html")
     private byte[] appendLogToAllure() {
         try {
-            log.info("Start read logs...........");
             Path path = Paths.get("test-output/log4j-Allure.log");
             return Files.readAllBytes(path);
         } catch (IOException e) {
@@ -88,7 +90,7 @@ public class CustomListener extends TestListenerAdapter {
         log.info(("onTestFailedButWithinSuccessPercentage for " + result.getMethod().getMethodName()));
     }
 
-    public void removeLogs() {
+    private void removeLogs() {
         try {
             FileUtils.write(new File(logPath), "", "UTF-8");
         } catch (IOException e) {

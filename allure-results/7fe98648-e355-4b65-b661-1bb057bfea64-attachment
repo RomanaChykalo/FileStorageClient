@@ -1,0 +1,8 @@
+[INFO ] 2019-06-16 13:08:30.639 CustomListener:32 - TEST FINISHED in time: Sun Jun 16 13:08:30 EEST 2019
+[INFO ] 2019-06-16 13:08:30.639 CustomListener:33 - ------------------TEST FINISH---------------------- 
+[INFO ] 2019-06-16 13:09:37.744 CustomListener:26 - ------------------TEST START---------------------- 
+[INFO ] 2019-06-16 13:09:37.765 CustomListener:27 - TEST STARTED in time: Sun Jun 16 13:09:37 EEST 2019
+[INFO ] 2019-06-16 13:09:37.999 AddDeleteApiTest:35 - ....Try to add files with no-acceptable data....
+[DEBUG] 2019-06-16 13:09:41.056 AddDeleteApiTest:45 -  File was not added, exception message: HTTP response code 406 instead of 200
+[INFO ] 2019-06-16 13:09:41.077 AddDeleteApiTest:50 - Size of storage before operation: 3 = size of storage after operation 3, file with size: 1100 was not added
+[INFO ] 2019-06-16 13:09:41.084 CustomListener:40 -  Result : SUCCESS : addFilesNegativeRest

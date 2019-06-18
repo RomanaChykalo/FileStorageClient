@@ -1,0 +1,3 @@
+[INFO ] 2019-06-16 13:20:28.031 SearchApiTest:87 - ....Search files by type rest test....
+[INFO ] 2019-06-16 13:20:28.081 SearchApiTest:93 - Find: 3 files with ODT type
+[INFO ] 2019-06-16 13:20:28.082 CustomListener:40 -  Result : SUCCESS : searchByTypeRest

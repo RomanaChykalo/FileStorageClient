@@ -25,6 +25,10 @@ configuration:
       PatternLayout:
         Pattern: "[%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} %class{1}:%L - %msg%xEx{short}%n"
 
+      Policies:
+        SizeBasedTriggeringPolicy:
+        size: 500 KB
+
 
   Loggers:
     Root:

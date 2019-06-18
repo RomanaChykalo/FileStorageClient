@@ -1,0 +1,6 @@
+[INFO ] 2019-06-16 13:09:41.432 CustomListener:32 - TEST FINISHED in time: Sun Jun 16 13:09:41 EEST 2019
+[INFO ] 2019-06-16 13:09:41.447 CustomListener:33 - ------------------TEST FINISH---------------------- 
+[INFO ] 2019-06-16 13:20:21.576 CustomListener:26 - ------------------TEST START---------------------- 
+[INFO ] 2019-06-16 13:20:21.594 CustomListener:27 - TEST STARTED in time: Sun Jun 16 13:20:21 EEST 2019
+[INFO ] 2019-06-16 13:20:23.261 SearchApiTest:133 - ....Add file to storage must throw SoapServiceException test.....
+[INFO ] 2019-06-16 13:20:23.421 CustomListener:40 -  Result : SUCCESS : addFileToStorageShouldThrowExcSoap

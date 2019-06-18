@@ -1,0 +1,4 @@
+[INFO ] 2019-06-16 12:21:05.786 AddDeleteApiTest:35 - ....Try to add files with no-acceptable data....
+[DEBUG] 2019-06-16 12:21:05.834 AddDeleteApiTest:44 -  File was not added, exception message: HTTP response code 406 instead of 200
+[INFO ] 2019-06-16 12:21:05.856 AddDeleteApiTest:49 - Size of storage before operation: 3 = size of storage after operation 3, file with size: 2100 was not added
+[INFO ] 2019-06-16 12:21:05.857 CustomListener:40 -  Result : SUCCESS : addFilesNegativeRest

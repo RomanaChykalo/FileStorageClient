@@ -1,0 +1,5 @@
+[INFO ] 2019-06-22 11:51:55.277 CustomListener:26 - ------------------TEST START---------------------- 
+[INFO ] 2019-06-22 11:51:55.296 CustomListener:27 - TEST STARTED in time: Sat Jun 22 11:51:55 EEST 2019
+[INFO ] 2019-06-22 11:51:55.529 AddDeleteApiTest:96 - ......Delete file from storage soap-test....
+[INFO ] 2019-06-22 11:51:56.972 AddDeleteApiTest:103 - Removed file with name: Validation form
+[INFO ] 2019-06-22 11:51:56.979 CustomListener:39 -  Result : SUCCESS : deleteFileSoap

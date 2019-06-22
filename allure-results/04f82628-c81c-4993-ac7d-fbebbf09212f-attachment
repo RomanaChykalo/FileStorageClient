@@ -1,9 +1,0 @@
-[INFO ] 2019-06-16 12:21:07.964 CustomListener:32 - TEST FINISHED in time: Sun Jun 16 12:21:07 EEST 2019
-[INFO ] 2019-06-16 12:21:07.965 CustomListener:33 - ------------------TEST FINISH---------------------- 
-[INFO ] 2019-06-16 12:58:43.641 CustomListener:26 - ------------------TEST START---------------------- 
-[INFO ] 2019-06-16 12:58:43.664 CustomListener:27 - TEST STARTED in time: Sun Jun 16 12:58:43 EEST 2019
-[INFO ] 2019-06-16 12:58:43.913 AddDeleteApiTest:102 - ......Delete file from storage soap-test....
-[INFO ] 2019-06-16 12:58:45.516 AddDeleteApiTest:108 - Removed file with name: Validation form
-[INFO ] 2019-06-16 12:58:45.516 AddDeleteApiTest:111 - Looking for deleted file...
-[INFO ] 2019-06-16 12:58:45.614 AddDeleteApiTest:115 - Response:  There is no file with  such name, searched file was deleted
-[INFO ] 2019-06-16 12:58:45.621 CustomListener:40 -  Result : SUCCESS : deleteFileSoap

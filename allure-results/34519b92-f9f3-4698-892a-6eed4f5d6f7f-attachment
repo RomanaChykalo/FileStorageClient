@@ -1,0 +1,3 @@
+[INFO ] 2019-06-22 13:36:16.178 SearchApiTest:47 - ....Get all files from storage soap test.....
+[INFO ] 2019-06-22 13:36:16.841 SearchApiTest:51 - Get all files from storage: [UserFile{name='hello_world', size=300, type=PDF}, UserFile{name='beautiful', size=100, type=ODT}, UserFile{name='birthday wishes', size=32, type=PDF}, UserFile{name='laptop configuration', size=500, type=ODT}, UserFile{name='my birthday party menu', size=766, type=ODT}, UserFile{name='salary report', size=89, type=ODT}]
+[INFO ] 2019-06-22 13:36:16.842 CustomListener:39 -  Result : SUCCESS : getAllFilesFromStorageSoap

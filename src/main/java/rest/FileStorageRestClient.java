@@ -1,6 +1,5 @@
 package rest;
 
-
 import com.sun.jersey.api.client.Client;
 import com.sun.jersey.api.client.ClientResponse;
 import com.sun.jersey.api.client.WebResource;
@@ -8,7 +7,6 @@ import com.sun.jersey.api.client.config.ClientConfig;
 import com.sun.jersey.api.client.config.DefaultClientConfig;
 import com.sun.jersey.api.json.JSONConfiguration;
 import io.qameta.allure.Step;
-import org.apache.http.HttpHeaders;
 import org.apache.http.HttpResponse;
 import org.apache.http.client.HttpClient;
 import org.apache.http.client.methods.*;
@@ -28,18 +26,16 @@ import soap.*;
 import soap.Type;
 
 public class FileStorageRestClient implements FileStorageService {
-    private static HttpClient httpClient;
-    private static RestTemplate restTemplate;
-    private static ClientConfig clientConfig;
-    private static Client client;
     private static final String ENDPOINT = "http://localhost:8080/RomanaChykaloFileStorageService/storageREST";
     private static final String GET_ALL_FILES_REQUEST = "/files";
     private static final String GET_FILE_BY_NAME_REQUEST = "/files/%s";
     private static final String CREATE_FILE_REQUEST = "/files";
     private static final String DELETE_FILE_REQUEST = "/files/%s";
     private static final String GET_FILES_BY_TYPE_REQUEST = "/files/type/%s";
-
-
+    private static HttpClient httpClient;
+    private static RestTemplate restTemplate;
+    private static ClientConfig clientConfig;
+    private static Client client;
 
     static {
         httpClient = HttpClientBuilder.create().build();
@@ -48,7 +44,6 @@ public class FileStorageRestClient implements FileStorageService {
         clientConfig.getFeatures().put(JSONConfiguration.FEATURE_POJO_MAPPING, Boolean.TRUE);
         clientConfig = new DefaultClientConfig();
         client = Client.create(clientConfig);
-
     }
 
     public FileStorageRestClient() {
@@ -76,8 +71,7 @@ public class FileStorageRestClient implements FileStorageService {
         if (Objects.isNull(restObject)) {
             throw new RuntimeException("File with name: " + name + " not found");
         }
-        UserFile file = new UserFile(restObject.getName(), restObject.getType(), restObject.getSize());
-        return file;
+        return restObject;
     }
 
     @Step("Add file to storage using rest service ...")

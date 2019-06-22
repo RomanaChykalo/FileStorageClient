@@ -15,6 +15,7 @@ import java.util.Set;
 import java.util.stream.Collectors;
 
 import static org.testng.Assert.assertThrows;
+
 @Listeners({CustomListener.class})
 public class SearchApiTest {
     public Logger logger = LogManager.getLogger(SearchApiTest.class);
@@ -48,7 +49,7 @@ public class SearchApiTest {
         List<UserFile> allFiles = service.getAllFiles();
         Assert.assertNotNull(allFiles);
         logger.info("Get all files from storage: " + allFiles);
-        Assert.assertTrue(allFiles.containsAll(SearchApiTest.createUserFilesList()));/////////////////////////
+        Assert.assertTrue(allFiles.containsAll(SearchApiTest.createUserFilesList()));
     }
 
     @Test
@@ -60,10 +61,10 @@ public class SearchApiTest {
         Assert.assertNotNull(allFiles);
         int filesAmount = allFiles.size();
         logger.info("Got all files from storage: " + allFiles);
-        Assert.assertTrue(allFiles.containsAll(SearchApiTest.createUserFilesList()));////////////////////////
+        Assert.assertTrue(allFiles.containsAll(SearchApiTest.createUserFilesList()));
         Assert.assertTrue(allFiles.size() >= 3);
         List<UserFile> validSizeFileList = allFiles.stream().filter(f -> f.getSize() <= 1000).collect(Collectors.toList());
-        Assert.assertEquals(filesAmount,validSizeFileList.size());
+        Assert.assertEquals(filesAmount, validSizeFileList.size());
 
     }
 
@@ -112,6 +113,16 @@ public class SearchApiTest {
     }
 
     @Test
+    @Description("Test Description: Rest test search by no valid file type should throw Exception.")
+    public void searchNonValidTypeShouldThrowExcRest() {
+        FileStorageService serviceRest = ServiceFactory.getFileStorageService(ServiceFactory.ServiceType.REST);
+        assertThrows(RuntimeException.class,
+                () -> {
+                    serviceRest.getOneTypeFileList(Type.valueOf("ABRA"));
+                });
+    }
+
+    @Test
     @Description("Test Description: Rest test search by name absent file in storage should throw Exception.")
     public void searchNonPresentFileShouldThrowExcRest() {
         FileStorageService serviceRest = ServiceFactory.getFileStorageService(ServiceFactory.ServiceType.REST);
@@ -148,7 +159,17 @@ public class SearchApiTest {
                 });
         assertThrows(SoapServiceException_Exception.class,
                 () -> {
-                    service.addFile(new UserFile("laptop configuration", Type.DOC, 455));
+                    service.addFile(new UserFile("laptop configuration", Type.DOC, 3000));
+                });
+    }
+
+    @Test
+    @Description("Test Description: Soap test search by no valid file type should throw Exception.")
+    public void searchNonValidTypeShouldThrowExcSoap() {
+        FileStorageService serviceSoap = ServiceFactory.getFileStorageService(ServiceFactory.ServiceType.SOAP);
+        assertThrows(Exception.class,
+                () -> {
+                    serviceSoap.getOneTypeFileList(Type.valueOf("ABRA"));
                 });
     }
 

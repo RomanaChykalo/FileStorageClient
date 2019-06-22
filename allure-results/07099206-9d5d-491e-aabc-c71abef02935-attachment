@@ -1,9 +1,0 @@
-[INFO ] 2019-06-16 12:58:45.992 CustomListener:32 - TEST FINISHED in time: Sun Jun 16 12:58:45 EEST 2019
-[INFO ] 2019-06-16 12:58:45.993 CustomListener:33 - ------------------TEST FINISH---------------------- 
-[INFO ] 2019-06-16 12:59:27.773 CustomListener:26 - ------------------TEST START---------------------- 
-[INFO ] 2019-06-16 12:59:27.794 CustomListener:27 - TEST STARTED in time: Sun Jun 16 12:59:27 EEST 2019
-[INFO ] 2019-06-16 12:59:28.144 AddDeleteApiTest:83 - .......Delete file from storage rest-test......
-[INFO ] 2019-06-16 12:59:32.071 AddDeleteApiTest:89 - Removed file with name: Validation form
-[INFO ] 2019-06-16 12:59:32.072 AddDeleteApiTest:92 - Looking for deleted file...
-[INFO ] 2019-06-16 12:59:32.219 AddDeleteApiTest:96 - Response: 404 Not Found, searched file was deleted
-[INFO ] 2019-06-16 12:59:32.225 CustomListener:40 -  Result : SUCCESS : deleteFileRest

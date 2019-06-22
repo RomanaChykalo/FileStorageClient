@@ -10,16 +10,19 @@ import soap.FileStorageService;
 import soap.SoapServiceException_Exception;
 import soap.Type;
 import soap.UserFile;
-import utils.parser.CSVParser;
+import utils.CSVParser;
+import utils.PropertyUtil;
 
 import java.io.File;
 import java.util.Iterator;
 import java.util.List;
+
 @Listeners({CustomListener.class})
 public class AddDeleteApiTest {
     private Logger logger = LogManager.getLogger(AddDeleteApiTest.class);
-    private static final String nonValidFilesData = "src/test/resources/files/nonValidFilesData.csv";
-    private static final String validFilesData = "src/test/resources/files/validFilesData.csv";
+    private static final String nonValidFilesData = PropertyUtil.getProperty("nonValidFilesData");
+    private static final String validFilesData = PropertyUtil.getProperty("validFilesData");
+    ;
 
     @DataProvider
     private Iterator<Object[]> nonValidFilesData() {
@@ -31,22 +34,15 @@ public class AddDeleteApiTest {
         return CSVParser.parseCSVFile(new File(validFilesData)).iterator();
     }
 
-    @Test(dataProvider = "nonValidFilesData")
+    @Test(dataProvider = "nonValidFilesData", expectedExceptions = RuntimeException.class)
     @Description("Test Description: Rest test add file to storage with unacceptable parameters.")
     public void addFilesNegativeRest(String name, String type, String size) throws SoapServiceException_Exception {
         logger.info("....Try to add files with no-acceptable data....");
         UserFile userFile = new UserFile(name.trim(), Type.valueOf(type), Integer.valueOf(size.trim()));
         FileStorageService service = ServiceFactory.getFileStorageService(ServiceFactory.ServiceType.REST);
         int sizeBeforeFileAdd = service.getAllFiles().size();
-        String message = null;
-        try {
-            Assert.assertFalse(service.addFile(userFile));
-            Assert.assertFalse(service.getAllFiles().contains(userFile));
-        } catch (RuntimeException e) {
-            message = e.getMessage();
-            logger.debug(String.format(" File was not added, exception message: %s", message));
-        }
-        Assert.assertNotNull(message);
+        Assert.assertFalse(service.addFile(userFile));
+        Assert.assertFalse(service.getAllFiles().contains(userFile));
         int sizeAfterFileAdd = service.getAllFiles().size();
         Assert.assertEquals(sizeBeforeFileAdd, sizeAfterFileAdd);
         logger.info(String.format("Size of storage before operation: %s = size of storage after operation %s, file with size: %s" +
@@ -64,6 +60,7 @@ public class AddDeleteApiTest {
         Assert.assertEquals(userFile, service.getFile(userFile.getName()));
         service.removeFile(name);
     }
+
     @Test
     @Description("Test Description:Soap test add file to storage with acceptable parameters.")
     public void addFileToStorageSoap() throws SoapServiceException_Exception {
@@ -83,26 +80,20 @@ public class AddDeleteApiTest {
         service.removeFile(userFile.getName());
     }
 
-    @Test
+    @Test(expectedExceptions = RuntimeException.class)
     @Description("Test Description:Rest test delete file from storage.")
     public void deleteFileRest() throws SoapServiceException_Exception {
         logger.info(".......Delete file from storage rest-test......");
         FileStorageService serviceRest = ServiceFactory.getFileStorageService(ServiceFactory.ServiceType.REST);
         UserFile userFile = new UserFile("Validation form", Type.ODT, 20);
         Assert.assertTrue(serviceRest.addFile(userFile));
-        Assert.assertTrue(serviceRest.getAllFiles().contains(userFile));////////////////////////////////////////////
+        Assert.assertTrue(serviceRest.getAllFiles().contains(userFile));
         Assert.assertTrue(serviceRest.removeFile(userFile.getName()));
         logger.info(String.format("Removed file with name: %s", userFile.getName()));
-        String message = null;
-        try {
-            logger.info("Looking for deleted file...");
-            Assert.assertNull(serviceRest.getFile(userFile.getName()));
-        } catch (RuntimeException e) {
-            message = e.getMessage();
-            logger.info(String.format("Response: %s, searched file was deleted",message));
-        }
-        Assert.assertNotNull(message);
+        logger.info("Looking for deleted file...");
+        Assert.assertNull(serviceRest.getFile(userFile.getName()));
     }
+
     @Test
     @Description("Test Description:Soap test delete file from storage.")
     public void deleteFileSoap() throws SoapServiceException_Exception {
@@ -110,19 +101,9 @@ public class AddDeleteApiTest {
         FileStorageService serviceSoap = ServiceFactory.getFileStorageService(ServiceFactory.ServiceType.SOAP);
         UserFile userFile = new UserFile("Validation form", Type.ODT, 20);
         Assert.assertTrue(serviceSoap.addFile(userFile));
-        Assert.assertTrue(serviceSoap.getAllFiles().contains(userFile));////////////////////////////////////////////
+        Assert.assertTrue(serviceSoap.getAllFiles().contains(userFile));
         Assert.assertTrue(serviceSoap.removeFile(userFile.getName()));
+        Assert.assertFalse(serviceSoap.getAllFiles().contains(userFile));
         logger.info(String.format("Removed file with name: %s", userFile.getName()));
-        String message = null;
-        try {
-            logger.info("Looking for deleted file...");
-            Assert.assertNull(serviceSoap.getFile(userFile.getName()));
-        } catch (SoapServiceException_Exception e) {
-            message = e.getMessage();
-            logger.info(String.format("Response: %s, searched file was deleted",message));
-        }
-        Assert.assertNotNull(message);
     }
-
-
 }

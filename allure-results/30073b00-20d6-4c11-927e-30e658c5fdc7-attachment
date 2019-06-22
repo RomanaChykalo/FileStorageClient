@@ -1,0 +1,6 @@
+[INFO ] 2019-06-22 11:47:09.680 CustomListener:26 - ------------------TEST START---------------------- 
+[INFO ] 2019-06-22 11:47:09.701 CustomListener:27 - TEST STARTED in time: Sat Jun 22 11:47:09 EEST 2019
+[INFO ] 2019-06-22 11:47:09.944 AddDeleteApiTest:83 - .......Delete file from storage rest-test......
+[INFO ] 2019-06-22 11:47:13.089 AddDeleteApiTest:89 - Removed file with name: Validation form
+[INFO ] 2019-06-22 11:47:13.090 AddDeleteApiTest:90 - Looking for deleted file...
+[INFO ] 2019-06-22 11:47:13.305 CustomListener:39 -  Result : SUCCESS : deleteFileRest

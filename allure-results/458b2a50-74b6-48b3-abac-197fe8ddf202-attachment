@@ -1,0 +1,9 @@
+[INFO ] 2019-06-21 10:42:06.607 AddDeleteApiTest:60 - ....Add files with acceptable data rest....
+[INFO ] 2019-06-21 10:42:06.618 AddDeleteApiTest:64 - File: UserFile{name='Data_storage', size=60, type=PDF} was added
+[INFO ] 2019-06-21 10:48:16.304 CustomListener:26 - ------------------TEST START---------------------- 
+[INFO ] 2019-06-21 10:48:16.328 CustomListener:27 - TEST STARTED in time: Fri Jun 21 10:48:16 EEST 2019
+[INFO ] 2019-06-21 10:48:16.590 AddDeleteApiTest:71 - .....Add file to storage soap positive test...
+[INFO ] 2019-06-21 10:48:18.105 AddDeleteApiTest:76 - Size of storage before file adding 3
+[INFO ] 2019-06-21 10:48:18.129 AddDeleteApiTest:78 - Added file to storage: UserFile{name='letter to grandma', size=400, type=WKS}
+[INFO ] 2019-06-21 10:48:18.154 AddDeleteApiTest:81 - Size of storage after file adding 4
+[INFO ] 2019-06-21 10:48:18.196 CustomListener:39 -  Result : SUCCESS : addFileToStorageSoap

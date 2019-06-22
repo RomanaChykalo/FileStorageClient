@@ -1,0 +1,4 @@
+[INFO ] 2019-06-22 11:44:30.802 CustomListener:26 - ------------------TEST START---------------------- 
+[INFO ] 2019-06-22 11:44:30.825 CustomListener:27 - TEST STARTED in time: Sat Jun 22 11:44:30 EEST 2019
+[INFO ] 2019-06-22 11:44:31.088 AddDeleteApiTest:38 - ....Try to add files with no-acceptable data....
+[INFO ] 2019-06-22 11:44:34.107 CustomListener:39 -  Result : SUCCESS : addFilesNegativeRest

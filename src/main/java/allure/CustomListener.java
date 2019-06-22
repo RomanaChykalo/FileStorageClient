@@ -31,7 +31,6 @@ public class CustomListener extends TestListenerAdapter {
     public void onFinish(ITestContext context) {
         log.info("TEST FINISHED in time: " + context.getEndDate().toString());
         log.info("------------------TEST FINISH---------------------- ");
-        // appendLogToAllure();
         removeLogs();
     }
 
@@ -39,15 +38,14 @@ public class CustomListener extends TestListenerAdapter {
     public void onTestSuccess(ITestResult result) {
         log.info(format(" Result : SUCCESS : %s", result.getMethod().getMethodName()));
         appendLogToAllure();
-        /*removeLogs();*/
+        removeLogs();
     }
 
     @Override
     public void onTestFailure(ITestResult result) {
         log.error("result : FAILURE " + result.getMethod().getMethodName().toUpperCase());
-        // saveScreenshotToReport(result);
         appendLogToAllure();
-        /*removeLogs();*/
+        removeLogs();
     }
 
     @Attachment(value = "Test logs", type = "text/html")
@@ -60,25 +58,6 @@ public class CustomListener extends TestListenerAdapter {
         }
         return null;
     }
-
-    /*private void saveScreenshotToReport(ITestResult result) {
-        if (!result.isSuccess()) {
-            try {
-                System.setProperty("org.uncommons.reportng.escape-output", "false");
-                String failureImageFileName = new SimpleDateFormat("MM-dd-yyyy_HH-ss").format(new GregorianCalendar().getTime());
-                File scrFile = ((TakesScreenshot) DriverLoader.getDriver()).getScreenshotAs(OutputType.FILE);
-                FileUtils.copyFile(scrFile, new File(failureImageFileName));
-                String userDirector = System.getProperty("user.dir") + "/";
-                String screenCapture = "<table><tr><td><font style=\"text-decoration: underline;\" " +
-                        "size=\"3\" face=\"Comic sans MS\" color=\"green\"><b>Screenshot</b></font></td></tr> ";
-                Reporter.log(screenCapture);
-                Reporter.log("<tr><td><a href=\"" + userDirector + failureImageFileName + "\"><img src=\"file:///"
-                        + userDirector + failureImageFileName + "\" alt=\"\"" + "height=’120′ width=’120′/></td></tr> ");
-            } catch (IOException e1) {
-                e1.printStackTrace();
-            }
-        }
-    }*/
 
     @Override
     public void onTestSkipped(ITestResult result) {

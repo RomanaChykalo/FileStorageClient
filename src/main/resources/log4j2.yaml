@@ -61,8 +61,3 @@ configuration:
       AppenderRef:
       - ref: Console
       - ref: File_General_Appenter
-
-    - name: Main
-      level: all
-      AppenderRef:
-      - ref: Console

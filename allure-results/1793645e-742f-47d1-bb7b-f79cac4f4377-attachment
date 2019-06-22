@@ -1,0 +1,5 @@
+[INFO ] 2019-06-22 13:10:19.140 CustomListener:26 - ------------------TEST START---------------------- 
+[INFO ] 2019-06-22 13:10:19.163 CustomListener:27 - TEST STARTED in time: Sat Jun 22 13:10:19 EEST 2019
+[INFO ] 2019-06-22 13:10:19.419 AddDeleteApiTest:53 - ....Add files with acceptable data rest....
+[INFO ] 2019-06-22 13:10:22.023 AddDeleteApiTest:57 - File: UserFile{name='Data types', size=860, type=DOC} was added
+[INFO ] 2019-06-22 13:10:22.713 CustomListener:39 -  Result : SUCCESS : addFilesPositiveRest

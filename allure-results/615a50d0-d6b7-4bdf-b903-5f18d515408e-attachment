@@ -1,0 +1,7 @@
+[INFO ] 2019-06-22 13:36:05.279 CustomListener:26 - ------------------TEST START---------------------- 
+[INFO ] 2019-06-22 13:36:05.316 CustomListener:27 - TEST STARTED in time: Sat Jun 22 13:36:05 EEST 2019
+[INFO ] 2019-06-22 13:36:05.640 AddDeleteApiTest:67 - .....Add file to storage soap positive test...
+[INFO ] 2019-06-22 13:36:09.141 AddDeleteApiTest:72 - Size of storage before file adding 3
+[INFO ] 2019-06-22 13:36:09.306 AddDeleteApiTest:74 - Added file to storage: UserFile{name='letter to grandma', size=400, type=WKS}
+[INFO ] 2019-06-22 13:36:09.319 AddDeleteApiTest:77 - Size of storage after file adding 4
+[INFO ] 2019-06-22 13:36:09.365 CustomListener:39 -  Result : SUCCESS : addFileToStorageSoap

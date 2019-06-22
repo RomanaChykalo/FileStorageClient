@@ -3,6 +3,9 @@ import org.apache.logging.log4j.Logger;
 import rest.FileStorageRestClient;
 import soap.FileStorageService;
 import soap.FileStorageServiceImplService;
+import soap.UserFile;
+
+import static soap.Type.PDF;
 
 public class ServiceFactory {
     private static Logger LOGGER = LogManager.getLogger(ServiceFactory.class);
@@ -19,20 +22,14 @@ public class ServiceFactory {
                 service = new FileStorageRestClient();
                 break;
         }
-        /*if (serviceType.equals(ServiceType.REST)) {
-            LOGGER.info("Creating REST service client");
-            service = new FileStorageRestClient();
-        } else if (serviceType.equals(ServiceType.SOAP)) {
-            LOGGER.info("Creating SOAP service client");
-            service = new FileStorageServiceImplService().getFileStorageServiceImplPort();
-        } else {
-            LOGGER.info("Wrong input");
-            throw new RuntimeException();
-        }
-        return service;*/
         return service;
     }
     enum ServiceType {
         SOAP, REST;
+    }
+
+    public static void main(String[] args) {
+        FileStorageRestClient fileStorageRestClient = new FileStorageRestClient();
+        fileStorageRestClient.addFile(new UserFile("Hello", PDF,100));
     }
 }

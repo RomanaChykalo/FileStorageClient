@@ -1,4 +1,0 @@
-[INFO ] 2019-06-16 12:21:07.339 SearchApiTest:97 - ....Search file by name test....
-[INFO ] 2019-06-16 12:21:07.547 SearchApiTest:102 - Add file: UserFile{name='Validation form', size=20, type=ODT} for testing rest search methods
-[INFO ] 2019-06-16 12:21:07.568 SearchApiTest:105 - File is found
-[INFO ] 2019-06-16 12:21:07.577 CustomListener:40 -  Result : SUCCESS : searchByNameSoapAndRest

@@ -1,0 +1,3 @@
+[INFO ] 2019-06-22 11:56:12.309 SearchApiTest:74 - ....Search files by type soap test...
+[INFO ] 2019-06-22 11:56:12.423 SearchApiTest:80 - Find: 4 files with ODT type
+[INFO ] 2019-06-22 11:56:12.425 CustomListener:39 -  Result : SUCCESS : searchByTypeSoap

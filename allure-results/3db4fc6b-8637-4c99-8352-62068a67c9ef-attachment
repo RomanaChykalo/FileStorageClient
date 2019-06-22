@@ -1,0 +1,3 @@
+[INFO ] 2019-06-22 11:56:11.074 AddDeleteApiTest:53 - ....Add files with acceptable data rest....
+[INFO ] 2019-06-22 11:56:11.087 AddDeleteApiTest:57 - File: UserFile{name='MyData', size=999, type=PDF} was added
+[INFO ] 2019-06-22 11:56:11.113 CustomListener:39 -  Result : SUCCESS : addFilesPositiveRest
